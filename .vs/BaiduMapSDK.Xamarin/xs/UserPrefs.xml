@@ -1,8 +1,9 @@
-﻿<Properties StartupConfiguration="{8A945922-D9FC-472E-A249-5B2D164DFD78}|Default">
+﻿<Properties StartupConfiguration="{66133C1E-AD85-4AED-8573-3DB481B7772A}|Default">
+  <MonoDevelop.Ide.ItemProperties.Sample.Android PreferredExecutionTarget="Android.e4404d20" />
   <MonoDevelop.Ide.ItemProperties.Native.Native.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.e4404d20" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaiduMapSDK.Base.iOS/ApiDefinition.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaiduMapSDK.Forms.Android/FormsBaiduMaps.cs">
     <Files>
-      <File FileName="BaiduMapSDK.Base.iOS/ApiDefinition.cs" Line="120" Column="42" />
+      <File FileName="BaiduMapSDK.Base.iOS/ApiDefinition.cs" Line="65" Column="6" />
       <File FileName="BaiduMapSDK.Base.iOS/Structs.cs" Line="44" Column="16" />
       <File FileName="../../Documents/Xamarin.Forms.BaiduMaps/BMapBinding.iOS/ApiDefinition_Base_v3_3_1.cs" Line="75" Column="43" />
       <File FileName="BaiduMapSDK.Map.iOS/ApiDefinition.cs" Line="1054" Column="43" />
@@ -10,20 +11,41 @@
       <File FileName="Native.iOS/ViewController.cs" Line="28" Column="70" />
       <File FileName="../BaiduMap.Xamarin/Native/NativeAndroid/NativeiOS/ViewController.cs" Line="34" Column="1" />
       <File FileName="../BaiduMap.Xamarin/Native/NativeAndroid/NativeiOS/Info.plist" />
+      <File FileName="Sample/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Sample/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="Sample.Android/MainActivity.cs" Line="24" Column="15" />
+      <File FileName="Sample.Android/Resources/values/styles.xml" Line="2" Column="1" />
+      <File FileName="Native.Android/MainActivity.cs" Line="31" Column="37" />
+      <File FileName="BaiduMapSDK.Forms.Android/FormsBaiduMaps.cs" Line="1" Column="14" />
+      <File FileName="BaiduMapSDK.Forms.Android/packages.config" Line="4" Column="12" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaiduMapSDK.Xamarin" expanded="True" selected="True">
+            <Node name="FormsLibrary" expanded="True">
+              <Node name="BaiduMapSDK.Forms" expanded="True" />
+              <Node name="BaiduMapSDK.Forms.Android" expanded="True" />
+              <Node name="BaiduMapSDK.Forms.iOS" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Xamarin.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Sample.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Forms.Android HideGettingStarted="True" />
   <MonoDevelop.Ide.ItemProperties.Library.BaiduMapSDK.Search.iOS FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Library.BaiduMapSDK.Droid PreferredExecutionTarget="Android.e4404d20" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Xamarin.Droid FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
-  <MonoDevelop.Ide.ItemProperties.Native.Native.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008020-00130C1C01D0003A">
+  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Forms FirstBuild="True" HideGettingStarted="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Forms.iOS HideGettingStarted="True" />
+  <MonoDevelop.Ide.ItemProperties.Native.Native.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F77953CC-C31A-444F-845D-CB303A38F39A">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.Native.Native.iOS>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Xamarin FirstBuild="True" />
 </Properties>
