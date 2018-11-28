@@ -1,0 +1,2 @@
+android.app.Application
+co.beflex.bruce.Native_Android
