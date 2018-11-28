@@ -1,20 +1,7 @@
 ﻿<Properties StartupConfiguration="{8A945922-D9FC-472E-A249-5B2D164DFD78}|Default">
   <MonoDevelop.Ide.ItemProperties.Native.Native.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.e4404d20" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../BaiduMap.Xamarin/Native/NativeAndroid/NativeiOS/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaiduMapSDK.Base.iOS/ApiDefinition.cs">
     <Files>
-      <File FileName="Native.iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="Native.Android/MainActivity.cs" Line="34" Column="1" />
-      <File FileName="BaiduMapSDK.Droid/Transforms/Metadata.xml" Line="24" Column="1" />
-      <File FileName="../BaiduMap.Xamarin/Library/BaiduMap.Android/Transforms/Metadata.xml" Line="20" Column="5" />
-      <File FileName="Native.Android/Properties/AndroidManifest.xml" Line="24" Column="5" />
-      <File FileName="../BaiduMap.Xamarin/Native/NativeAndroid/Properties/AndroidManifest.xml" Line="8" Column="5" />
-      <File FileName="../BaiduMap.Xamarin/Native/NativeAndroid/Resources/layout/Main.axml" Line="5" Column="9" />
-      <File FileName="../BaiduMap.Xamarin/Native/NativeAndroid/MainActivity.cs" Line="18" Column="1" />
-      <File FileName="../BaiduMap.Xamarin/Library/BaiduMap.Android/BaiduMap_Base.iOS/ApiDefinition.cs" Line="1" Column="1" />
-      <File FileName="../BaiduMap.Xamarin/Library/BaiduMap.Android/BaiduMap_Map.iOS/ApiDefinition.cs" Line="1" Column="1" />
-      <File FileName="../../Documents/Xamarin.Forms.BaiduMaps/BMapBinding.iOS/StructsAndEnums_Base_v3_3_1.cs" Line="1" Column="1" />
-      <File FileName="../../Documents/Xamarin.Forms.BaiduMaps/BMapBinding.iOS/StructsAndEnums_Map_v3_3_1.cs" Line="1" Column="1" />
-      <File FileName="../../Documents/Xamarin.Forms.BaiduMaps/BMapBinding.iOS/ApiDefinition_Map_v3_3_1.cs" Line="1578" Column="2" />
       <File FileName="BaiduMapSDK.Base.iOS/ApiDefinition.cs" Line="120" Column="42" />
       <File FileName="BaiduMapSDK.Base.iOS/Structs.cs" Line="44" Column="16" />
       <File FileName="../../Documents/Xamarin.Forms.BaiduMaps/BMapBinding.iOS/ApiDefinition_Base_v3_3_1.cs" Line="75" Column="43" />
@@ -22,14 +9,15 @@
       <File FileName="BaiduMapSDK.Map.iOS/Structs.cs" Line="35" Column="15" />
       <File FileName="Native.iOS/ViewController.cs" Line="28" Column="70" />
       <File FileName="../BaiduMap.Xamarin/Native/NativeAndroid/NativeiOS/ViewController.cs" Line="34" Column="1" />
-      <File FileName="Native.iOS/Info.plist" />
       <File FileName="../BaiduMap.Xamarin/Native/NativeAndroid/NativeiOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Xamarin.iOS FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Library.BaiduMapSDK.Search.iOS FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Library.BaiduMapSDK.Droid PreferredExecutionTarget="Android.e4404d20" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Xamarin.Droid FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.ItemProperties.Native.Native.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008020-00130C1C01D0003A">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.Native.Native.iOS>
@@ -37,4 +25,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Xamarin FirstBuild="True" />
 </Properties>
