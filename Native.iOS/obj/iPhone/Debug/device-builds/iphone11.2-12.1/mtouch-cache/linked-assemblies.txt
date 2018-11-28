@@ -1,6 +1,0 @@
-RemoveDynamicRegistrar:true
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app:/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Native.iOS.exe
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app:/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/mscorlib.dll
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app:/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app:/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app:/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
