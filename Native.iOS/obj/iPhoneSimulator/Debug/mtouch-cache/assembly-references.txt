@@ -5,3 +5,5 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/lib/mono/Xamarin.iOS/Mono.Security.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/lib/mono/Xamarin.iOS/System.Xml.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.10/lib/mono/Xamarin.iOS/System.Core.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Base.iOS/bin/Debug/BaiduMapSDK.Base.iOS.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Map.iOS.dll

@@ -1,0 +1,17 @@
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/Native.iOS.exe
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/Native.iOS.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Base.iOS.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Map.iOS.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Map.iOS.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Base.iOS.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/actool/_PartialAppManifest.items
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/actool/_BundleResourceWithLogicalName.items
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/coremlc/_PartialAppManifest.items
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/optimized/
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/Native.iOS.csprojAssemblyReference.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/Native.iOS.csproj.CoreCompileInputs.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/Native.iOS.csproj.CopyComplete
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/Native.iOS.exe
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhone/Debug/Native.iOS.pdb

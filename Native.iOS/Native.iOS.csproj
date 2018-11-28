@@ -109,5 +109,15 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaiduMapSDK.Map.iOS\BaiduMapSDK.Map.iOS.csproj">
+      <Project>{8741AB42-C81D-4095-93AC-DD8990E56A47}</Project>
+      <Name>BaiduMapSDK.Map.iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaiduMapSDK.Base.iOS\BaiduMapSDK.Base.iOS.csproj">
+      <Project>{5B058CE0-467C-4274-B617-53A758AE65D8}</Project>
+      <Name>BaiduMapSDK.Base.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

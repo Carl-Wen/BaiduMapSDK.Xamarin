@@ -41,5 +41,20 @@
   <ItemGroup>
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="BaiduMapAPI_Base">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+      <LinkerFlags>-lz -lstdc++ -lc++ -all_load -lstdc++ -lsqlite3.0</LinkerFlags>
+    </NativeReference>
+    <NativeReference Include="thirdlibs\libcrypto.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+    <NativeReference Include="thirdlibs\libssl.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>

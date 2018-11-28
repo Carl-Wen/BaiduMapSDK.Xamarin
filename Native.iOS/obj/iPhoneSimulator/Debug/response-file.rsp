@@ -11,11 +11,15 @@
 --abi=x86_64
 --symbollist=/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list
 --dsym=no
+-r=/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Base.iOS/bin/Debug/BaiduMapSDK.Base.iOS.dll
+-r=/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Map.iOS.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+-r=/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Base.iOS/bin/Debug/BaiduMapSDK.Base.iOS.dll
+-r=/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Map.iOS.dll
 --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.exe
 
