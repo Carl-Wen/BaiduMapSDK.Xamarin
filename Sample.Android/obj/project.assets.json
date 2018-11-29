@@ -341,10 +341,33 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
+      "BaiduMapSDK.Forms/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
+        }
+      },
+      "BaiduMapSDK.Forms.Droid/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BaiduMapSDK.Forms.Droid.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaiduMapSDK.Forms.Droid.dll": {}
+        }
+      },
       "Sample/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BaiduMapSDK.Forms": "1.0.0",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -763,6 +786,16 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "BaiduMapSDK.Forms/1.0.0": {
+      "type": "project",
+      "path": "../BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj",
+      "msbuildProject": "../BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj"
+    },
+    "BaiduMapSDK.Forms.Droid/1.0.0": {
+      "type": "project",
+      "path": "../BaiduMapSDK.Forms.Droid/BaiduMapSDK.Forms.Droid.csproj",
+      "msbuildProject": "../BaiduMapSDK.Forms.Droid/BaiduMapSDK.Forms.Droid.csproj"
+    },
     "Sample/1.0.0": {
       "type": "project",
       "path": "../Sample/Sample.csproj",
@@ -771,6 +804,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "BaiduMapSDK.Forms.Droid >= 1.0.0",
       "Sample >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
@@ -804,6 +838,9 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
+            "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Forms.Droid/BaiduMapSDK.Forms.Droid.csproj": {
+              "projectPath": "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Forms.Droid/BaiduMapSDK.Forms.Droid.csproj"
+            },
             "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/Sample.csproj": {
               "projectPath": "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/Sample.csproj"
             }
@@ -814,32 +851,44 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.1.0.697729"
-          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v4": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v7.CardView": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.1.0.697729, )"
           }
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1008975 to 3.1.0.697729. Reference the package directly from the project to select a different version. \n Sample.Android -> Sample -> BaiduMapSDK.Forms -> Xamarin.Forms (>= 3.4.0.1008975) \n Sample.Android -> Xamarin.Forms (>= 3.1.0.697729)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }
