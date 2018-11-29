@@ -42,6 +42,19 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "BaiduMapSDK.Forms/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
+        }
       }
     }
   },
@@ -336,10 +349,16 @@
         "xamarin.forms.3.1.0.697729.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "BaiduMapSDK.Forms/1.0.0": {
+      "type": "project",
+      "path": "../BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj",
+      "msbuildProject": "../BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "BaiduMapSDK.Forms >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Forms >= 3.1.0.697729"
     ]
@@ -371,7 +390,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj": {
+              "projectPath": "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

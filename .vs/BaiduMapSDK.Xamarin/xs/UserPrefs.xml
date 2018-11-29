@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{66133C1E-AD85-4AED-8573-3DB481B7772A}|Default">
-  <MonoDevelop.Ide.ItemProperties.Sample.Android PreferredExecutionTarget="Android.e4404d20" />
+  <MonoDevelop.Ide.ItemProperties.Sample.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.e4404d20" />
   <MonoDevelop.Ide.ItemProperties.Native.Native.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.e4404d20" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sample/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/MapEvents.cs">
     <Files>
       <File FileName="BaiduMapSDK.Base.iOS/ApiDefinition.cs" Line="65" Column="6" />
       <File FileName="BaiduMapSDK.Base.iOS/Structs.cs" Line="44" Column="16" />
@@ -20,29 +20,62 @@
       <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Droid/MainActivity.cs" Line="31" Column="1" />
       <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Sample/SamplePage.xaml" Line="12" Column="1" />
       <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Sample/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Sample/SamplePage.xaml.cs" Line="25" Column="15" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Sample/SamplePage.xaml.cs" Line="20" Column="14" />
       <File FileName="Sample/SamplePage.xaml" Line="6" Column="1" />
-      <File FileName="Sample/SamplePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Sample/App.xaml.cs" Line="14" Column="31" />
+      <File FileName="Sample/SamplePage.xaml.cs" Line="22" Column="14" />
+      <File FileName="Sample/App.xaml.cs" Line="17" Column="42" />
+      <File FileName="BaiduMapSDK.Forms/IMapManager.cs" Line="19" Column="1" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/IMapManager.cs" Line="5" Column="5" />
+      <File FileName="BaiduMapSDK.Forms.Droid/MapManagerImpl.cs" Line="15" Column="44" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Droid/MapManagerImpl.cs" Line="2" Column="24" />
+      <File FileName="BaiduMapSDK.Forms/Map.cs" Line="202" Column="45" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/Map.cs" Line="2" Column="1" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/Coordinate.cs" Line="57" Column="6" />
+      <File FileName="BaiduMapSDK.Forms/Coordinate.cs" Line="20" Column="65" />
+      <File FileName="BaiduMapSDK.Forms/ILocationService.cs" Line="12" Column="6" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/ILocationService.cs" Line="31" Column="6" />
+      <File FileName="BaiduMapSDK.Forms/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="BaiduMapSDK.Forms/IProjection.cs" Line="12" Column="2" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/IProjection.cs" Line="12" Column="1" />
+      <File FileName="BaiduMapSDK.Forms/Pin.cs" Line="53" Column="35" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/Pin.cs" Line="52" Column="34" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/Annotation.cs" Line="5" Column="5" />
+      <File FileName="BaiduMapSDK.Forms/Annotation.cs" Line="15" Column="9" />
+      <File FileName="BaiduMapSDK.Forms/BaseItem.cs" Line="31" Column="13" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/BaseItem.cs" Line="33" Column="6" />
+      <File FileName="BaiduMapSDK.Forms/XImage.cs" Line="44" Column="17" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/XImage.cs" Line="54" Column="6" />
+      <File FileName="BaiduMapSDK.Forms/Polyline.cs" Line="41" Column="45" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/Polyline.cs" Line="48" Column="6" />
+      <File FileName="BaiduMapSDK.Forms/Polygon.cs" Line="9" Column="39" />
+      <File FileName="BaiduMapSDK.Forms/Circle.cs" Line="22" Column="17" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/Polygon.cs" Line="5" Column="5" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/Circle.cs" Line="62" Column="6" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps/MapEvents.cs" Line="45" Column="6" />
+      <File FileName="BaiduMapSDK.Forms/MapEvents.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaiduMapSDK.Xamarin" expanded="True">
             <Node name="FormsLibrary" expanded="True">
+              <Node name="BaiduMapSDK.Forms" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+              </Node>
               <Node name="BaiduMapSDK.Forms.Droid" expanded="True" />
             </Node>
             <Node name="Sample" expanded="True">
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
-              </Node>
+              <Node name="SamplePage.xaml" expanded="True" />
             </Node>
             <Node name="Sample.Android" expanded="True" />
           </Node>
           <Node name="BMap" expanded="True">
-            <Node name="Xamarin.Forms.BaiduMaps" expanded="True" />
+            <Node name="Xamarin.Forms.BaiduMaps" expanded="True">
+              <Node name="MapEvents.cs" selected="True" />
+            </Node>
             <Node name="Xamarin.Forms.BaiduMaps.Droid" expanded="True" />
             <Node name="Xamarin.Forms.BaiduMaps.Sample" expanded="True">
+              <Node name="References" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="SamplePage.xaml" expanded="True" />
             </Node>
