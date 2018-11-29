@@ -33,6 +33,7 @@
     <Jar>obj/Debug/lp/20/jl/bin/classes.jar</Jar>
     <Jar>obj/Debug/lp/21/jl/bin/classes.jar</Jar>
     <Jar>obj/Debug/lp/22/jl/bin/classes.jar</Jar>
+    <Jar>obj/Debug/lp/28/jl/BaiduLBS_Android.jar</Jar>
     <Jar>obj/Debug/lp/3/jl/formsviewgroup.jar</Jar>
     <Jar>obj/Debug/lp/4/jl/arch-core-common.jar</Jar>
     <Jar>obj/Debug/lp/5/jl/arch-lifecycle-common.jar</Jar>

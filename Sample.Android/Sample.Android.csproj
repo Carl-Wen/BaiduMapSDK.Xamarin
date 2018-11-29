@@ -96,6 +96,10 @@
       <Project>{24A68A07-9BB1-4A81-B191-0924E9244BBE}</Project>
       <Name>Sample</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BaiduMapSDK.Forms.Droid\BaiduMapSDK.Forms.Droid.csproj">
+      <Project>{F669FF74-DB37-4AFB-A773-8CF858F226D9}</Project>
+      <Name>BaiduMapSDK.Forms.Droid</Name>
+    </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -9,3 +9,4 @@
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/Sample.dll
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/Sample.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/Sample.csprojAssemblyReference.cache

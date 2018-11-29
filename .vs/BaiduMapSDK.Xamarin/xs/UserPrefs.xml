@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{66133C1E-AD85-4AED-8573-3DB481B7772A}|Default">
-  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Forms.Droid FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Sample.Android PreferredExecutionTarget="Android.e4404d20" />
   <MonoDevelop.Ide.ItemProperties.Native.Native.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.e4404d20" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sample.Android/Resources/values/styles.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sample/App.xaml.cs">
     <Files>
       <File FileName="BaiduMapSDK.Base.iOS/ApiDefinition.cs" Line="65" Column="6" />
       <File FileName="BaiduMapSDK.Base.iOS/Structs.cs" Line="44" Column="16" />
@@ -14,16 +13,40 @@
       <File FileName="../BaiduMap.Xamarin/Native/NativeAndroid/NativeiOS/Info.plist" />
       <File FileName="Sample/MainPage.xaml.cs" Line="1" Column="1" />
       <File FileName="Sample/MainPage.xaml" Line="7" Column="15" />
-      <File FileName="Sample.Android/Resources/values/styles.xml" Line="2" Column="1" />
+      <File FileName="Sample.Android/Resources/values/styles.xml" Line="27" Column="13" />
+      <File FileName="Sample.Android/MainActivity.cs" Line="27" Column="1" />
+      <File FileName="BaiduMapSDK.Forms.Droid/FormsBaiduMaps.cs" Line="5" Column="11" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Droid/FormsBaiduMaps.cs" Line="12" Column="6" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Droid/MainActivity.cs" Line="31" Column="1" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Sample/SamplePage.xaml" Line="12" Column="1" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Sample/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="../../Downloads/Xamarin.Forms.BaiduMaps-master/Xamarin.Forms.BaiduMaps.Sample/SamplePage.xaml.cs" Line="25" Column="15" />
+      <File FileName="Sample/SamplePage.xaml" Line="6" Column="1" />
+      <File FileName="Sample/SamplePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Sample/App.xaml.cs" Line="14" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BaiduMapSDK.Xamarin" expanded="True" />
-          <Node name="BMap" expanded="True">
-            <Node name="Xamarin.Forms.BaiduMaps.Droid" expanded="True">
-              <Node name="References" expanded="True" />
+          <Node name="BaiduMapSDK.Xamarin" expanded="True">
+            <Node name="FormsLibrary" expanded="True">
+              <Node name="BaiduMapSDK.Forms.Droid" expanded="True" />
             </Node>
+            <Node name="Sample" expanded="True">
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Sample.Android" expanded="True" />
+          </Node>
+          <Node name="BMap" expanded="True">
+            <Node name="Xamarin.Forms.BaiduMaps" expanded="True" />
+            <Node name="Xamarin.Forms.BaiduMaps.Droid" expanded="True" />
+            <Node name="Xamarin.Forms.BaiduMaps.Sample" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="SamplePage.xaml" expanded="True" />
+            </Node>
+            <Node name="Xamarin.Forms.BaiduMaps.Sample.Droid" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -33,7 +56,6 @@
   <MonoDevelop.Ide.ItemProperties.Library.BaiduMapSDK.Search.iOS FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Library.BaiduMapSDK.Droid PreferredExecutionTarget="Android.e4404d20" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Forms FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.FormsLibrary.BaiduMapSDK.Forms.iOS FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Native.Native.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F77953CC-C31A-444F-845D-CB303A38F39A">
