@@ -11,7 +11,7 @@ namespace Sample
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new SamplePage();
         }
 
         protected override void OnStart()
