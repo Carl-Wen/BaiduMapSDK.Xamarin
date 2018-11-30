@@ -1,10 +1,23 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("BaiduMapSDK.Forms.Droid")]
+
 namespace BaiduMapSDK.Forms
 {
-    public class AnnotationEvents
+    public enum AnnotationDragState
     {
-        public AnnotationEvents()
+        Starting,
+        Dragging,
+        Ending
+    }
+
+    public class AnnotationDragEventArgs : EventArgs
+    {
+        public AnnotationDragState State { get; }
+
+        public AnnotationDragEventArgs(AnnotationDragState state)
         {
+            State = state;
         }
     }
 }

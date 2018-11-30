@@ -1,20 +1,20 @@
 ﻿using System;
 
 using Xamarin.Forms;
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("BaiduMapSDK.Forms.Droid")]
 
 namespace BaiduMapSDK.Forms
 {
-    public class IMapManager : ContentPage
+    public enum CoordType
     {
-        public IMapManager()
-        {
-            Content = new StackLayout
-            {
-                Children = {
-                    new Label { Text = "Hello ContentPage" }
-                }
-            };
-        }
+        BD09LL,
+        GCJ02
+    }
+
+    public interface IMapManager
+    {
+        CoordType CoordinateType { get; set; }
     }
 }
 

@@ -1,10 +1,12 @@
 ﻿using System;
+using Xamarin.Forms;
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("BaiduMapSDK.Forms.Droid")]
 namespace BaiduMapSDK.Forms
 {
-    public class IProjection
+    public interface IProjection
     {
-        public IProjection()
-        {
-        }
+        Point ToScreen(Coordinate p);
+        Coordinate ToCoordinate(Point p);
     }
 }

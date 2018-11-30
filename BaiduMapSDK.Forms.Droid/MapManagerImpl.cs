@@ -1,4 +1,5 @@
 ﻿using System;
+using BaiduMapSDK.Forms;
 using Com.Baidu.Mapapi;
 
 namespace BaiduMapSDK.Forms.Droid
@@ -10,22 +11,18 @@ namespace BaiduMapSDK.Forms.Droid
             get
             {
                 var type = SDKInitializer.CoordType;
-                if (Com.Baidu.Mapapi.CoordType.Gcj02 == type)
-                {
+                if (Com.Baidu.Mapapi.CoordType.Gcj02 == type) {
                     return CoordType.GCJ02;
                 }
 
                 return CoordType.BD09LL;
             }
 
-            set
-            {
-                if (CoordType.GCJ02 == value)
-                {
+            set {
+                if (CoordType.GCJ02 == value) {
                     SDKInitializer.CoordType = Com.Baidu.Mapapi.CoordType.Gcj02;
                 }
-                else
-                {
+                else {
                     SDKInitializer.CoordType = Com.Baidu.Mapapi.CoordType.Bd09ll;
                 }
             }

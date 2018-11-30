@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("BaiduMapSDK.Forms.Droid")]
+
+
 
 namespace BaiduMapSDK.Forms
 {
@@ -198,6 +202,7 @@ namespace BaiduMapSDK.Forms
         private readonly ObservableCollection<Circle> circles = new ObservableCollection<Circle>();
 
         public event EventHandler<MapBlankClickedEventArgs> BlankClicked;
+
         internal void SendBlankClicked(Coordinate pos)
         {
             BlankClicked?.Invoke(this, new MapBlankClickedEventArgs(pos));
