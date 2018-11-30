@@ -43,7 +43,9 @@ namespace BaiduMapSDK.Forms.Droid
                 return;
             }
 
-            item.SetValueSilent(Pin.CoordinateProperty, native.Position.ToUnity());
+            item.SetValue(Pin.CoordinateProperty, native.Position.ToUnity());
+
+            //item.SetValueSilent(Pin.CoordinateProperty, native.Position.ToUnity());
         }
 
         protected override void RemoveNativeItem(Pin item)

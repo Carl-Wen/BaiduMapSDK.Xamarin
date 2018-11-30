@@ -7,7 +7,6 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-
 namespace Sample.Droid
 {
     [Activity(Label = "Sample", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -20,12 +19,8 @@ namespace Sample.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-
             BaiduMapSDK.Forms.Droid.FormsBaiduMaps.Init(null);
-
             LoadApplication(new App());
-
-
         }
     }
 }

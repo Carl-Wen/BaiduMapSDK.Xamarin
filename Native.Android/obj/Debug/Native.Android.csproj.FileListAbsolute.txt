@@ -33,6 +33,9 @@
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/R.cs.flag
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/R.txt
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/uploadflags.txt
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/Native.Android.nuget.stamp
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/libraryimports.cache.stamp
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/bin/Debug/Mono.Android.pdb
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/linksrc/Native.Android.pdb
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/linksrc/BaiduMapSDK.Droid.pdb

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "f3497a25909d06f5676e0372b6308d3a1b5146dc"
+    "signature": "77ac45fa75810ef28ecf58b94804c46f567cccb4"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,8 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "Sample/1.0.0": {
         "dependencies": {
+          "BaiduMapSDK.Forms": "1.0.0",
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
           "Sample.dll": {}
@@ -22,7 +23,7 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Xamarin.Forms/3.1.0.697729": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -36,6 +37,14 @@
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           }
+        }
+      },
+      "BaiduMapSDK.Forms/1.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "runtime": {
+          "BaiduMapSDK.Forms.dll": {}
         }
       }
     }
@@ -60,12 +69,17 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Xamarin.Forms/3.1.0.697729": {
+    "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oYfHpCY9i9wN4vLllsIhzDZY5iOCUtZ3RHxID1fiXOcf7yL9UA16NUsI8opoNmpv1Ru2lTGG9ZKKT1sYS6DLjA==",
-      "path": "xamarin.forms/3.1.0.697729",
-      "hashPath": "xamarin.forms.3.1.0.697729.nupkg.sha512"
+      "sha512": "sha512-036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "path": "xamarin.forms/3.4.0.1008975",
+      "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
+    },
+    "BaiduMapSDK.Forms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

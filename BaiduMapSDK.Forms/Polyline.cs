@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using Xamarin.Forms;
-using System.Runtime.CompilerServices;
-[assembly: InternalsVisibleTo("BaiduMapSDK.Forms.Droid")]
+
 namespace BaiduMapSDK.Forms
 {
     public class Polyline : Annotation

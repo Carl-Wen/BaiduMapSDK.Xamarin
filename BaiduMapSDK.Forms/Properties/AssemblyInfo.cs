@@ -1,10 +1,10 @@
 ﻿using System;
-namespace BaiduMapSDK.Forms.Properties
-{
-    public class AssemblyInfo
-    {
-        public AssemblyInfo()
-        {
-        }
-    }
-}
+
+using System.Reflection;
+using System.Runtime.CompilerServices;
+
+using Xamarin.Forms.Internals;
+
+[assembly: InternalsVisibleTo("BaiduMapSDK.Forms.Droid")]
+[assembly: InternalsVisibleTo("BaiduMapSDK.Forms.iOS")]
+[assembly: Preserve]

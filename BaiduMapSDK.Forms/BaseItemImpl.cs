@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
-using System.Runtime.CompilerServices;
 
 namespace BaiduMapSDK.Forms
 {
@@ -12,7 +10,6 @@ namespace BaiduMapSDK.Forms
         where TMap : class
         where TNative : class
     {
-
         public TMap NativeMap { get; internal set; }
         public Map Map { get; private set; }
 
@@ -131,3 +128,4 @@ namespace BaiduMapSDK.Forms
         protected abstract void OnItemPropertyChanged(object sender, PropertyChangedEventArgs e);
     }
 }
+

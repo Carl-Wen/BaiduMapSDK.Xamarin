@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
-using System.Runtime.CompilerServices;
-[assembly: InternalsVisibleTo("BaiduMapSDK.Forms.Droid")]
+
 
 
 namespace BaiduMapSDK.Forms

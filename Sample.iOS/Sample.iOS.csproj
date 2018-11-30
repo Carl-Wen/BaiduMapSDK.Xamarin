@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A88ACC62-1288-4D42-8884-805874183FB7}</ProjectGuid>
+    <ProjectGuid>{219C7043-FE4F-45A1-B520-9B16A541F7BD}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -148,11 +148,11 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sample\Sample.csproj">
-      <Project>{24A68A07-9BB1-4A81-B191-0924E9244BBE}</Project>
+      <Project>{E9F92AAC-0492-4BFE-821B-A411077D4AC6}</Project>
       <Name>Sample</Name>
     </ProjectReference>
   </ItemGroup>

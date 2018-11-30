@@ -5,11 +5,19 @@ using AG = Android.Graphics;
 using Xamarin.Forms.Platform.Android;
 
 using Com.Baidu.Mapapi.Map;
+using Android.Content;
+using BaiduMapSDK.Forms;
+using BaiduMapSDK.Forms.Droid;
+using Android.Widget;
 
-namespace BaiduMapSDK.Forms.Droid
+namespace Xamarin.Forms.BaiduMaps.Droid
 {
-    public partial class MapRenderer : ViewRenderer<Map, MapView>, BaiduMap.IOnMapLoadedCallback
+    public class MapRenderer : ViewRenderer<Map, MapView>, BaiduMap.IOnMapLoadedCallback
     {
+        public MapRenderer(Context context): base(context)
+        {
+
+        }
         protected MapView NativeMap => Control;
         protected Map Map => Element;
 
@@ -20,8 +28,10 @@ namespace BaiduMapSDK.Forms.Droid
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing) {
-                if (null != Element) {
+            if (disposing)
+            {
+                if (null != Element)
+                {
                     Map.Pins.Clear();
                     ((LocationServiceImpl)Map.LocationService).Unregister();
                 }
@@ -59,11 +69,13 @@ namespace BaiduMapSDK.Forms.Droid
         {
             base.OnElementChanged(e);
 
-            if (null == Control) {
+            if (null == Control)
+            {
                 SetNativeControl(new MapView(Context));
             }
 
-            if (null != e.OldElement) {
+            if (null != e.OldElement)
+            {
                 var oldMap = e.OldElement;
                 oldMap.Pins.Clear();
                 ((LocationServiceImpl)oldMap.LocationService).Unregister();
@@ -227,7 +239,8 @@ namespace BaiduMapSDK.Forms.Droid
 
         void UpdateMapType()
         {
-            switch (Map.MapType) {
+            switch (Map.MapType)
+            {
                 case MapType.None:
                     NativeMap.Map.MapType = 0;
                     break;
@@ -246,7 +259,8 @@ namespace BaiduMapSDK.Forms.Droid
         {
             MyLocationConfiguration.LocationMode mode;
 
-            switch (Map.UserTrackingMode) {
+            switch (Map.UserTrackingMode)
+            {
                 default:
                 case UserTrackingMode.None:
                     mode = MyLocationConfiguration.LocationMode.Normal;
@@ -265,7 +279,8 @@ namespace BaiduMapSDK.Forms.Droid
                 new MyLocationConfiguration(mode, true, null)
             );
 
-            if (UserTrackingMode.FollowWithCompass != Map.UserTrackingMode) {
+            if (UserTrackingMode.FollowWithCompass != Map.UserTrackingMode)
+            {
                 // 恢复俯视角
                 MapStatusUpdate overlook = MapStatusUpdateFactory.NewMapStatus(
                     new MapStatus.Builder(NativeMap.Map.MapStatus).Rotate(0).Overlook(0).Build()
@@ -287,7 +302,8 @@ namespace BaiduMapSDK.Forms.Droid
 
         void UpdateCompassPosition()
         {
-            NativeMap.Map.CompassPosition = new AG.Point {
+            NativeMap.Map.CompassPosition = new AG.Point
+            {
                 X = (int)Map.CompassPosition.X,
                 Y = (int)Map.CompassPosition.Y
             };
@@ -325,6 +341,88 @@ namespace BaiduMapSDK.Forms.Droid
         void UpdateShowZoomControl()
         {
             NativeMap.ShowZoomControls(Map.ShowZoomControl);
+        }
+
+        void OnMapClick(object sender, BaiduMap.MapClickEventArgs e)
+        {
+            Map.SendBlankClicked(e.P0.ToUnity());
+        }
+
+        void OnMapPoiClick(object sender, BaiduMap.MapPoiClickEventArgs e)
+        {
+            Map.SendPoiClicked(new Poi
+            {
+                Coordinate = e.P0.Position.ToUnity(),
+                Description = e.P0.Name
+            });
+        }
+
+        void OnMapDoubleClick(object sender, BaiduMap.MapDoubleClickEventArgs e)
+        {
+            Map.SendDoubleClicked(e.P0.ToUnity());
+        }
+
+        void OnMapLongClick(object sender, BaiduMap.MapLongClickEventArgs e)
+        {
+            Map.SendLongClicked(e.P0.ToUnity());
+        }
+
+        void OnMarkerClick(object sender, BaiduMap.MarkerClickEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(e.P0.Title))
+            {
+                TextView view = new TextView(Context);
+                view.SetPadding(20, 20, 20, 20);
+                view.SetBackgroundColor(Color.White.ToAndroid());
+                view.Background.SetAlpha(100);
+                view.Text = e.P0.Title;
+
+                NativeMap.Map.ShowInfoWindow(
+                    new InfoWindow(view, e.P0.Position, -e.P0.Icon.Bitmap.Height)
+                );
+            }
+
+            Map.Pins.Find(e.P0)?.SendClicked();
+        }
+
+        void OnMarkerDragStart(object sender, BaiduMap.MarkerDragStartEventArgs e)
+        {
+            NativeMap.Map.HideInfoWindow();
+            Map.Pins.Find(e.P0)?.SendDrag(AnnotationDragState.Starting);
+        }
+
+        void OnMarkerDrag(object sender, BaiduMap.MarkerDragEventArgs e)
+        {
+            Pin pin = Map.Pins.Find(e.P0);
+            if (null != pin)
+            {
+                pinImpl.NotifyUpdate(pin);
+                pin.SendDrag(AnnotationDragState.Dragging);
+            }
+        }
+
+        void OnMarkerDragEnd(object sender, BaiduMap.MarkerDragEndEventArgs e)
+        {
+            Pin pin = Map.Pins.Find(e.P0);
+            if (null != pin)
+            {
+                pinImpl.NotifyUpdate(pin);
+                pin.SendDrag(AnnotationDragState.Ending);
+            }
+        }
+
+        void MapStatusChangeFinish(object sender, BaiduMap.MapStatusChangeFinishEventArgs e)
+        {
+            Map.SetValue(Map.CenterProperty, e.P0.Target.ToUnity());
+            Map.SetValue(Map.ZoomLevelProperty, e.P0.Zoom);
+            Map.SendStatusChanged();
+        }
+
+        public void OnMapLoaded()
+        {
+            Map.Projection = new ProjectionImpl(NativeMap);
+            NativeMap.OnResume();
+            Map.SendLoaded();
         }
     }
 }

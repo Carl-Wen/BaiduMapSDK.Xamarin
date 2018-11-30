@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using Xamarin.Forms;
+
 using Xamarin.Forms.Platform.Android;
 using Com.Baidu.Mapapi.Map;
 using BMap = Com.Baidu.Mapapi.Map;
@@ -49,8 +49,6 @@ namespace BaiduMapSDK.Forms.Droid
             throw new NotImplementedException();
         }
 
-
-
         protected override void OnItemPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
             Circle item = (Circle)sender;
@@ -72,8 +70,6 @@ namespace BaiduMapSDK.Forms.Droid
                 return;
             }
         }
-
-
     }
 }
 

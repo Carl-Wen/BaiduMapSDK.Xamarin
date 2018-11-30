@@ -1,5 +1,6 @@
 ﻿using AG = Android.Graphics;
 using BMap = Com.Baidu.Mapapi.Map;
+using Xamarin.Forms;
 
 namespace BaiduMapSDK.Forms.Droid
 {
