@@ -341,31 +341,40 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "BaiduMapSDK.Forms/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
-        },
-        "compile": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        }
-      },
       "Sample/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BaiduMapSDK.Forms": "1.0.0",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.BaiduMaps": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sample.dll": {}
         },
         "runtime": {
           "bin/placeholder/Sample.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps.Android/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.Android.dll": {}
         }
       }
     }
@@ -771,15 +780,20 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "BaiduMapSDK.Forms/1.0.0": {
-      "type": "project",
-      "path": "../BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj",
-      "msbuildProject": "../BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj"
-    },
     "Sample/1.0.0": {
       "type": "project",
       "path": "../Sample/Sample.csproj",
       "msbuildProject": "../Sample/Sample.csproj"
+    },
+    "Xamarin.Forms.BaiduMaps/1.0.0": {
+      "type": "project",
+      "path": "../Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.csproj",
+      "msbuildProject": "../Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.csproj"
+    },
+    "Xamarin.Forms.BaiduMaps.Android/1.0.0": {
+      "type": "project",
+      "path": "../Xamarin.Forms.BaiduMaps.Android/Xamarin.Forms.BaiduMaps.Android.csproj",
+      "msbuildProject": "../Xamarin.Forms.BaiduMaps.Android/Xamarin.Forms.BaiduMaps.Android.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -790,7 +804,8 @@
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
       "Xamarin.Android.Support.v7.CardView >= 27.0.2.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 27.0.2.1",
-      "Xamarin.Forms >= 3.4.0.1008975"
+      "Xamarin.Forms >= 3.4.0.1008975",
+      "Xamarin.Forms.BaiduMaps.Android >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -819,6 +834,9 @@
           "projectReferences": {
             "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/Sample.csproj": {
               "projectPath": "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/Sample.csproj"
+            },
+            "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps.Android/Xamarin.Forms.BaiduMaps.Android.csproj": {
+              "projectPath": "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps.Android/Xamarin.Forms.BaiduMaps.Android.csproj"
             }
           }
         }

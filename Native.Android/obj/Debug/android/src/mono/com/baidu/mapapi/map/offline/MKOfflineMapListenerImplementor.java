@@ -11,9 +11,9 @@ public class MKOfflineMapListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onGetOfflineMapState:(II)V:GetOnGetOfflineMapState_IIHandler:Com.Baidu.Mapapi.Map.Offline.IMKOfflineMapListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onGetOfflineMapState:(II)V:GetOnGetOfflineMapState_IIHandler:Com.Baidu.Mapapi.Map.Offline.IMKOfflineMapListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.Offline.IMKOfflineMapListenerImplementor, BaiduMapSDK.Droid", MKOfflineMapListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.Offline.IMKOfflineMapListenerImplementor, BMapBinding.Droid", MKOfflineMapListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class MKOfflineMapListenerImplementor
 	{
 		super ();
 		if (getClass () == MKOfflineMapListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.Offline.IMKOfflineMapListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.Offline.IMKOfflineMapListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

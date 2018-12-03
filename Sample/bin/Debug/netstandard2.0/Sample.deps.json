@@ -9,9 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "Sample/1.0.0": {
         "dependencies": {
-          "BaiduMapSDK.Forms": "1.0.0",
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.BaiduMaps": "1.0.0"
         },
         "runtime": {
           "Sample.dll": {}
@@ -39,12 +39,12 @@
           }
         }
       },
-      "BaiduMapSDK.Forms/1.0.0": {
+      "Xamarin.Forms.BaiduMaps/1.0.0": {
         "dependencies": {
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
-          "BaiduMapSDK.Forms.dll": {}
+          "Xamarin.Forms.BaiduMaps.dll": {}
         }
       }
     }
@@ -76,7 +76,7 @@
       "path": "xamarin.forms/3.4.0.1008975",
       "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
     },
-    "BaiduMapSDK.Forms/1.0.0": {
+    "Xamarin.Forms.BaiduMaps/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

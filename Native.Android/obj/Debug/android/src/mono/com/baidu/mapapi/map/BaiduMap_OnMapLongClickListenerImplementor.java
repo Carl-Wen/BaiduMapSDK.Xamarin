@@ -11,9 +11,9 @@ public class BaiduMap_OnMapLongClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onMapLongClick:(Lcom/baidu/mapapi/model/LatLng;)V:GetOnMapLongClick_Lcom_baidu_mapapi_model_LatLng_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapLongClickListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onMapLongClick:(Lcom/baidu/mapapi/model/LatLng;)V:GetOnMapLongClick_Lcom_baidu_mapapi_model_LatLng_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapLongClickListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapLongClickListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnMapLongClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapLongClickListenerImplementor, BMapBinding.Droid", BaiduMap_OnMapLongClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BaiduMap_OnMapLongClickListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnMapLongClickListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapLongClickListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapLongClickListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

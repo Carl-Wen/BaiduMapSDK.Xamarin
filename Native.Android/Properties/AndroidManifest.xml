@@ -15,5 +15,4 @@
 		<service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"></service>
 		<meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="AOTOPN6cOiAEPE7KmSP8NfPT2V4Yzy6t" />
 	</application>
-
 </manifest>

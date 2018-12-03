@@ -107,7 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Native.Android.dll" comes first in this list. */
 		"Native.Android.dll",
-		"BaiduMapSDK.Droid.dll",
+		"BMapBinding.Droid.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

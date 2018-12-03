@@ -19,8 +19,12 @@ namespace Sample.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            BaiduMapSDK.Forms.Droid.FormsBaiduMaps.Init(null);
+            Xamarin.FormsBaiduMaps.Init(null);
+
+
             LoadApplication(new App());
+
+
         }
     }
 }

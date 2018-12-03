@@ -11,10 +11,10 @@ public class SynchronizationDisplayListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onRoutePlanInfoFreshFinished:(FJ)V:GetOnRoutePlanInfoFreshFinished_FJHandler:Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onSynchronizationProcessResult:(ILjava/lang/String;)V:GetOnSynchronizationProcessResult_ILjava_lang_String_Handler:Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onRoutePlanInfoFreshFinished:(FJ)V:GetOnRoutePlanInfoFreshFinished_FJHandler:Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListenerInvoker, BMapBinding.Droid\n" +
+			"n_onSynchronizationProcessResult:(ILjava/lang/String;)V:GetOnSynchronizationProcessResult_ILjava_lang_String_Handler:Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListenerImplementor, BaiduMapSDK.Droid", SynchronizationDisplayListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListenerImplementor, BMapBinding.Droid", SynchronizationDisplayListenerImplementor.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class SynchronizationDisplayListenerImplementor
 	{
 		super ();
 		if (getClass () == SynchronizationDisplayListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

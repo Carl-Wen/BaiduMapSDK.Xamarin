@@ -11,9 +11,9 @@ public class BaiduMap_OnSynchronizationListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onMapStatusChangeReason:(I)V:GetOnMapStatusChangeReason_IHandler:Com.Baidu.Mapapi.Map.BaiduMap/IOnSynchronizationListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onMapStatusChangeReason:(I)V:GetOnMapStatusChangeReason_IHandler:Com.Baidu.Mapapi.Map.BaiduMap/IOnSynchronizationListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnSynchronizationListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnSynchronizationListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnSynchronizationListenerImplementor, BMapBinding.Droid", BaiduMap_OnSynchronizationListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BaiduMap_OnSynchronizationListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnSynchronizationListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnSynchronizationListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnSynchronizationListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

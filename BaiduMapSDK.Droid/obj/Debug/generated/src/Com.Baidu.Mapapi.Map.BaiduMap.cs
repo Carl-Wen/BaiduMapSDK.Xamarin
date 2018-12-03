@@ -2502,7 +2502,6 @@ namespace Com.Baidu.Mapapi.Map {
 			}
 		}
 
-		[Obsolete (@"deprecated")]
 		public unsafe global::Com.Baidu.Mapapi.Map.MyLocationConfiguration LocationConfigeration {
 			// Metadata.xml XPath method reference: path="/api/package[@name='com.baidu.mapapi.map']/class[@name='BaiduMap']/method[@name='getLocationConfigeration' and count(parameter)=0]"
 			[Register ("getLocationConfigeration", "()Lcom/baidu/mapapi/map/MyLocationConfiguration;", "GetGetLocationConfigerationHandler")]
@@ -3165,7 +3164,6 @@ namespace Com.Baidu.Mapapi.Map {
 		}
 
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.baidu.mapapi.map']/class[@name='BaiduMap']/method[@name='setMyLocationConfigeration' and count(parameter)=1 and parameter[1][@type='com.baidu.mapapi.map.MyLocationConfiguration']]"
-		[Obsolete (@"deprecated")]
 		[Register ("setMyLocationConfigeration", "(Lcom/baidu/mapapi/map/MyLocationConfiguration;)V", "")]
 		public unsafe void SetMyLocationConfigeration (global::Com.Baidu.Mapapi.Map.MyLocationConfiguration p0)
 		{

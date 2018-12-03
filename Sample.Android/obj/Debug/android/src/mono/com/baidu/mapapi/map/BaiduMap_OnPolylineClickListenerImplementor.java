@@ -11,9 +11,9 @@ public class BaiduMap_OnPolylineClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onPolylineClick:(Lcom/baidu/mapapi/map/Polyline;)Z:GetOnPolylineClick_Lcom_baidu_mapapi_map_Polyline_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnPolylineClickListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onPolylineClick:(Lcom/baidu/mapapi/map/Polyline;)Z:GetOnPolylineClick_Lcom_baidu_mapapi_map_Polyline_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnPolylineClickListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnPolylineClickListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnPolylineClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnPolylineClickListenerImplementor, BMapBinding.Droid", BaiduMap_OnPolylineClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BaiduMap_OnPolylineClickListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnPolylineClickListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnPolylineClickListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnPolylineClickListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

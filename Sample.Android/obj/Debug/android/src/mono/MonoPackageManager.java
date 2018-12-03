@@ -107,7 +107,6 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Sample.Android.dll" comes first in this list. */
 		"Sample.Android.dll",
-		"BaiduMapSDK.Forms.Droid.dll",
 		"FormsViewGroup.dll",
 		"Sample.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
@@ -129,12 +128,13 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.Palette.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
+		"Xamarin.Forms.BaiduMaps.Android.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
-		"BaiduMapSDK.Forms.dll",
-		"BaiduMapSDK.Droid.dll",
+		"Xamarin.Forms.BaiduMaps.dll",
+		"BMapBinding.Droid.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

@@ -1,0 +1,10 @@
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.deps.json
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.csprojAssemblyReference.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.csproj.CoreCompileInputs.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.AssemblyInfoInputs.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.AssemblyInfo.cs
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb

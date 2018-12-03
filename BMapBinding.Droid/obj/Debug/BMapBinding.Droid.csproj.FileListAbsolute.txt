@@ -1,0 +1,6 @@
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BMapBinding.Droid/bin/Debug/BMapBinding.Droid.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BMapBinding.Droid/bin/Debug/BMapBinding.Droid.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BMapBinding.Droid/obj/Debug/BMapBinding.Droid.csprojAssemblyReference.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BMapBinding.Droid/obj/Debug/BMapBinding.Droid.csproj.CoreCompileInputs.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BMapBinding.Droid/obj/Debug/BMapBinding.Droid.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BMapBinding.Droid/obj/Debug/BMapBinding.Droid.pdb

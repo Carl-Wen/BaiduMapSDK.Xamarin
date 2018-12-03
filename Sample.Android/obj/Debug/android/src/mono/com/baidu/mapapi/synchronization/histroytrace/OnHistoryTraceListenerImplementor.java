@@ -11,10 +11,10 @@ public class OnHistoryTraceListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onQueryHistroyTraceData:(ILjava/lang/String;Lcom/baidu/mapapi/synchronization/histroytrace/HistoryTraceData;)V:GetOnQueryHistroyTraceData_ILjava_lang_String_Lcom_baidu_mapapi_synchronization_histroytrace_HistoryTraceData_Handler:Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onRenderHistroyTrace:(ILjava/lang/String;)V:GetOnRenderHistroyTrace_ILjava_lang_String_Handler:Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onQueryHistroyTraceData:(ILjava/lang/String;Lcom/baidu/mapapi/synchronization/histroytrace/HistoryTraceData;)V:GetOnQueryHistroyTraceData_ILjava_lang_String_Lcom_baidu_mapapi_synchronization_histroytrace_HistoryTraceData_Handler:Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListenerInvoker, BMapBinding.Droid\n" +
+			"n_onRenderHistroyTrace:(ILjava/lang/String;)V:GetOnRenderHistroyTrace_ILjava_lang_String_Handler:Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListenerImplementor, BaiduMapSDK.Droid", OnHistoryTraceListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListenerImplementor, BMapBinding.Droid", OnHistoryTraceListenerImplementor.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class OnHistoryTraceListenerImplementor
 	{
 		super ();
 		if (getClass () == OnHistoryTraceListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

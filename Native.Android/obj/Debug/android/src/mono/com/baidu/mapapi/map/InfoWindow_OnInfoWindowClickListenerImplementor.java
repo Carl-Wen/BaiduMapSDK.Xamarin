@@ -11,9 +11,9 @@ public class InfoWindow_OnInfoWindowClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onInfoWindowClick:()V:GetOnInfoWindowClickHandler:Com.Baidu.Mapapi.Map.InfoWindow/IOnInfoWindowClickListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onInfoWindowClick:()V:GetOnInfoWindowClickHandler:Com.Baidu.Mapapi.Map.InfoWindow/IOnInfoWindowClickListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.InfoWindow+IOnInfoWindowClickListenerImplementor, BaiduMapSDK.Droid", InfoWindow_OnInfoWindowClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.InfoWindow+IOnInfoWindowClickListenerImplementor, BMapBinding.Droid", InfoWindow_OnInfoWindowClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class InfoWindow_OnInfoWindowClickListenerImplementor
 	{
 		super ();
 		if (getClass () == InfoWindow_OnInfoWindowClickListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.InfoWindow+IOnInfoWindowClickListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.InfoWindow+IOnInfoWindowClickListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

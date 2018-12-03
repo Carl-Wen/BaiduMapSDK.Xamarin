@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D063BE7-D0CC-4477-AC03-B47FD7494528}</ProjectGuid>
+    <ProjectGuid>{AF389E7D-CDAA-40DB-8289-E9CC78139E12}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>BaiduMapSDK.Droid</RootNamespace>
@@ -12,7 +11,7 @@
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidClassParser>jar2xml</AndroidClassParser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +22,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AndroidClassParser>jar2xml</AndroidClassParser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,6 +34,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +58,12 @@
     <EmbeddedJar Include="Jars\BaiduLBS_Android.jar" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedNativeLibrary Include="Jars\x86\libBaiduMapSDK_base_v5_2_1.so" />
+    <EmbeddedNativeLibrary Include="Jars\x86\libBaiduMapSDK_map_v5_2_1.so" />
+    <EmbeddedNativeLibrary Include="Jars\x86\liblocSDK7b.so" />
+    <EmbeddedNativeLibrary Include="Jars\x86_64\libBaiduMapSDK_base_v5_2_1.so" />
+    <EmbeddedNativeLibrary Include="Jars\x86_64\libBaiduMapSDK_map_v5_2_1.so" />
+    <EmbeddedNativeLibrary Include="Jars\x86_64\liblocSDK7b.so" />
     <EmbeddedNativeLibrary Include="Jars\arm64-v8a\libBaiduMapSDK_base_v5_2_1.so" />
     <EmbeddedNativeLibrary Include="Jars\arm64-v8a\libBaiduMapSDK_map_v5_2_1.so" />
     <EmbeddedNativeLibrary Include="Jars\arm64-v8a\liblocSDK7b.so" />
@@ -65,12 +73,13 @@
     <EmbeddedNativeLibrary Include="Jars\armeabi-v7a\libBaiduMapSDK_base_v5_2_1.so" />
     <EmbeddedNativeLibrary Include="Jars\armeabi-v7a\libBaiduMapSDK_map_v5_2_1.so" />
     <EmbeddedNativeLibrary Include="Jars\armeabi-v7a\liblocSDK7b.so" />
-    <EmbeddedNativeLibrary Include="Jars\x86\libBaiduMapSDK_base_v5_2_1.so" />
-    <EmbeddedNativeLibrary Include="Jars\x86\libBaiduMapSDK_map_v5_2_1.so" />
-    <EmbeddedNativeLibrary Include="Jars\x86\liblocSDK7b.so" />
-    <EmbeddedNativeLibrary Include="Jars\x86_64\libBaiduMapSDK_base_v5_2_1.so" />
-    <EmbeddedNativeLibrary Include="Jars\x86_64\libBaiduMapSDK_map_v5_2_1.so" />
-    <EmbeddedNativeLibrary Include="Jars\x86_64\liblocSDK7b.so" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Jars\x86\" />
+    <Folder Include="Jars\x86_64\" />
+    <Folder Include="Jars\arm64-v8a\" />
+    <Folder Include="Jars\armeabi\" />
+    <Folder Include="Jars\armeabi-v7a\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

@@ -1,8 +1,6 @@
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/bin/Debug/netstandard2.0/Sample.deps.json
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/bin/Debug/netstandard2.0/Sample.dll
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/bin/Debug/netstandard2.0/Sample.pdb
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/bin/Debug/netstandard2.0/BaiduMapSDK.Forms.dll
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/bin/Debug/netstandard2.0/BaiduMapSDK.Forms.pdb
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/Sample.csprojAssemblyReference.cache
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
@@ -14,3 +12,6 @@
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/Sample.csproj.CopyComplete
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/Sample.dll
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/Sample.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/obj/Debug/netstandard2.0/Map.xaml.g.cs
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb

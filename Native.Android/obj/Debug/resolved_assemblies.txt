@@ -1,5 +1,5 @@
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/android/assets/Native.Android.dll
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/android/assets/BaiduMapSDK.Droid.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/android/assets/BMapBinding.Droid.dll
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/android/assets/Java.Interop.dll
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/obj/Debug/android/assets/mscorlib.dll

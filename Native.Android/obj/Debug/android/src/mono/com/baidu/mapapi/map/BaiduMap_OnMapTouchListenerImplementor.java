@@ -11,9 +11,9 @@ public class BaiduMap_OnMapTouchListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTouch:(Landroid/view/MotionEvent;)V:GetOnTouch_Landroid_view_MotionEvent_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapTouchListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onTouch:(Landroid/view/MotionEvent;)V:GetOnTouch_Landroid_view_MotionEvent_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapTouchListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapTouchListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnMapTouchListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapTouchListenerImplementor, BMapBinding.Droid", BaiduMap_OnMapTouchListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BaiduMap_OnMapTouchListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnMapTouchListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapTouchListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapTouchListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

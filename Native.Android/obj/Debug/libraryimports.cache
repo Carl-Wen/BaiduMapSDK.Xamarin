@@ -13,7 +13,7 @@
   </ManifestDocuments>
   <NativeLibraries />
   <Jars>
-    <Jar>obj/Debug/lp/1/jl/BaiduLBS_Android.jar</Jar>
+    <Jar>obj/Debug/lp/0/jl/BaiduLBS_Android.jar</Jar>
     <Jar>obj/Debug/lp/10/jl/bin/classes.jar</Jar>
     <Jar>obj/Debug/lp/11/jl/bin/classes.jar</Jar>
     <Jar>obj/Debug/lp/12/jl/bin/classes.jar</Jar>

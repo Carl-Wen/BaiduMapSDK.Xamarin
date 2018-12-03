@@ -4,8 +4,8 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Reflection;
 using System.Threading.Tasks;
-using BaiduMapSDK.Forms;
 using Xamarin.Forms;
+using Xamarin.Forms.BaiduMaps;
 
 namespace Sample
 {
@@ -13,6 +13,7 @@ namespace Sample
     {
         public SamplePage()
         {
+
             InitializeComponent();
 
             IMapManager mapManager = DependencyService.Get<IMapManager>();
@@ -20,7 +21,55 @@ namespace Sample
             mapManager.CoordinateType = CoordType.GCJ02;
             Debug.WriteLine(mapManager.CoordinateType);
 
-            map.Loaded += MapLoaded;
+            //map.Loaded += MapLoaded;
+
+
+            
+            map.ShowScaleBar = true;
+            //InitLocationService();
+            //InitEvents();
+
+            Coordinate[] coords = {
+                new Coordinate(40.044, 116.391),
+                new Coordinate(39.861, 116.284),
+                new Coordinate(39.861, 116.468)
+            };
+
+            map.Polygons.Add(new Polygon
+            {
+                Points = new ObservableCollection<Coordinate>(coords),
+                Color = Color.Blue,
+                FillColor = Color.Red.MultiplyAlpha(0.7),
+                Width = 2
+            });
+
+            map.Circles.Add(new Circle
+            {
+                Coordinate = map.Center,
+                Color = Color.Green,
+                FillColor = Color.Yellow.MultiplyAlpha(0.2),
+                Radius = 200,
+                Width = 2
+            });
+
+            Task.Run(() => {
+                for (; ; )
+                {
+                    Task.Delay(1000).Wait();
+
+                    var p = map.Polygons[0].Points[0];
+                    p = new Coordinate(p.Latitude + 0.002, p.Longitude);
+                    map.Polygons[0].Points[0] = p;
+
+                    map.Circles[0].Radius += 100;
+                }
+            });
+            
+            IProjection proj = map.Projection;
+            //var coord = proj.ToCoordinate(new Point(100, 100));
+            //Debug.WriteLine(proj.ToScreen(coord));
+
+
 
             /*
             IOfflineMap offlineMap = DependencyService.Get<IOfflineMap>();
@@ -50,7 +99,10 @@ namespace Sample
         public void MapLoaded(object sender, EventArgs x)
         {
             map.ShowScaleBar = true;
-            InitLocationService();
+            //map.Center = e.Coordinate;
+            //moved = true;
+
+            //InitLocationService();
             InitEvents();
 
             Coordinate[] coords = {
@@ -98,13 +150,22 @@ namespace Sample
         private static bool moved = false;
         public void InitLocationService()
         {
+
+
+
             map.LocationService.LocationUpdated += (_, e) => {
-                //Debug.WriteLine("LocationUpdated: " + ex.Coordinate);
-                if (!moved)
+                Debug.WriteLine("LocationUpdated: " + e.Coordinate);
+                Device.BeginInvokeOnMainThread(() =>
                 {
-                    map.Center = e.Coordinate;
-                    moved = true;
+                    if (!moved)
+                    {
+                        map.Center = e.Coordinate;
+                        moved = true;
+                    }
+
                 }
+                );
+
             };
 
             map.LocationService.Failed += (_, e) => {

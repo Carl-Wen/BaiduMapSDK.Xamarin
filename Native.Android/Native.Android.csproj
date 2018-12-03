@@ -107,9 +107,9 @@
     <AndroidAsset Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaiduMapSDK.Droid\BaiduMapSDK.Droid.csproj">
-      <Project>{1D063BE7-D0CC-4477-AC03-B47FD7494528}</Project>
-      <Name>BaiduMapSDK.Droid</Name>
+    <ProjectReference Include="..\BMapBinding.Droid\BMapBinding.Droid.csproj">
+      <Project>{0B512933-8B33-43BE-8878-317DB02B0D48}</Project>
+      <Name>BMapBinding.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

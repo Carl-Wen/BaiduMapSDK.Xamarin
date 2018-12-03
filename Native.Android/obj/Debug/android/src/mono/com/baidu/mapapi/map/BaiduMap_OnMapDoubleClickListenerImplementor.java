@@ -11,9 +11,9 @@ public class BaiduMap_OnMapDoubleClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onMapDoubleClick:(Lcom/baidu/mapapi/model/LatLng;)V:GetOnMapDoubleClick_Lcom_baidu_mapapi_model_LatLng_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapDoubleClickListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onMapDoubleClick:(Lcom/baidu/mapapi/model/LatLng;)V:GetOnMapDoubleClick_Lcom_baidu_mapapi_model_LatLng_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapDoubleClickListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapDoubleClickListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnMapDoubleClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapDoubleClickListenerImplementor, BMapBinding.Droid", BaiduMap_OnMapDoubleClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BaiduMap_OnMapDoubleClickListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnMapDoubleClickListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapDoubleClickListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapDoubleClickListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

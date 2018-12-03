@@ -11,9 +11,9 @@ public class LBSAuthManagerListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onAuthResult:(ILjava/lang/String;)V:GetOnAuthResult_ILjava_lang_String_Handler:Com.Baidu.Lbsapi.Auth.ILBSAuthManagerListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onAuthResult:(ILjava/lang/String;)V:GetOnAuthResult_ILjava_lang_String_Handler:Com.Baidu.Lbsapi.Auth.ILBSAuthManagerListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Lbsapi.Auth.ILBSAuthManagerListenerImplementor, BaiduMapSDK.Droid", LBSAuthManagerListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Lbsapi.Auth.ILBSAuthManagerListenerImplementor, BMapBinding.Droid", LBSAuthManagerListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class LBSAuthManagerListenerImplementor
 	{
 		super ();
 		if (getClass () == LBSAuthManagerListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Lbsapi.Auth.ILBSAuthManagerListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Lbsapi.Auth.ILBSAuthManagerListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

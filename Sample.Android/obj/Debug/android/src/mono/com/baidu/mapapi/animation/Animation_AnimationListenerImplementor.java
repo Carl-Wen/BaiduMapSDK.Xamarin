@@ -11,12 +11,12 @@ public class Animation_AnimationListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onAnimationCancel:()V:GetOnAnimationCancelHandler:Com.Baidu.Mapapi.Animation.Animation/IAnimationListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onAnimationEnd:()V:GetOnAnimationEndHandler:Com.Baidu.Mapapi.Animation.Animation/IAnimationListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onAnimationRepeat:()V:GetOnAnimationRepeatHandler:Com.Baidu.Mapapi.Animation.Animation/IAnimationListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onAnimationStart:()V:GetOnAnimationStartHandler:Com.Baidu.Mapapi.Animation.Animation/IAnimationListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onAnimationCancel:()V:GetOnAnimationCancelHandler:Com.Baidu.Mapapi.Animation.Animation/IAnimationListenerInvoker, BMapBinding.Droid\n" +
+			"n_onAnimationEnd:()V:GetOnAnimationEndHandler:Com.Baidu.Mapapi.Animation.Animation/IAnimationListenerInvoker, BMapBinding.Droid\n" +
+			"n_onAnimationRepeat:()V:GetOnAnimationRepeatHandler:Com.Baidu.Mapapi.Animation.Animation/IAnimationListenerInvoker, BMapBinding.Droid\n" +
+			"n_onAnimationStart:()V:GetOnAnimationStartHandler:Com.Baidu.Mapapi.Animation.Animation/IAnimationListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Animation.Animation+IAnimationListenerImplementor, BaiduMapSDK.Droid", Animation_AnimationListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Animation.Animation+IAnimationListenerImplementor, BMapBinding.Droid", Animation_AnimationListenerImplementor.class, __md_methods);
 	}
 
 
@@ -24,7 +24,7 @@ public class Animation_AnimationListenerImplementor
 	{
 		super ();
 		if (getClass () == Animation_AnimationListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Animation.Animation+IAnimationListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Animation.Animation+IAnimationListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

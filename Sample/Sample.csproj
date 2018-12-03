@@ -13,6 +13,6 @@
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaiduMapSDK.Forms\BaiduMapSDK.Forms.csproj" />
+    <ProjectReference Include="..\Xamarin.Forms.BaiduMaps\Xamarin.Forms.BaiduMaps.csproj" />
   </ItemGroup>
 </Project>

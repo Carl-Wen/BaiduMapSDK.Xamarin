@@ -125,31 +125,31 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "BaiduMapSDK.Forms/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
-        },
-        "compile": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        }
-      },
       "Sample/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BaiduMapSDK.Forms": "1.0.0",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.BaiduMaps": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sample.dll": {}
         },
         "runtime": {
           "bin/placeholder/Sample.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
         }
       }
     },
@@ -277,31 +277,31 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "BaiduMapSDK.Forms/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
-        },
-        "compile": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        }
-      },
       "Sample/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BaiduMapSDK.Forms": "1.0.0",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.BaiduMaps": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sample.dll": {}
         },
         "runtime": {
           "bin/placeholder/Sample.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
         }
       }
     },
@@ -429,31 +429,31 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "BaiduMapSDK.Forms/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
-        },
-        "compile": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        }
-      },
       "Sample/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BaiduMapSDK.Forms": "1.0.0",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.BaiduMaps": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sample.dll": {}
         },
         "runtime": {
           "bin/placeholder/Sample.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
         }
       }
     },
@@ -581,31 +581,31 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "BaiduMapSDK.Forms/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
-        },
-        "compile": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BaiduMapSDK.Forms.dll": {}
-        }
-      },
       "Sample/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BaiduMapSDK.Forms": "1.0.0",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.BaiduMaps": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sample.dll": {}
         },
         "runtime": {
           "bin/placeholder/Sample.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
         }
       }
     }
@@ -756,15 +756,15 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "BaiduMapSDK.Forms/1.0.0": {
-      "type": "project",
-      "path": "../BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj",
-      "msbuildProject": "../BaiduMapSDK.Forms/BaiduMapSDK.Forms.csproj"
-    },
     "Sample/1.0.0": {
       "type": "project",
       "path": "../Sample/Sample.csproj",
       "msbuildProject": "../Sample/Sample.csproj"
+    },
+    "Xamarin.Forms.BaiduMaps/1.0.0": {
+      "type": "project",
+      "path": "../Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.csproj",
+      "msbuildProject": "../Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -3,6 +3,7 @@ using Android.Widget;
 using Android.OS;
 using Com.Baidu.Mapapi;
 using Com.Baidu.Mapapi.Map;
+using Com.Baidu.Mapapi.Model;
 
 namespace Native.Android
 {
@@ -29,6 +30,9 @@ namespace Native.Android
 
 
             MapView mMapView = null;
+
+            LatLng point = new LatLng(39.963175, 116.400244);
+
 
             mMapView = FindViewById<MapView>(Resource.Id.bmapView);
 

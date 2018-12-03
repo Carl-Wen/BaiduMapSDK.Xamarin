@@ -11,9 +11,9 @@ public class BaiduMap_OnMarkerClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onMarkerClick:(Lcom/baidu/mapapi/map/Marker;)Z:GetOnMarkerClick_Lcom_baidu_mapapi_map_Marker_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMarkerClickListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onMarkerClick:(Lcom/baidu/mapapi/map/Marker;)Z:GetOnMarkerClick_Lcom_baidu_mapapi_map_Marker_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMarkerClickListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMarkerClickListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnMarkerClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMarkerClickListenerImplementor, BMapBinding.Droid", BaiduMap_OnMarkerClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BaiduMap_OnMarkerClickListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnMarkerClickListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMarkerClickListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMarkerClickListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

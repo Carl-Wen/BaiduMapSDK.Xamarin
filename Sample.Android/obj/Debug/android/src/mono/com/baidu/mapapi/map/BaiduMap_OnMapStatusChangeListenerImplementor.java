@@ -11,12 +11,12 @@ public class BaiduMap_OnMapStatusChangeListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onMapStatusChange:(Lcom/baidu/mapapi/map/MapStatus;)V:GetOnMapStatusChange_Lcom_baidu_mapapi_map_MapStatus_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapStatusChangeListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onMapStatusChangeFinish:(Lcom/baidu/mapapi/map/MapStatus;)V:GetOnMapStatusChangeFinish_Lcom_baidu_mapapi_map_MapStatus_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapStatusChangeListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onMapStatusChangeStart:(Lcom/baidu/mapapi/map/MapStatus;)V:GetOnMapStatusChangeStart_Lcom_baidu_mapapi_map_MapStatus_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapStatusChangeListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onMapStatusChangeStart:(Lcom/baidu/mapapi/map/MapStatus;I)V:GetOnMapStatusChangeStart2_Lcom_baidu_mapapi_map_MapStatus_IHandler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapStatusChangeListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onMapStatusChange:(Lcom/baidu/mapapi/map/MapStatus;)V:GetOnMapStatusChange_Lcom_baidu_mapapi_map_MapStatus_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapStatusChangeListenerInvoker, BMapBinding.Droid\n" +
+			"n_onMapStatusChangeFinish:(Lcom/baidu/mapapi/map/MapStatus;)V:GetOnMapStatusChangeFinish_Lcom_baidu_mapapi_map_MapStatus_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapStatusChangeListenerInvoker, BMapBinding.Droid\n" +
+			"n_onMapStatusChangeStart:(Lcom/baidu/mapapi/map/MapStatus;)V:GetOnMapStatusChangeStart_Lcom_baidu_mapapi_map_MapStatus_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapStatusChangeListenerInvoker, BMapBinding.Droid\n" +
+			"n_onMapStatusChangeStart:(Lcom/baidu/mapapi/map/MapStatus;I)V:GetOnMapStatusChangeStart2_Lcom_baidu_mapapi_map_MapStatus_IHandler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMapStatusChangeListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapStatusChangeListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnMapStatusChangeListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapStatusChangeListenerImplementor, BMapBinding.Droid", BaiduMap_OnMapStatusChangeListenerImplementor.class, __md_methods);
 	}
 
 
@@ -24,7 +24,7 @@ public class BaiduMap_OnMapStatusChangeListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnMapStatusChangeListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapStatusChangeListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMapStatusChangeListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

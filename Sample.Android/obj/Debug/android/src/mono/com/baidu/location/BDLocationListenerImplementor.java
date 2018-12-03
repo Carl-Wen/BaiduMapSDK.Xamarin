@@ -11,9 +11,9 @@ public class BDLocationListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onReceiveLocation:(Lcom/baidu/location/BDLocation;)V:GetOnReceiveLocation_Lcom_baidu_location_BDLocation_Handler:Com.Baidu.Location.IBDLocationListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onReceiveLocation:(Lcom/baidu/location/BDLocation;)V:GetOnReceiveLocation_Lcom_baidu_location_BDLocation_Handler:Com.Baidu.Location.IBDLocationListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Location.IBDLocationListenerImplementor, BaiduMapSDK.Droid", BDLocationListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Location.IBDLocationListenerImplementor, BMapBinding.Droid", BDLocationListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BDLocationListenerImplementor
 	{
 		super ();
 		if (getClass () == BDLocationListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Location.IBDLocationListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Location.IBDLocationListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

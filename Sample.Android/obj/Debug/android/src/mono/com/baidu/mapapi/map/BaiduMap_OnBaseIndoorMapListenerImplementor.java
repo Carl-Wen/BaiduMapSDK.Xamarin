@@ -11,9 +11,9 @@ public class BaiduMap_OnBaseIndoorMapListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onBaseIndoorMapMode:(ZLcom/baidu/mapapi/map/MapBaseIndoorMapInfo;)V:GetOnBaseIndoorMapMode_ZLcom_baidu_mapapi_map_MapBaseIndoorMapInfo_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnBaseIndoorMapListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onBaseIndoorMapMode:(ZLcom/baidu/mapapi/map/MapBaseIndoorMapInfo;)V:GetOnBaseIndoorMapMode_ZLcom_baidu_mapapi_map_MapBaseIndoorMapInfo_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnBaseIndoorMapListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnBaseIndoorMapListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnBaseIndoorMapListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnBaseIndoorMapListenerImplementor, BMapBinding.Droid", BaiduMap_OnBaseIndoorMapListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BaiduMap_OnBaseIndoorMapListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnBaseIndoorMapListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnBaseIndoorMapListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnBaseIndoorMapListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

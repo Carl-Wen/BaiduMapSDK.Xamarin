@@ -11,9 +11,9 @@ public class BaiduMap_OnMyLocationClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onMyLocationClick:()Z:GetOnMyLocationClickHandler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMyLocationClickListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onMyLocationClick:()Z:GetOnMyLocationClickHandler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMyLocationClickListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMyLocationClickListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnMyLocationClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMyLocationClickListenerImplementor, BMapBinding.Droid", BaiduMap_OnMyLocationClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class BaiduMap_OnMyLocationClickListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnMyLocationClickListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMyLocationClickListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMyLocationClickListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

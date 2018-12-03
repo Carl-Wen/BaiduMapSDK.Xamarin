@@ -11,11 +11,11 @@ public class BaiduMap_OnMarkerDragListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onMarkerDrag:(Lcom/baidu/mapapi/map/Marker;)V:GetOnMarkerDrag_Lcom_baidu_mapapi_map_Marker_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMarkerDragListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onMarkerDragEnd:(Lcom/baidu/mapapi/map/Marker;)V:GetOnMarkerDragEnd_Lcom_baidu_mapapi_map_Marker_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMarkerDragListenerInvoker, BaiduMapSDK.Droid\n" +
-			"n_onMarkerDragStart:(Lcom/baidu/mapapi/map/Marker;)V:GetOnMarkerDragStart_Lcom_baidu_mapapi_map_Marker_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMarkerDragListenerInvoker, BaiduMapSDK.Droid\n" +
+			"n_onMarkerDrag:(Lcom/baidu/mapapi/map/Marker;)V:GetOnMarkerDrag_Lcom_baidu_mapapi_map_Marker_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMarkerDragListenerInvoker, BMapBinding.Droid\n" +
+			"n_onMarkerDragEnd:(Lcom/baidu/mapapi/map/Marker;)V:GetOnMarkerDragEnd_Lcom_baidu_mapapi_map_Marker_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMarkerDragListenerInvoker, BMapBinding.Droid\n" +
+			"n_onMarkerDragStart:(Lcom/baidu/mapapi/map/Marker;)V:GetOnMarkerDragStart_Lcom_baidu_mapapi_map_Marker_Handler:Com.Baidu.Mapapi.Map.BaiduMap/IOnMarkerDragListenerInvoker, BMapBinding.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMarkerDragListenerImplementor, BaiduMapSDK.Droid", BaiduMap_OnMarkerDragListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMarkerDragListenerImplementor, BMapBinding.Droid", BaiduMap_OnMarkerDragListenerImplementor.class, __md_methods);
 	}
 
 
@@ -23,7 +23,7 @@ public class BaiduMap_OnMarkerDragListenerImplementor
 	{
 		super ();
 		if (getClass () == BaiduMap_OnMarkerDragListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMarkerDragListenerImplementor, BaiduMapSDK.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Baidu.Mapapi.Map.BaiduMap+IOnMarkerDragListenerImplementor, BMapBinding.Droid", "", this, new java.lang.Object[] {  });
 	}
 
 

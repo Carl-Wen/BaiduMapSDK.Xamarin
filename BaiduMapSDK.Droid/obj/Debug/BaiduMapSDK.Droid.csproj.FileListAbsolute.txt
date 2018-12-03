@@ -1,6 +1,6 @@
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Droid/bin/Debug/BaiduMapSDK.Droid.dll
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Droid/bin/Debug/BaiduMapSDK.Droid.pdb
-/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.csprojAssemblyReference.cache
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.csproj.CoreCompileInputs.cache
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.dll
 /Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.csprojAssemblyReference.cache

@@ -17,7 +17,7 @@ namespace Sample {
     public partial class SamplePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::BaiduMapSDK.Forms.Map map;
+        private global::Xamarin.Forms.BaiduMaps.Map map;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button btnTrack;
@@ -25,7 +25,7 @@ namespace Sample {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SamplePage));
-            map = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BaiduMapSDK.Forms.Map>(this, "map");
+            map = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.BaiduMaps.Map>(this, "map");
             btnTrack = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnTrack");
         }
     }
