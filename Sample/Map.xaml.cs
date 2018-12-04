@@ -4,11 +4,11 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.BaiduMaps;
 using Xamarin.Forms.Xaml;
 
 namespace Sample
 {
-    /*
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Map
     {
@@ -27,7 +27,7 @@ namespace Sample
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
 
-            var map = new BaiduMapSDK.Forms.Map()
+            var map = new Xamarin.Forms.BaiduMaps.Map()
             {
                 HeightRequest = 204,
                 ZoomLevel = 18f,
@@ -46,14 +46,20 @@ namespace Sample
             };
             grid.Children.Add(map);
             grid.Children.Add(boxview);
+            
+            if (MapStackLayout != null)
+            {
+                MapStackLayout.Children.Add(grid);
+            }
 
+            /*
             Device.BeginInvokeOnMainThread(() =>
             {
                 if (MapStackLayout != null)
                 {
                     MapStackLayout.Children.Add(grid);
                 }
-            });
+            });*/
 
             //map.Loaded += (sender2, args2) =>
             //{
@@ -61,7 +67,7 @@ namespace Sample
             //};
         }
 
-        private async void DrawPathOnBaiduMap(BaiduMapSDK.Forms.Map map, List<Point> points)
+        private async void DrawPathOnBaiduMap(Xamarin.Forms.BaiduMaps.Map map, List<Point> points)
         {
             var minX = double.MaxValue;
             var maxX = double.MinValue;
@@ -94,7 +100,7 @@ namespace Sample
             var diffX = maxX - minX;
             var diffY = maxY - minY;
 
-            var line = new BaiduMapSDK.Forms.Polyline
+            var line = new Xamarin.Forms.BaiduMaps.Polyline
             {
                 Color = Color.FromHex("ff184f"),
                 Points =
@@ -150,7 +156,7 @@ namespace Sample
             SetBaiduMapZoom(map, maxDiff);
         }
 
-        private void SetBaiduMapZoom(BaiduMapSDK.Forms.Map map, double maxDiff)
+        private void SetBaiduMapZoom(Xamarin.Forms.BaiduMaps.Map map, double maxDiff)
         {
 
             if (maxDiff < 0.0016)
@@ -188,5 +194,5 @@ namespace Sample
         }
 
 
-    }*/
+    }
 }

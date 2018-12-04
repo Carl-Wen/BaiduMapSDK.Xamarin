@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -150,11 +150,20 @@
         },
         "runtime": {
           "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps.iOS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.iOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.iOS.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -302,11 +311,20 @@
         },
         "runtime": {
           "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps.iOS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.iOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.iOS.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -454,11 +472,20 @@
         },
         "runtime": {
           "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps.iOS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.iOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.iOS.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -606,15 +633,24 @@
         },
         "runtime": {
           "bin/placeholder/Xamarin.Forms.BaiduMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.BaiduMaps.iOS/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.iOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xamarin.Forms.BaiduMaps.iOS.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Xamarin.Forms/3.3.0.967583": {
-      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
+    "Xamarin.Forms/3.4.0.1008975": {
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
-      "path": "xamarin.forms/3.3.0.967583",
+      "path": "xamarin.forms/3.4.0.1008975",
       "files": [
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -752,7 +788,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.3.0.967583.nupkg.sha512",
+        "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -765,12 +801,18 @@
       "type": "project",
       "path": "../Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.csproj",
       "msbuildProject": "../Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.csproj"
+    },
+    "Xamarin.Forms.BaiduMaps.iOS/1.0.0": {
+      "type": "project",
+      "path": "../Xamarin.Forms.BaiduMaps.iOS/Xamarin.Forms.BaiduMaps.iOS.csproj",
+      "msbuildProject": "../Xamarin.Forms.BaiduMaps.iOS/Xamarin.Forms.BaiduMaps.iOS.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Sample >= 1.0.0",
-      "Xamarin.Forms >= 3.3.0.967583"
+      "Xamarin.Forms >= 3.4.0.1008975",
+      "Xamarin.Forms.BaiduMaps.iOS >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -799,6 +841,9 @@
           "projectReferences": {
             "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/Sample.csproj": {
               "projectPath": "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/Sample.csproj"
+            },
+            "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps.iOS/Xamarin.Forms.BaiduMaps.iOS.csproj": {
+              "projectPath": "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Xamarin.Forms.BaiduMaps.iOS/Xamarin.Forms.BaiduMaps.iOS.csproj"
             }
           }
         }
@@ -809,7 +854,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.3.0.967583, )"
+            "version": "[3.4.0.1008975, )"
           }
         }
       }
@@ -825,20 +870,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1008975 to 3.3.0.967583. Reference the package directly from the project to select a different version. \n Sample.iOS -> Sample -> Xamarin.Forms (>= 3.4.0.1008975) \n Sample.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  }
 }

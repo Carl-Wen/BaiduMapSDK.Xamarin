@@ -1120,37 +1120,19 @@ namespace BaiduMapSDK.Map.iOS {
 		public virtual global::BaiduMapSDK.Base.iOS.BMKMapType MapType {
 			[Export ("mapType")]
 			get {
-				global::BaiduMapSDK.Base.iOS.BMKMapType ret;
 				if (IsDirectBinding) {
-					if (IntPtr.Size == 8) {
-						ret = (global::BaiduMapSDK.Base.iOS.BMKMapType) global::ApiDefinition.Messaging.UInt64_objc_msgSend (this.Handle, Selector.GetHandle ("mapType"));
-					} else {
-						ret = (global::BaiduMapSDK.Base.iOS.BMKMapType) global::ApiDefinition.Messaging.UInt32_objc_msgSend (this.Handle, Selector.GetHandle ("mapType"));
-					}
+					return (global::BaiduMapSDK.Base.iOS.BMKMapType) global::ApiDefinition.Messaging.UInt64_objc_msgSend (this.Handle, Selector.GetHandle ("mapType"));
 				} else {
-					if (IntPtr.Size == 8) {
-						ret = (global::BaiduMapSDK.Base.iOS.BMKMapType) global::ApiDefinition.Messaging.UInt64_objc_msgSendSuper (this.SuperHandle, Selector.GetHandle ("mapType"));
-					} else {
-						ret = (global::BaiduMapSDK.Base.iOS.BMKMapType) global::ApiDefinition.Messaging.UInt32_objc_msgSendSuper (this.SuperHandle, Selector.GetHandle ("mapType"));
-					}
+					return (global::BaiduMapSDK.Base.iOS.BMKMapType) global::ApiDefinition.Messaging.UInt64_objc_msgSendSuper (this.SuperHandle, Selector.GetHandle ("mapType"));
 				}
-				return ret;
 			}
 			
 			[Export ("setMapType:")]
 			set {
 				if (IsDirectBinding) {
-					if (IntPtr.Size == 8) {
-						global::ApiDefinition.Messaging.void_objc_msgSend_UInt64 (this.Handle, Selector.GetHandle ("setMapType:"), (UInt64)value);
-					} else {
-						global::ApiDefinition.Messaging.void_objc_msgSend_UInt32 (this.Handle, Selector.GetHandle ("setMapType:"), (UInt32)value);
-					}
+					global::ApiDefinition.Messaging.void_objc_msgSend_UInt64 (this.Handle, Selector.GetHandle ("setMapType:"), (UInt64)value);
 				} else {
-					if (IntPtr.Size == 8) {
-						global::ApiDefinition.Messaging.void_objc_msgSendSuper_UInt64 (this.SuperHandle, Selector.GetHandle ("setMapType:"), (UInt64)value);
-					} else {
-						global::ApiDefinition.Messaging.void_objc_msgSendSuper_UInt32 (this.SuperHandle, Selector.GetHandle ("setMapType:"), (UInt32)value);
-					}
+					global::ApiDefinition.Messaging.void_objc_msgSendSuper_UInt64 (this.SuperHandle, Selector.GetHandle ("setMapType:"), (UInt64)value);
 				}
 			}
 		}

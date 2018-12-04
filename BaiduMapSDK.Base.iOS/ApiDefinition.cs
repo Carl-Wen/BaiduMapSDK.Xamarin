@@ -8,9 +8,6 @@ using CoreLocation;
 
 namespace BaiduMapSDK.Base.iOS
 {
-
-
-
     // @protocol BMKGeneralDelegate <NSObject>
     [Protocol, Model]
     [BaseType(typeof(NSObject))]
@@ -133,13 +130,13 @@ namespace BaiduMapSDK.Base.iOS
         // +(BOOL)setCoordinateTypeUsedInBaiduMapSDK:(BMK_COORD_TYPE)coorType;
         [Static]
         [Export("setCoordinateTypeUsedInBaiduMapSDK:")]
-        bool SetCoordinateTypeUsedInBaiduMapSDK(BmkCoordType coorType);
+        bool SetCoordinateTypeUsedInBaiduMapSDK(BMK_COORD_TYPE coorType);
 
         // +(BMK_COORD_TYPE)getCoordinateTypeUsedInBaiduMapSDK;
         [Static]
         [Export("getCoordinateTypeUsedInBaiduMapSDK")]
         //[Verify(MethodToProperty)]
-        BmkCoordType CoordinateTypeUsedInBaiduMapSDK { get; }
+        BMK_COORD_TYPE CoordinateTypeUsedInBaiduMapSDK { get; }
 
         // +(void)logEnable:(BOOL)enable module:(BMKMapModule)mapModule;
         [Static]

@@ -197,17 +197,9 @@ namespace ApiDefinition {
 		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper")]
 		public extern static void void_objc_msgSendSuper_nfloat (IntPtr receiver, IntPtr selector, nfloat arg1);
 		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSend")]
-		public extern static uint UInt32_objc_msgSend (IntPtr receiver, IntPtr selector);
-		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper")]
-		public extern static uint UInt32_objc_msgSendSuper (IntPtr receiver, IntPtr selector);
-		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSend")]
 		public extern static ulong UInt64_objc_msgSend (IntPtr receiver, IntPtr selector);
 		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper")]
 		public extern static ulong UInt64_objc_msgSendSuper (IntPtr receiver, IntPtr selector);
-		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSend")]
-		public extern static void void_objc_msgSend_UInt32 (IntPtr receiver, IntPtr selector, uint arg1);
-		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper")]
-		public extern static void void_objc_msgSendSuper_UInt32 (IntPtr receiver, IntPtr selector, uint arg1);
 		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSend")]
 		public extern static void void_objc_msgSend_UInt64 (IntPtr receiver, IntPtr selector, ulong arg1);
 		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper")]
@@ -232,6 +224,14 @@ namespace ApiDefinition {
 		public extern static void CGSize_objc_msgSend_stret (out CGSize retval, IntPtr receiver, IntPtr selector);
 		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper_stret")]
 		public extern static void CGSize_objc_msgSendSuper_stret (out CGSize retval, IntPtr receiver, IntPtr selector);
+		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSend")]
+		public extern static uint UInt32_objc_msgSend (IntPtr receiver, IntPtr selector);
+		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper")]
+		public extern static uint UInt32_objc_msgSendSuper (IntPtr receiver, IntPtr selector);
+		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSend")]
+		public extern static void void_objc_msgSend_UInt32 (IntPtr receiver, IntPtr selector, uint arg1);
+		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper")]
+		public extern static void void_objc_msgSendSuper_UInt32 (IntPtr receiver, IntPtr selector, uint arg1);
 		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSend")]
 		public extern static void void_objc_msgSend_BMKMapRect (IntPtr receiver, IntPtr selector, global::BaiduMapSDK.Base.iOS.BMKMapRect arg1);
 		[DllImport (LIBOBJC_DYLIB, EntryPoint="objc_msgSendSuper")]

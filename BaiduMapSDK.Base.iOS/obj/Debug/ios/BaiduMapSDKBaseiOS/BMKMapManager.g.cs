@@ -87,13 +87,9 @@ namespace BaiduMapSDK.Base.iOS {
 		
 		[Export ("setCoordinateTypeUsedInBaiduMapSDK:")]
 		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
-		public static bool SetCoordinateTypeUsedInBaiduMapSDK (BmkCoordType coorType)
+		public static bool SetCoordinateTypeUsedInBaiduMapSDK (BMK_COORD_TYPE coorType)
 		{
-			if (IntPtr.Size == 8) {
-				return global::ApiDefinition.Messaging.bool_objc_msgSend_UInt64 (class_ptr, Selector.GetHandle ("setCoordinateTypeUsedInBaiduMapSDK:"), (UInt64)coorType);
-			} else {
-				return global::ApiDefinition.Messaging.bool_objc_msgSend_UInt32 (class_ptr, Selector.GetHandle ("setCoordinateTypeUsedInBaiduMapSDK:"), (UInt32)coorType);
-			}
+			return global::ApiDefinition.Messaging.bool_objc_msgSend_UInt64 (class_ptr, Selector.GetHandle ("setCoordinateTypeUsedInBaiduMapSDK:"), (UInt64)coorType);
 		}
 		
 		[Export ("start:generalDelegate:")]
@@ -118,16 +114,10 @@ namespace BaiduMapSDK.Base.iOS {
 		}
 		
 		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
-		public static BmkCoordType CoordinateTypeUsedInBaiduMapSDK {
+		public static BMK_COORD_TYPE CoordinateTypeUsedInBaiduMapSDK {
 			[Export ("getCoordinateTypeUsedInBaiduMapSDK")]
 			get {
-				BmkCoordType ret;
-				if (IntPtr.Size == 8) {
-					ret = (BmkCoordType) global::ApiDefinition.Messaging.UInt64_objc_msgSend (class_ptr, Selector.GetHandle ("getCoordinateTypeUsedInBaiduMapSDK"));
-				} else {
-					ret = (BmkCoordType) global::ApiDefinition.Messaging.UInt32_objc_msgSend (class_ptr, Selector.GetHandle ("getCoordinateTypeUsedInBaiduMapSDK"));
-				}
-				return ret;
+				return (BMK_COORD_TYPE) global::ApiDefinition.Messaging.UInt64_objc_msgSend (class_ptr, Selector.GetHandle ("getCoordinateTypeUsedInBaiduMapSDK"));
 			}
 			
 		}

@@ -6945,6 +6945,10 @@
 <constructor deprecated="not deprecated" final="false" name="WearMapView" static="false" type="com.baidu.mapapi.map.WearMapView" visibility="public">
 <parameter name="p0" type="android.content.Context">
 </parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="WearMapView" static="false" type="com.baidu.mapapi.map.WearMapView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
 <parameter name="p1" type="android.util.AttributeSet">
 </parameter>
 </constructor>
@@ -6960,10 +6964,6 @@
 <parameter name="p0" type="android.content.Context">
 </parameter>
 <parameter name="p1" type="com.baidu.mapapi.map.BaiduMapOptions">
-</parameter>
-</constructor>
-<constructor deprecated="not deprecated" final="false" name="WearMapView" static="false" type="com.baidu.mapapi.map.WearMapView" visibility="public">
-<parameter name="p0" type="android.content.Context">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="true" name="getMap" native="false" return="com.baidu.mapapi.map.BaiduMap" static="false" synchronized="false" visibility="public">

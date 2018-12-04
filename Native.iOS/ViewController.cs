@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using BaiduMapSDK.Base.iOS;
 using BaiduMapSDK.Map.iOS;
 using UIKit;
@@ -9,10 +10,28 @@ namespace Native.iOS
     {
         protected ViewController(IntPtr handle) : base(handle)
         {
+
+
+
             BMKMapManager _mapmanager = new BMKMapManager();
+            bool test = BMKMapManager.SetCoordinateTypeUsedInBaiduMapSDK(BMK_COORD_TYPE.Bd09ll);
+            if (!test)
+            {
+                Debug.WriteLine("setcood start failed");
+                
+            }
+            else
+            {
+                Debug.WriteLine("setcood start pass");
+            }
+
             BMKGeneralDelegate bMKGeneralDelegate = new BMKGeneralDelegate();
 
+
+
+            
             bool ret = _mapmanager.Start("wA6g0jIKcwkZGCwVBjkytaiBU1Oeook0", bMKGeneralDelegate);
+
 
 
             if (!ret)
@@ -25,6 +44,8 @@ namespace Native.iOS
 
 
             BMKMapView mapview = new BMKMapView();
+
+
             mapview.Frame = new CoreGraphics.CGRect(0, 28, 300, 272);
             mapview.AutoresizingMask = UIViewAutoresizing.All;
             this.View.AddSubview(mapview);

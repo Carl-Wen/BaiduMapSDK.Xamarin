@@ -23,7 +23,7 @@ namespace Xamarin.Forms.BaiduMaps.Android
             if (disposing) {
                 if (null != Element) {
                     Map.Pins.Clear();
-                    ((LocationServiceImpl)Map.LocationService).Unregister();
+                    //((LocationServiceImpl)Map.LocationService).Unregister();
                 }
 
                 pinImpl.Unregister(Map);
@@ -66,7 +66,7 @@ namespace Xamarin.Forms.BaiduMaps.Android
             if (null != e.OldElement) {
                 var oldMap = e.OldElement;
                 oldMap.Pins.Clear();
-                ((LocationServiceImpl)oldMap.LocationService).Unregister();
+                //((LocationServiceImpl)oldMap.LocationService).Unregister();
 
                 MapView oldMapView = Control;
                 oldMapView.Map.Clear();
@@ -86,7 +86,7 @@ namespace Xamarin.Forms.BaiduMaps.Android
 
             if (null != e.NewElement)
             {
-                Map.LocationService = new LocationServiceImpl(NativeMap, Context);
+                //Map.LocationService = new LocationServiceImpl(NativeMap, Context);
 
                 NativeMap.Map.MapClick += OnMapClick;
                 NativeMap.Map.MapPoiClick += OnMapPoiClick;

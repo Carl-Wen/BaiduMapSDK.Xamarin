@@ -3,6 +3,7 @@
 extern void *mono_aot_module_Native_iOS_info;
 extern void *mono_aot_module_mscorlib_info;
 extern void *mono_aot_module_Xamarin_iOS_info;
+extern void *mono_aot_module_System_info;
 extern void *mono_aot_module_BaiduMapSDK_Base_iOS_info;
 extern void *mono_aot_module_BaiduMapSDK_Map_iOS_info;
 
@@ -11,6 +12,7 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_Native_iOS_info);
 	mono_aot_register_module (mono_aot_module_mscorlib_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_iOS_info);
+	mono_aot_register_module (mono_aot_module_System_info);
 	mono_aot_register_module (mono_aot_module_BaiduMapSDK_Base_iOS_info);
 	mono_aot_register_module (mono_aot_module_BaiduMapSDK_Map_iOS_info);
 

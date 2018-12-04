@@ -179,7 +179,8 @@ namespace Xamarin.Forms.BaiduMaps
             set { SetValue(ShowZoomControlProperty, value); }
         }
 
-        public ILocationService LocationService { get; internal set; }
+
+        //public ILocationService LocationService { get; internal set; }
         public IProjection Projection { get; internal set; }
 
         public IList<Pin> Pins => pins;

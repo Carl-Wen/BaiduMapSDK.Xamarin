@@ -400,20 +400,20 @@ exception_handling:;
 	-(void) xamarinApplySelector
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x23B04);
+		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x23C04);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26204);
+		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26304);
 	}
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x23A04);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x23B04);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -433,7 +433,7 @@ exception_handling:;
 	-(void) xamarinApplySelector
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x23E04);
+		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x23F04);
 	}
 @end
 
@@ -449,14 +449,14 @@ exception_handling:;
 	-(void) xamarinApplySelector
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x24004);
+		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x24104);
 	}
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x23F04);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x24004);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [Foundation_NSDispatcher class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -476,7 +476,7 @@ exception_handling:;
 	-(void) xamarinApplySelector
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x24204);
+		native_to_managed_trampoline_2 (self, _cmd, &managed_method, 0x24304);
 	}
 @end
 
@@ -556,7 +556,7 @@ exception_handling:;
 	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26204);
+		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26304);
 	}
 
 	-(id) init
@@ -612,7 +612,7 @@ exception_handling:;
 	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26204);
+		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26304);
 	}
 @end
 
@@ -644,7 +644,7 @@ exception_handling:;
 	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26204);
+		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26304);
 	}
 @end
 
@@ -687,20 +687,20 @@ exception_handling:;
 	+(void) drain:(NSObject *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_8 (self, _cmd, &managed_method, p0, 0x28904);
+		native_to_managed_trampoline_8 (self, _cmd, &managed_method, p0, 0x28A04);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26204);
+		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, 0x26304);
 	}
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x28704);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x28804);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -722,7 +722,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x3906);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x3708);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -748,7 +748,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0xF208);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0xF20A);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -785,7 +785,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x25008);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x2500A);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -808,7 +808,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x28508);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x2850A);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -831,7 +831,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x2AF08);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x2AF0A);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -943,64 +943,64 @@ exception_handling:;
 		{ NULL, 0x400 /* #28 'ViewController' => 'Native.iOS.ViewController, Native.iOS' */ },
 		{ NULL, 0x5704 /* #29 'UIKit_UIView_UIViewAppearance' => 'UIKit.UIView+UIViewAppearance, Xamarin.iOS' */ },
 		{ NULL, 0x7404 /* #30 '__NSObject_Disposer' => 'Foundation.NSObject+NSObject_Disposer, Xamarin.iOS' */ },
-		{ NULL, 0xC06 /* #31 'BMKAddressComponent' => 'BaiduMapSDK.Base.iOS.BMKAddressComponent, BaiduMapSDK.Base.iOS' */ },
-		{ NULL, 0xF06 /* #32 'BMKGeneralDelegate' => 'BaiduMapSDK.Base.iOS.BMKGeneralDelegate, BaiduMapSDK.Base.iOS' */ },
-		{ NULL, 0x1006 /* #33 'BMKIndoorPlanNode' => 'BaiduMapSDK.Base.iOS.BMKIndoorPlanNode, BaiduMapSDK.Base.iOS' */ },
-		{ NULL, 0x1106 /* #34 'BMKMapManager' => 'BaiduMapSDK.Base.iOS.BMKMapManager, BaiduMapSDK.Base.iOS' */ },
-		{ NULL, 0x1206 /* #35 'BMKPlanNode' => 'BaiduMapSDK.Base.iOS.BMKPlanNode, BaiduMapSDK.Base.iOS' */ },
-		{ NULL, 0x1306 /* #36 'BMKUserLocation' => 'BaiduMapSDK.Base.iOS.BMKUserLocation, BaiduMapSDK.Base.iOS' */ },
-		{ NULL, 0xE08 /* #37 'BMKAnnotation' => 'BaiduMapSDK.Map.iOS.BMKAnnotation, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x4008 /* #38 'BMKShape' => 'BaiduMapSDK.Map.iOS.BMKShape, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2708 /* #39 'BMKMultiPoint' => 'BaiduMapSDK.Map.iOS.BMKMultiPoint, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1108 /* #40 'BMKArcline' => 'BaiduMapSDK.Map.iOS.BMKArcline, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x4208 /* #41 'BMKTileLayer' => 'BaiduMapSDK.Map.iOS.BMKTileLayer, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1408 /* #42 'BMKAsyncTileLayer' => 'BaiduMapSDK.Map.iOS.BMKAsyncTileLayer, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1508 /* #43 'BMKBaseIndoorMapInfo' => 'BaiduMapSDK.Map.iOS.BMKBaseIndoorMapInfo, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1608 /* #44 'BMKCircle' => 'BaiduMapSDK.Map.iOS.BMKCircle, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1908 /* #45 'BMKGradient' => 'BaiduMapSDK.Map.iOS.BMKGradient, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1A08 /* #46 'BMKGroundOverlay' => 'BaiduMapSDK.Map.iOS.BMKGroundOverlay, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1D08 /* #47 'BMKHeatMap' => 'BaiduMapSDK.Map.iOS.BMKHeatMap, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1E08 /* #48 'BMKHeatMapNode' => 'BaiduMapSDK.Map.iOS.BMKHeatMapNode, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1F08 /* #49 'BMKLocationViewDisplayParam' => 'BaiduMapSDK.Map.iOS.BMKLocationViewDisplayParam, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2008 /* #50 'BMKMapPoi' => 'BaiduMapSDK.Map.iOS.BMKMapPoi, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2108 /* #51 'BMKMapStatus' => 'BaiduMapSDK.Map.iOS.BMKMapStatus, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2608 /* #52 'BMKMapViewDelegate' => 'BaiduMapSDK.Map.iOS.BMKMapViewDelegate, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2808 /* #53 'BMKOfflineMap' => 'BaiduMapSDK.Map.iOS.BMKOfflineMap, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2B08 /* #54 'BMKOfflineMapDelegate' => 'BaiduMapSDK.Map.iOS.BMKOfflineMapDelegate, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2C08 /* #55 'BMKOLSearchRecord' => 'BaiduMapSDK.Map.iOS.BMKOLSearchRecord, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2D08 /* #56 'BMKOLUpdateElement' => 'BaiduMapSDK.Map.iOS.BMKOLUpdateElement, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3008 /* #57 'BMKOverlay' => 'BaiduMapSDK.Map.iOS.BMKOverlay, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3908 /* #58 'BMKPointAnnotation' => 'BaiduMapSDK.Map.iOS.BMKPointAnnotation, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3A08 /* #59 'BMKPolygon' => 'BaiduMapSDK.Map.iOS.BMKPolygon, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3D08 /* #60 'BMKPolyline' => 'BaiduMapSDK.Map.iOS.BMKPolyline, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x4108 /* #61 'BMKSyncTileLayer' => 'BaiduMapSDK.Map.iOS.BMKSyncTileLayer, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x4508 /* #62 'BMKURLTileLayer' => 'BaiduMapSDK.Map.iOS.BMKURLTileLayer, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0xB08 /* #63 'BaiduMapSDK_Map_iOS_BMKActionPaopaoView_BMKActionPaopaoViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKActionPaopaoView+BMKActionPaopaoViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0xA08 /* #64 'BMKActionPaopaoView' => 'BaiduMapSDK.Map.iOS.BMKActionPaopaoView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1008 /* #65 'BaiduMapSDK_Map_iOS_BMKAnnotationView_BMKAnnotationViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKAnnotationView+BMKAnnotationViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0xF08 /* #66 'BMKAnnotationView' => 'BaiduMapSDK.Map.iOS.BMKAnnotationView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3608 /* #67 'BaiduMapSDK_Map_iOS_BMKOverlayView_BMKOverlayViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKOverlayView+BMKOverlayViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3208 /* #68 'BaiduMapSDK_Map_iOS_BMKOverlayGLBasicView_BMKOverlayGLBasicViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKOverlayGLBasicView+BMKOverlayGLBasicViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1308 /* #69 'BaiduMapSDK_Map_iOS_BMKArclineView_BMKArclineViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKArclineView+BMKArclineViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3508 /* #70 'BMKOverlayView' => 'BaiduMapSDK.Map.iOS.BMKOverlayView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3108 /* #71 'BMKOverlayGLBasicView' => 'BaiduMapSDK.Map.iOS.BMKOverlayGLBasicView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1208 /* #72 'BMKArclineView' => 'BaiduMapSDK.Map.iOS.BMKArclineView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1808 /* #73 'BaiduMapSDK_Map_iOS_BMKCircleView_BMKCircleViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKCircleView+BMKCircleViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1708 /* #74 'BMKCircleView' => 'BaiduMapSDK.Map.iOS.BMKCircleView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1C08 /* #75 'BaiduMapSDK_Map_iOS_BMKGroundOverlayView_BMKGroundOverlayViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKGroundOverlayView+BMKGroundOverlayViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x1B08 /* #76 'BMKGroundOverlayView' => 'BaiduMapSDK.Map.iOS.BMKGroundOverlayView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2308 /* #77 'BaiduMapSDK_Map_iOS_BMKMapView_BMKMapViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKMapView+BMKMapViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x2208 /* #78 'BMKMapView' => 'BaiduMapSDK.Map.iOS.BMKMapView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3408 /* #79 'BaiduMapSDK_Map_iOS_BMKOverlayPathView_BMKOverlayPathViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKOverlayPathView+BMKOverlayPathViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3308 /* #80 'BMKOverlayPathView' => 'BaiduMapSDK.Map.iOS.BMKOverlayPathView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3808 /* #81 'BaiduMapSDK_Map_iOS_BMKPinAnnotationView_BMKPinAnnotationViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKPinAnnotationView+BMKPinAnnotationViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3708 /* #82 'BMKPinAnnotationView' => 'BaiduMapSDK.Map.iOS.BMKPinAnnotationView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3C08 /* #83 'BaiduMapSDK_Map_iOS_BMKPolygonView_BMKPolygonViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKPolygonView+BMKPolygonViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3B08 /* #84 'BMKPolygonView' => 'BaiduMapSDK.Map.iOS.BMKPolygonView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3F08 /* #85 'BaiduMapSDK_Map_iOS_BMKPolylineView_BMKPolylineViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKPolylineView+BMKPolylineViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x3E08 /* #86 'BMKPolylineView' => 'BaiduMapSDK.Map.iOS.BMKPolylineView, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x4408 /* #87 'BaiduMapSDK_Map_iOS_BMKTileLayerView_BMKTileLayerViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKTileLayerView+BMKTileLayerViewAppearance, BaiduMapSDK.Map.iOS' */ },
-		{ NULL, 0x4308 /* #88 'BMKTileLayerView' => 'BaiduMapSDK.Map.iOS.BMKTileLayerView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0xC08 /* #31 'BMKAddressComponent' => 'BaiduMapSDK.Base.iOS.BMKAddressComponent, BaiduMapSDK.Base.iOS' */ },
+		{ NULL, 0xF08 /* #32 'BMKGeneralDelegate' => 'BaiduMapSDK.Base.iOS.BMKGeneralDelegate, BaiduMapSDK.Base.iOS' */ },
+		{ NULL, 0x1008 /* #33 'BMKIndoorPlanNode' => 'BaiduMapSDK.Base.iOS.BMKIndoorPlanNode, BaiduMapSDK.Base.iOS' */ },
+		{ NULL, 0x1108 /* #34 'BMKMapManager' => 'BaiduMapSDK.Base.iOS.BMKMapManager, BaiduMapSDK.Base.iOS' */ },
+		{ NULL, 0x1208 /* #35 'BMKPlanNode' => 'BaiduMapSDK.Base.iOS.BMKPlanNode, BaiduMapSDK.Base.iOS' */ },
+		{ NULL, 0x1308 /* #36 'BMKUserLocation' => 'BaiduMapSDK.Base.iOS.BMKUserLocation, BaiduMapSDK.Base.iOS' */ },
+		{ NULL, 0xE0A /* #37 'BMKAnnotation' => 'BaiduMapSDK.Map.iOS.BMKAnnotation, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x400A /* #38 'BMKShape' => 'BaiduMapSDK.Map.iOS.BMKShape, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x270A /* #39 'BMKMultiPoint' => 'BaiduMapSDK.Map.iOS.BMKMultiPoint, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x110A /* #40 'BMKArcline' => 'BaiduMapSDK.Map.iOS.BMKArcline, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x420A /* #41 'BMKTileLayer' => 'BaiduMapSDK.Map.iOS.BMKTileLayer, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x140A /* #42 'BMKAsyncTileLayer' => 'BaiduMapSDK.Map.iOS.BMKAsyncTileLayer, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x150A /* #43 'BMKBaseIndoorMapInfo' => 'BaiduMapSDK.Map.iOS.BMKBaseIndoorMapInfo, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x160A /* #44 'BMKCircle' => 'BaiduMapSDK.Map.iOS.BMKCircle, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x190A /* #45 'BMKGradient' => 'BaiduMapSDK.Map.iOS.BMKGradient, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x1A0A /* #46 'BMKGroundOverlay' => 'BaiduMapSDK.Map.iOS.BMKGroundOverlay, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x1D0A /* #47 'BMKHeatMap' => 'BaiduMapSDK.Map.iOS.BMKHeatMap, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x1E0A /* #48 'BMKHeatMapNode' => 'BaiduMapSDK.Map.iOS.BMKHeatMapNode, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x1F0A /* #49 'BMKLocationViewDisplayParam' => 'BaiduMapSDK.Map.iOS.BMKLocationViewDisplayParam, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x200A /* #50 'BMKMapPoi' => 'BaiduMapSDK.Map.iOS.BMKMapPoi, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x210A /* #51 'BMKMapStatus' => 'BaiduMapSDK.Map.iOS.BMKMapStatus, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x260A /* #52 'BMKMapViewDelegate' => 'BaiduMapSDK.Map.iOS.BMKMapViewDelegate, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x280A /* #53 'BMKOfflineMap' => 'BaiduMapSDK.Map.iOS.BMKOfflineMap, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x2B0A /* #54 'BMKOfflineMapDelegate' => 'BaiduMapSDK.Map.iOS.BMKOfflineMapDelegate, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x2C0A /* #55 'BMKOLSearchRecord' => 'BaiduMapSDK.Map.iOS.BMKOLSearchRecord, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x2D0A /* #56 'BMKOLUpdateElement' => 'BaiduMapSDK.Map.iOS.BMKOLUpdateElement, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x300A /* #57 'BMKOverlay' => 'BaiduMapSDK.Map.iOS.BMKOverlay, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x390A /* #58 'BMKPointAnnotation' => 'BaiduMapSDK.Map.iOS.BMKPointAnnotation, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x3A0A /* #59 'BMKPolygon' => 'BaiduMapSDK.Map.iOS.BMKPolygon, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x3D0A /* #60 'BMKPolyline' => 'BaiduMapSDK.Map.iOS.BMKPolyline, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x410A /* #61 'BMKSyncTileLayer' => 'BaiduMapSDK.Map.iOS.BMKSyncTileLayer, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x450A /* #62 'BMKURLTileLayer' => 'BaiduMapSDK.Map.iOS.BMKURLTileLayer, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0xB0A /* #63 'BaiduMapSDK_Map_iOS_BMKActionPaopaoView_BMKActionPaopaoViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKActionPaopaoView+BMKActionPaopaoViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0xA0A /* #64 'BMKActionPaopaoView' => 'BaiduMapSDK.Map.iOS.BMKActionPaopaoView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x100A /* #65 'BaiduMapSDK_Map_iOS_BMKAnnotationView_BMKAnnotationViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKAnnotationView+BMKAnnotationViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0xF0A /* #66 'BMKAnnotationView' => 'BaiduMapSDK.Map.iOS.BMKAnnotationView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x360A /* #67 'BaiduMapSDK_Map_iOS_BMKOverlayView_BMKOverlayViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKOverlayView+BMKOverlayViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x320A /* #68 'BaiduMapSDK_Map_iOS_BMKOverlayGLBasicView_BMKOverlayGLBasicViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKOverlayGLBasicView+BMKOverlayGLBasicViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x130A /* #69 'BaiduMapSDK_Map_iOS_BMKArclineView_BMKArclineViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKArclineView+BMKArclineViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x350A /* #70 'BMKOverlayView' => 'BaiduMapSDK.Map.iOS.BMKOverlayView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x310A /* #71 'BMKOverlayGLBasicView' => 'BaiduMapSDK.Map.iOS.BMKOverlayGLBasicView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x120A /* #72 'BMKArclineView' => 'BaiduMapSDK.Map.iOS.BMKArclineView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x180A /* #73 'BaiduMapSDK_Map_iOS_BMKCircleView_BMKCircleViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKCircleView+BMKCircleViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x170A /* #74 'BMKCircleView' => 'BaiduMapSDK.Map.iOS.BMKCircleView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x1C0A /* #75 'BaiduMapSDK_Map_iOS_BMKGroundOverlayView_BMKGroundOverlayViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKGroundOverlayView+BMKGroundOverlayViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x1B0A /* #76 'BMKGroundOverlayView' => 'BaiduMapSDK.Map.iOS.BMKGroundOverlayView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x230A /* #77 'BaiduMapSDK_Map_iOS_BMKMapView_BMKMapViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKMapView+BMKMapViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x220A /* #78 'BMKMapView' => 'BaiduMapSDK.Map.iOS.BMKMapView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x340A /* #79 'BaiduMapSDK_Map_iOS_BMKOverlayPathView_BMKOverlayPathViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKOverlayPathView+BMKOverlayPathViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x330A /* #80 'BMKOverlayPathView' => 'BaiduMapSDK.Map.iOS.BMKOverlayPathView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x380A /* #81 'BaiduMapSDK_Map_iOS_BMKPinAnnotationView_BMKPinAnnotationViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKPinAnnotationView+BMKPinAnnotationViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x370A /* #82 'BMKPinAnnotationView' => 'BaiduMapSDK.Map.iOS.BMKPinAnnotationView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x3C0A /* #83 'BaiduMapSDK_Map_iOS_BMKPolygonView_BMKPolygonViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKPolygonView+BMKPolygonViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x3B0A /* #84 'BMKPolygonView' => 'BaiduMapSDK.Map.iOS.BMKPolygonView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x3F0A /* #85 'BaiduMapSDK_Map_iOS_BMKPolylineView_BMKPolylineViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKPolylineView+BMKPolylineViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x3E0A /* #86 'BMKPolylineView' => 'BaiduMapSDK.Map.iOS.BMKPolylineView, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x440A /* #87 'BaiduMapSDK_Map_iOS_BMKTileLayerView_BMKTileLayerViewAppearance' => 'BaiduMapSDK.Map.iOS.BMKTileLayerView+BMKTileLayerViewAppearance, BaiduMapSDK.Map.iOS' */ },
+		{ NULL, 0x430A /* #88 'BMKTileLayerView' => 'BaiduMapSDK.Map.iOS.BMKTileLayerView, BaiduMapSDK.Map.iOS' */ },
 		{ NULL, 0 },
 	};
 
@@ -1008,16 +1008,17 @@ exception_handling:;
 		"Native.iOS", 
 		"mscorlib", 
 		"Xamarin.iOS", 
+		"System", 
 		"BaiduMapSDK.Base.iOS", 
 		"BaiduMapSDK.Map.iOS"
 	};
 
 	static const MTProtocolWrapperMap __xamarin_protocol_wrapper_map [] = {
-		{ 0xC08 /* BaiduMapSDK.Map.iOS.IBMKAnnotation */, 0xD08 /* BMKAnnotationWrapper */ },
-		{ 0xD06 /* BaiduMapSDK.Base.iOS.IBMKGeneralDelegate */, 0xE06 /* BMKGeneralDelegateWrapper */ },
-		{ 0x2408 /* BaiduMapSDK.Map.iOS.IBMKMapViewDelegate */, 0x2508 /* BMKMapViewDelegateWrapper */ },
-		{ 0x2908 /* BaiduMapSDK.Map.iOS.IBMKOfflineMapDelegate */, 0x2A08 /* BMKOfflineMapDelegateWrapper */ },
-		{ 0x2E08 /* BaiduMapSDK.Map.iOS.IBMKOverlay */, 0x2F08 /* BMKOverlayWrapper */ },
+		{ 0xC0A /* BaiduMapSDK.Map.iOS.IBMKAnnotation */, 0xD0A /* BMKAnnotationWrapper */ },
+		{ 0xD08 /* BaiduMapSDK.Base.iOS.IBMKGeneralDelegate */, 0xE08 /* BMKGeneralDelegateWrapper */ },
+		{ 0x240A /* BaiduMapSDK.Map.iOS.IBMKMapViewDelegate */, 0x250A /* BMKMapViewDelegateWrapper */ },
+		{ 0x290A /* BaiduMapSDK.Map.iOS.IBMKOfflineMapDelegate */, 0x2A0A /* BMKOfflineMapDelegateWrapper */ },
+		{ 0x2E0A /* BaiduMapSDK.Map.iOS.IBMKOverlay */, 0x2F0A /* BMKOverlayWrapper */ },
 		{ 0x7A04 /* Foundation.INSObjectProtocol */, 0x7B04 /* NSObjectProtocolWrapper */ },
 	};
 
@@ -1028,7 +1029,7 @@ exception_handling:;
 		NULL,
 		__xamarin_protocol_wrapper_map,
 		{ NULL, NULL },
-		5,
+		6,
 		89,
 		62,
 		0,

@@ -6,31 +6,31 @@
 	<dict>
 		<key>BaiduMapSDK.Base.iOS.aotdata.arm64</key>
 		<data>
-		ggNyUTQ3iTbm1/QcqKROrCKom0I=
+		UkjcCCwttBY5P4k8ZEOxIJGk+tE=
 		</data>
 		<key>BaiduMapSDK.Base.iOS.dll</key>
 		<data>
-		wTorlfMYuhJeQzGip0GpTsiuH8E=
+		iPJpFEMgtMd0KME7544Qp/a6wQQ=
 		</data>
 		<key>BaiduMapSDK.Base.iOS.pdb</key>
 		<data>
-		/v5nHgxMUCQ9FwhbP35y5IVrqv8=
+		/X+vvPQ8p8AH+/vorJBOJplo96g=
 		</data>
 		<key>BaiduMapSDK.Map.iOS.aotdata.arm64</key>
 		<data>
-		lchesrPy5uqpRuCPrNfkoxF7ygs=
+		yxj1pGhdNdwCSiDa4GyjBY7omtU=
 		</data>
 		<key>BaiduMapSDK.Map.iOS.dll</key>
 		<data>
-		YAVgDUoXAdiyHezIjMUnLQ5vrAI=
+		dy84P3Xa9lf0ukmdLthX6k10uuw=
 		</data>
 		<key>BaiduMapSDK.Map.iOS.pdb</key>
 		<data>
-		5fxIUjJPbAeyO2euGyFvLuflrrs=
+		dAU1OqoiyGngy322kHqDXZdOP2I=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nKNIWQUsrEssYyDLFsqwk/tkSuo=
+		Or9cKo98itOAdJIGPYaag/7WfD8=
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -66,15 +66,15 @@
 		</data>
 		<key>Native.iOS.aotdata.arm64</key>
 		<data>
-		qGD/LtJCF0UOI3uXIaJ6XfP16sQ=
+		q45JNjgXfDGZlazZLusoufFnoA8=
 		</data>
 		<key>Native.iOS.exe</key>
 		<data>
-		teRk8IeXyyNpPdjSJbQ/RxMwMVA=
+		6B2I1rZQDyscpQiw4k7mhYPLTQU=
 		</data>
 		<key>Native.iOS.pdb</key>
 		<data>
-		e4VGl3vzZ6nYnabjf6tb49b/gtw=
+		pFTaqN0InYvzDnHIaanW84Krgds=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -84,17 +84,29 @@
 		<data>
 		nrVMGKClE6pvxn6IcBgG4it6i0A=
 		</data>
+		<key>System.aotdata.arm64</key>
+		<data>
+		EVFcvHuJ10y5Wis4yrTN8V0GK4Y=
+		</data>
+		<key>System.dll</key>
+		<data>
+		5QMaYWaWf99RIOFOaTwc5wausss=
+		</data>
+		<key>System.pdb</key>
+		<data>
+		V2ER45RxD3oaav3AZHaqdhKlpq8=
+		</data>
 		<key>Xamarin.iOS.aotdata.arm64</key>
 		<data>
-		cTzxrIbb6nuLYItIUK97lqoNTJU=
+		K0PK02Aa48WOQDaaNdxLYh4DnHY=
 		</data>
 		<key>Xamarin.iOS.dll</key>
 		<data>
-		E4OiiOJMm5E+24lW+hpu4mNUUE0=
+		91eXMJrwsnMNU0tKpUMIKI6vWOY=
 		</data>
 		<key>Xamarin.iOS.pdb</key>
 		<data>
-		7V+zA80qvSMK2UAD9BfF9y0hDEg=
+		pbQ3jitLqzfSqhlPtHyNDXcqZ78=
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
@@ -382,15 +394,15 @@
 		</data>
 		<key>mscorlib.aotdata.arm64</key>
 		<data>
-		5AW3qoCuIpCnQFkJRvb/LqP9R+o=
+		Q4IUJJ3Iesp3JCH7VKMB3bkf0iI=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		vCW3vJTN7SqeOLyVc6+6Hva8aLQ=
+		471+MAX1v1uTRUrZo0w3w0L8e5w=
 		</data>
 		<key>mscorlib.pdb</key>
 		<data>
-		nJJlXZlP70fslKRm9IUMNnSs014=
+		qGKInqpWo0ZCyKqcynYzDpkUlQI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -399,42 +411,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D6eUmwm56TIJm/AZ3Qxd2ym7AOpYE0fASo2tTufqDHg=
+			rBnuWC/4GIGYfRWbgeE8yQwIF/MWKFAGT2SV/63ZmI4=
 			</data>
 		</dict>
 		<key>BaiduMapSDK.Base.iOS.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNcpHxsLSmWOReaMg0rXULn0bAoGkIJhoCeJGXfHuAg=
+			ExEhwSgHJotqR8xtAsv+X5PwWUkuUhSRxxEdXEbdOfg=
 			</data>
 		</dict>
 		<key>BaiduMapSDK.Base.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LHyg56kscmkcLo/xczOG3CNYuCQ6fm6vlx8nE9NYgRQ=
+			U9j6GAFrBl2uclk2JdrG4RV590pjMpD1VZeU6jakmjc=
 			</data>
 		</dict>
 		<key>BaiduMapSDK.Map.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kq4y5ocebYOiIfzr2vznkA/Ei4uh92Gj7bGOXLz0iLw=
+			AfIxNBCOfXBNyYdR7Lffu4DeeO/WtNrPmGf1nkv5ZTg=
 			</data>
 		</dict>
 		<key>BaiduMapSDK.Map.iOS.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c2SVBSH0FM5npRJ67IMRUiuBHdtlj3DwZJOftn4Ca+w=
+			OxGmQQgRhlNtERAAPQpowoUDUvxnqcswV7c0UL3fytE=
 			</data>
 		</dict>
 		<key>BaiduMapSDK.Map.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BItZmcw05ikr1HsZvw/VMyfss7EkhucQsSBfrgm459c=
+			8DiArABiA9AY2UzT1l/36r20jEFhCzFwuOizwN35xPQ=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -497,21 +509,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uPXw9nhlxPEl20WfRbk5ZQyycfWdsEeMbgGvN4Crv2E=
+			dsKv/UyqpBoN/xfyYnpAFXkuT/CJI/4q+plA51PHqz0=
 			</data>
 		</dict>
 		<key>Native.iOS.exe</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lihj+H5Mdi65uwnD9cPAG6Dft3fpPaMBwIV+00u0kik=
+			boh0umjCG6Kzpb08Sjq6OGVP6B1sa8p4iiNfwBVPcE4=
 			</data>
 		</dict>
 		<key>Native.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VaEv6AA8Q6F2l/dpAoma0jnZYP8wfNGmmA6wuz0n0h8=
+			fhGyUHY4z24h8a/UQCm8xqnk0DEsFgTEGRKI8s2t4/c=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -521,25 +533,46 @@
 			zi1Y0A+tVNNfppRDjT3LpbeC+xDRJTirIvMQJ0HkgMQ=
 			</data>
 		</dict>
+		<key>System.aotdata.arm64</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			we5X2TdlVc3RsxBOE4gFPnAn2otCwL3mkrikJCrCjlU=
+			</data>
+		</dict>
+		<key>System.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8NpVp7fx1+BF3PpdMeShF5Blh1at9WbmdM2UCNqCrgA=
+			</data>
+		</dict>
+		<key>System.pdb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			44cg4BJD6m7UyFugcNMPvVbphe/iXdgkFRGK3wAgND8=
+			</data>
+		</dict>
 		<key>Xamarin.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ylIbpc7U2cWIJRmy3NS/2HnT2K7hIx2fH4aJE/yMRTE=
+			m0HuzT5XD4JCFj7aLxjRP/ZlRsGKNQeQ5J6ZIf3wXbM=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MknBOFcYkzp8QuWYH6nWUY7uv0M606IOxrDOokq5zRI=
+			E8gjGOryYRBBASJUrjCNDmnDXdOeB3+G6LC8Ywv3Abs=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GNQVTbZZjhmXSCVQ00lvw83IUSF74ywIrZw+83FIwkI=
+			9122FBh1Kr5nv4aqny5xjpC+uCyZ1HRIP7b91vFp+SA=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -1043,21 +1076,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YfKe3UvFHvOUexP4be6g0bAMIrNfTUWnRt36Z7COgYI=
+			VmFuE9wxZ8woAOV4Vj6ogh05alL0V9+54blYdIkm8TI=
 			</data>
 		</dict>
 		<key>mscorlib.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QOyR32dzVXa9ds+rNQYq6FqJwoQpfhAs0HJvgGjLzEI=
+			B7iZt+JmQ1J15SuM57fJ7WtWHi2otCkOTeD2BiRC11g=
 			</data>
 		</dict>
 		<key>mscorlib.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			usoymxEKVAGeN+QhoyFG+UIW79I8C7AriYL4kAi12hQ=
+			Y5nzXJoh2/K2/cAYK/SgIKzNwzisj9M5s3OLzV8F7X8=
 			</data>
 		</dict>
 	</dict>

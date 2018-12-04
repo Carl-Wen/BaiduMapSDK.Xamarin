@@ -1,46 +1,25 @@
-﻿<Properties StartupConfiguration="{D8BC3027-3903-4ABE-A479-036BBE1FFB0A}|Default">
+﻿<Properties StartupConfiguration="{219C7043-FE4F-45A1-B520-9B16A541F7BD}|Default">
   <MonoDevelop.Ide.ItemProperties.Sample.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.e4404d20" />
   <MonoDevelop.Ide.ItemProperties.Native.Native.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.e4404d20" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sample.Android/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.Forms.BaiduMaps.iOS/Properties/AssemblyInfo.cs">
     <Files>
-      <File FileName="../../Documents/Xamarin.Forms.BaiduMaps/BMapBinding.Droid/obj/Debug/generated/src/Com.Baidu.Mapapi.SDKInitializer.cs" Line="109" Column="1" />
-      <File FileName="BaiduMapSDK.Droid/Transforms/Metadata.xml" Line="10" Column="1" />
-      <File FileName="BMapBinding.Droid/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="BMapBinding.Droid/Transforms/Metadata.xml" Line="18" Column="1" />
-      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Bindings.targets" Line="629" Column="5" />
-      <File FileName="BaiduMapSDK.Droid/Jars/AboutJars.txt" Line="7" Column="55" />
-      <File FileName="Native.Android/MainActivity.cs" Line="27" Column="1" />
-      <File FileName="BMapBinding.Droid/Transforms/EnumMethods.xml" Line="20" Column="1" />
-      <File FileName="BMapBinding.Droid/Transforms/EnumFields.xml" Line="1" Column="1" />
-      <File FileName="BaiduMapSDK.Droid/Properties/AssemblyInfo.cs" Line="27" Column="34" />
-      <File FileName="Sample.iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="Sample.Android/MainActivity.cs" Line="28" Column="1" />
-      <File FileName="Sample/SamplePage.xaml" Line="11" Column="1" />
-      <File FileName="Sample/SamplePage.xaml.cs" Line="97" Column="1" />
-      <File FileName="BMapBinding.Droid/obj/Debug/generated/src/Com.Baidu.Mapapi.SDKInitializer.cs" Line="112" Column="1" />
-      <File FileName="Xamarin.Forms.BaiduMaps.Android/FormsBaiduMaps.cs" Line="10" Column="1" />
-      <File FileName="Sample/App.xaml.cs" Line="15" Column="1" />
+      <File FileName="../../Documents/Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.Droid/CircleImpl.cs" Line="1" Column="1" />
+      <File FileName="../../Documents/Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.Droid/CoordinateEx.cs" Line="10" Column="62" />
+      <File FileName="Native.Android/MainActivity.cs" Line="34" Column="35" />
+      <File FileName="Xamarin.Forms.BaiduMaps.iOS/MapRenderer.cs" Line="16" Column="51" />
+      <File FileName="Xamarin.Forms.BaiduMaps.iOS/MapView.cs" Line="210" Column="1" />
+      <File FileName="Xamarin.Forms.BaiduMaps.iOS/MapRedererTest.cs" Line="17" Column="5" />
+      <File FileName="Xamarin.Forms.BaiduMaps.iOS/Properties/AssemblyInfo.cs" Line="36" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Sample.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Library.BaiduMapSDK.Search.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Sample.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008020-00130C1C01D0003A" />
+  <MonoDevelop.Ide.ItemProperties.Library.BaiduMapSDK.Droid PreferredExecutionTarget="Android.e4404d20" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Native.Native.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F77953CC-C31A-444F-845D-CB303A38F39A">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.Native.Native.iOS>
+  <MonoDevelop.Ide.ItemProperties.Library.BMapBinding.Droid PreferredExecutionTarget="Android.e4404d20" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.Native.Native.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008020-00130C1C01D0003A" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/SamplePage.xaml.cs" relfile="Sample/SamplePage.xaml.cs" line="19" column="1" />
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/SamplePage.xaml.cs" relfile="Sample/SamplePage.xaml.cs" line="20" column="1" />
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/SamplePage.xaml.cs" relfile="Sample/SamplePage.xaml.cs" line="21" column="1" />
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/SamplePage.xaml.cs" relfile="Sample/SamplePage.xaml.cs" line="22" column="1" />
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/SamplePage.xaml.cs" relfile="Sample/SamplePage.xaml.cs" line="17" column="1" />
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/SamplePage.xaml.cs" relfile="Sample/SamplePage.xaml.cs" line="28" column="1" />
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample/SamplePage.xaml.cs" relfile="Sample/SamplePage.xaml.cs" line="32" column="1" />
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.Android/MainActivity.cs" relfile="Native.Android/MainActivity.cs" line="20" column="1" />
-      <Breakpoint file="/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.Android/MainActivity.cs" relfile="Sample.Android/MainActivity.cs" line="22" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

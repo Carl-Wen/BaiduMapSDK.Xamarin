@@ -1,0 +1,111 @@
+Function=xamarin_timezone_get_data
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKAddressComponent
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKIndoorPlanNode
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKMapManager
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKPlanNode
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKUserLocation
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKActionPaopaoView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKAnnotationView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKArcline
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKArclineView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKAsyncTileLayer
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKBaseIndoorMapInfo
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKCircle
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKCircleView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKGradient
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKGroundOverlay
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKGroundOverlayView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKHeatMap
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKHeatMapNode
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKLocationViewDisplayParam
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKMapPoi
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKMapStatus
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKMapView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKMultiPoint
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKOfflineMap
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKOLSearchRecord
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKOLUpdateElement
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKOverlayGLBasicView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKOverlayPathView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKOverlayView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKPinAnnotationView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKPointAnnotation
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKPolygon
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKPolygonView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKPolyline
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKPolylineView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKShape
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKSyncTileLayer
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKTileLayer
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKTileLayerView
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BMKURLTileLayer
+	/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Sample.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll
+Function=mono_pmip

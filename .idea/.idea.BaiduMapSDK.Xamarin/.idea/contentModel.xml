@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.arch.lifecycle.runtime/1.0.3.1/proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.animated.vector.drawable/27.0.2.1/proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.core.ui/27.0.2.1/proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.design/27.0.2.1/proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.media.compat/27.0.2.1/proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.transition/27.0.2.1/proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.v7.recyclerview/27.0.2.1/proguard" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BaiduMapSDK.Base.iOS" t="IncludeRecursive">
+        <e p="ApiDefinition.cs" t="Include" />
+        <e p="BaiduMapAPI_Base" t="Include" />
+        <e p="BaiduMapSDK.Base.iOS.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="ios" t="Include">
+              <e p="BaiduMapSDKBaseiOS" t="Include">
+                <e p="BMKAddressComponent.g.cs" t="Include" />
+                <e p="BMKGeneralDelegate.g.cs" t="Include" />
+                <e p="BMKIndoorPlanNode.g.cs" t="Include" />
+                <e p="BMKMapManager.g.cs" t="Include" />
+                <e p="BMKPlanNode.g.cs" t="Include" />
+                <e p="BMKUserLocation.g.cs" t="Include" />
+                <e p="Constants.g.cs" t="Include" />
+              </e>
+              <e p="ObjCRuntime" t="Include">
+                <e p="Messaging.g.cs" t="Include" />
+              </e>
+            </e>
+            <e p="LinkWithAttributes.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Structs.cs" t="Include" />
+        <e p="thirdlibs" t="Include">
+          <e p="libcrypto.a" t="Include" />
+          <e p="libssl.a" t="Include" />
+        </e>
+      </e>
+      <e p="BaiduMapSDK.Droid" t="IncludeRecursive">
+        <e p="Additions" t="Include">
+          <e p="AboutAdditions.txt" t="Include" />
+        </e>
+        <e p="BaiduMapSDK.Droid.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Jars" t="Include">
+          <e p="AboutJars.txt" t="Include" />
+          <e p="arm64-v8a" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+          <e p="armeabi" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+          <e p="armeabi-v7a" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+          <e p="BaiduLBS_Android.jar" t="Include" />
+          <e p="x86" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+          <e p="x86_64" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="EnumFields.xml" t="Include" />
+          <e p="EnumMethods.xml" t="Include" />
+          <e p="Metadata.xml" t="Include" />
+        </e>
+      </e>
+      <e p="BaiduMapSDK.Map.iOS" t="IncludeRecursive">
+        <e p="ApiDefinition.cs" t="Include" />
+        <e p="BaiduMapAPI_Map" t="Include" />
+        <e p="BaiduMapSDK.Map.iOS.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="mapapi.bundle" t="Include">
+          <e p="files" t="Include">
+            <e p="cfg" t="Include">
+              <e p="a" t="Include">
+                <e p="CustomIndex" t="Include" />
+                <e p="DVDirectory.cfg" t="Include" />
+                <e p="DVHotcity.cfg" t="Include" />
+                <e p="DVHotMap.cfg" t="Include" />
+                <e p="DVSDirectory.cfg" t="Include" />
+                <e p="DVStreet.cfg" t="Include" />
+                <e p="DVVersion.cfg" t="Include" />
+                <e p="mode_1" t="Include">
+                  <e p="map.rs" t="Include" />
+                  <e p="map.sty" t="Include" />
+                  <e p="reduct.rs" t="Include" />
+                  <e p="reduct.sty" t="Include" />
+                  <e p="traffic.rs" t="Include" />
+                  <e p="traffic.sty" t="Include" />
+                </e>
+              </e>
+              <e p="idrres" t="Include">
+                <e p="baseindoormap.sty" t="Include" />
+                <e p="DVIndoor.cfg" t="Include" />
+                <e p="ResPackIndoorMap.rs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="images" t="Include">
+            <e p="baidumap_logo.png" t="Include" />
+            <e p="baidumap_logo@2x.png" t="Include" />
+            <e p="bnavi_icon_location_fixed.png" t="Include" />
+            <e p="bnavi_icon_location_fixed@2x.png" t="Include" />
+            <e p="direction_wheel.png" t="Include" />
+            <e p="direction_wheel@2x.png" t="Include" />
+            <e p="icon_action_paopao_middle_left.png" t="Include" />
+            <e p="icon_action_paopao_middle_left@2x.png" t="Include" />
+            <e p="icon_action_paopao_middle_left_highlighted.png" t="Include" />
+            <e p="icon_action_paopao_middle_left_highlighted@2x.png" t="Include" />
+            <e p="icon_action_paopao_middle_right.png" t="Include" />
+            <e p="icon_action_paopao_middle_right@2x.png" t="Include" />
+            <e p="icon_action_paopao_middle_right_highlighted.png" t="Include" />
+            <e p="icon_action_paopao_middle_right_highlighted@2x.png" t="Include" />
+            <e p="icon_cellphone.png" t="Include" />
+            <e p="icon_cellphone2.png" t="Include" />
+            <e p="icon_cellphone2@2x.png" t="Include" />
+            <e p="icon_cellphone@2x.png" t="Include" />
+            <e p="icon_center_point.png" t="Include" />
+            <e p="icon_center_point@2x.png" t="Include" />
+            <e p="icon_compass.png" t="Include" />
+            <e p="icon_compass@2x.png" t="Include" />
+            <e p="icon_compass_background.png" t="Include" />
+            <e p="icon_compass_background@2x.png" t="Include" />
+            <e p="icon_direction.png" t="Include" />
+            <e p="icon_direction@2x.png" t="Include" />
+            <e p="icon_line_nofocus.png" t="Include" />
+            <e p="icon_nav_bus.png" t="Include" />
+            <e p="icon_nav_bus@2x.png" t="Include" />
+            <e p="icon_nav_end.png" t="Include" />
+            <e p="icon_nav_end@2x.png" t="Include" />
+            <e p="icon_nav_rail.png" t="Include" />
+            <e p="icon_nav_rail@2x.png" t="Include" />
+            <e p="icon_nav_start.png" t="Include" />
+            <e p="icon_nav_start@2x.png" t="Include" />
+            <e p="icon_nav_waypoint.png" t="Include" />
+            <e p="icon_nav_waypoint@2x.png" t="Include" />
+            <e p="icon_paopao_middle_left.png" t="Include" />
+            <e p="icon_paopao_middle_left@2x.png" t="Include" />
+            <e p="icon_paopao_middle_left_highlighted.png" t="Include" />
+            <e p="icon_paopao_middle_left_highlighted@2x.png" t="Include" />
+            <e p="icon_paopao_middle_right.png" t="Include" />
+            <e p="icon_paopao_middle_right@2x.png" t="Include" />
+            <e p="icon_paopao_middle_right_highlighted.png" t="Include" />
+            <e p="icon_paopao_middle_right_highlighted@2x.png" t="Include" />
+            <e p="line_texture.png" t="Include" />
+            <e p="lineDashTexture.png" t="Include" />
+            <e p="pin_green.png" t="Include" />
+            <e p="pin_green@2x.png" t="Include" />
+            <e p="pin_purple.png" t="Include" />
+            <e p="pin_purple@2x.png" t="Include" />
+            <e p="pin_red.png" t="Include" />
+            <e p="pin_red@2x.png" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="ios" t="Include">
+              <e p="BaiduMapSDKMapiOS" t="Include">
+                <e p="BMKActionPaopaoView.g.cs" t="Include" />
+                <e p="BMKAnnotation.g.cs" t="Include" />
+                <e p="BMKAnnotationView.g.cs" t="Include" />
+                <e p="BMKArcline.g.cs" t="Include" />
+                <e p="BMKArclineView.g.cs" t="Include" />
+                <e p="BMKAsyncTileLayer.g.cs" t="Include" />
+                <e p="BMKBaseIndoorMapInfo.g.cs" t="Include" />
+                <e p="BMKCircle.g.cs" t="Include" />
+                <e p="BMKCircleView.g.cs" t="Include" />
+                <e p="BMKGradient.g.cs" t="Include" />
+                <e p="BMKGroundOverlay.g.cs" t="Include" />
+                <e p="BMKGroundOverlayView.g.cs" t="Include" />
+                <e p="BMKHeatMap.g.cs" t="Include" />
+                <e p="BMKHeatMapNode.g.cs" t="Include" />
+                <e p="BMKLocationViewDisplayParam.g.cs" t="Include" />
+                <e p="BMKMapPoi.g.cs" t="Include" />
+                <e p="BMKMapStatus.g.cs" t="Include" />
+                <e p="BMKMapView.g.cs" t="Include" />
+                <e p="BMKMapView_AnnotationAPI.g.cs" t="Include" />
+                <e p="BMKMapView_HeatMapAPI.g.cs" t="Include" />
+                <e p="BMKMapView_IndoorMapAPI.g.cs" t="Include" />
+                <e p="BMKMapView_LocationViewAPI.g.cs" t="Include" />
+                <e p="BMKMapView_OverlaysAPI.g.cs" t="Include" />
+                <e p="BMKMapViewDelegate.g.cs" t="Include" />
+                <e p="BMKMultiPoint.g.cs" t="Include" />
+                <e p="BMKOfflineMap.g.cs" t="Include" />
+                <e p="BMKOfflineMapDelegate.g.cs" t="Include" />
+                <e p="BMKOLSearchRecord.g.cs" t="Include" />
+                <e p="BMKOLUpdateElement.g.cs" t="Include" />
+                <e p="BMKOverlay.g.cs" t="Include" />
+                <e p="BMKOverlayGLBasicView.g.cs" t="Include" />
+                <e p="BMKOverlayPathView.g.cs" t="Include" />
+                <e p="BMKOverlayView.g.cs" t="Include" />
+                <e p="BMKPinAnnotationView.g.cs" t="Include" />
+                <e p="BMKPointAnnotation.g.cs" t="Include" />
+                <e p="BMKPolygon.g.cs" t="Include" />
+                <e p="BMKPolygonView.g.cs" t="Include" />
+                <e p="BMKPolyline.g.cs" t="Include" />
+                <e p="BMKPolylineView.g.cs" t="Include" />
+                <e p="BMKShape.g.cs" t="Include" />
+                <e p="BMKSyncTileLayer.g.cs" t="Include" />
+                <e p="BMKTileLayer.g.cs" t="Include" />
+                <e p="BMKTileLayerView.g.cs" t="Include" />
+                <e p="BMKURLTileLayer.g.cs" t="Include" />
+              </e>
+              <e p="ObjCRuntime" t="Include">
+                <e p="Messaging.g.cs" t="Include" />
+                <e p="Trampolines.g.cs" t="Include" />
+              </e>
+            </e>
+            <e p="LinkWithAttributes.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Structs.cs" t="Include" />
+      </e>
+      <e p="BaiduMapSDK.Search.iOS" t="IncludeRecursive">
+        <e p="ApiDefinition.cs" t="Include" />
+        <e p="BaiduMapSDK.Search.iOS.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="ios" t="Include">
+              <e p="ObjCRuntime" t="Include">
+                <e p="Messaging.g.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Structs.cs" t="Include" />
+      </e>
+      <e p="BaiduMapSDK.Xamarin.sln" t="IncludeFlat" />
+      <e p="BMapBinding.Droid" t="IncludeRecursive">
+        <e p="Additions" t="Include" />
+        <e p="arm64-v8a" t="Include" />
+        <e p="armeabi" t="Include" />
+        <e p="armeabi-v7a" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BMapBinding.Droid.csproj" t="IncludeRecursive" />
+        <e p="Jars" t="Include">
+          <e p="arm64-v8a" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+          <e p="armeabi" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+          <e p="armeabi-v7a" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+          <e p="BaiduLBS_Android.jar" t="Include" />
+          <e p="x86" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+          <e p="x86_64" t="Include">
+            <e p="libBaiduMapSDK_base_v5_2_1.so" t="Include" />
+            <e p="libBaiduMapSDK_map_v5_2_1.so" t="Include" />
+            <e p="liblocSDK7b.so" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="generated" t="Include">
+              <e p="src" t="Include">
+                <e p="__NamespaceMapping__.cs" t="Include" />
+                <e p="Com.Baidu.Android.Bbalbs.Common.Util.CommonParam.cs" t="Include" />
+                <e p="Com.Baidu.Lbsapi.Auth.ILBSAuthManagerListener.cs" t="Include" />
+                <e p="Com.Baidu.Lbsapi.Auth.LBSAuthManager.cs" t="Include" />
+                <e p="Com.Baidu.Location.Address.cs" t="Include" />
+                <e p="Com.Baidu.Location.BDAbstractLocationListener.cs" t="Include" />
+                <e p="Com.Baidu.Location.BDLocation.cs" t="Include" />
+                <e p="Com.Baidu.Location.IBDLocationListener.cs" t="Include" />
+                <e p="Com.Baidu.Location.ILLSInterface.cs" t="Include" />
+                <e p="Com.Baidu.Location.Jni.cs" t="Include" />
+                <e p="Com.Baidu.Location.LocationClient.cs" t="Include" />
+                <e p="Com.Baidu.Location.LocationClientOption.cs" t="Include" />
+                <e p="Com.Baidu.Location.Poi.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Animation.AlphaAnimation.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Animation.Animation.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Animation.AnimationSet.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Animation.RotateAnimation.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Animation.ScaleAnimation.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Animation.SingleScaleAnimation.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Animation.Transformation.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.BMapManager.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Common.AppTools.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Common.BaiduMapSDKException.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Common.EnvironmentUtilities.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Common.Logger.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Common.SysOSUtil.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.CoordType.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Favorite.FavoriteManager.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Favorite.FavoritePoiInfo.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Http.AsyncHttpClient.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Http.HttpClient.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.JNIInitializer.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Arc.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.ArcOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.BaiduMap.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.BaiduMapOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.BitmapDescriptor.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.BitmapDescriptorFactory.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Circle.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.CircleOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Dot.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.DotOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.FileTileProvider.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Gradient.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.GroundOverlay.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.GroundOverlayOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.HeatMap.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.InfoWindow.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.ItemizedOverlay.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.ITileProvider.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.LogoPosition.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MapBaseIndoorMapInfo.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MapFragment.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MapPoi.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MapStatus.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MapStatusUpdate.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MapStatusUpdateFactory.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MapView.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MapViewLayoutParams.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Marker.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MarkerOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MyLocationConfiguration.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.MyLocationData.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Offline.IMKOfflineMapListener.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Offline.MKOfflineMap.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Offline.MKOLSearchRecord.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Offline.MKOLUpdateElement.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Offline.OfflineMapUtil.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Overlay.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.OverlayOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Polygon.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.PolygonOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Polyline.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.PolylineOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Projection.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Stroke.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.SwipeDismissTouchListener.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.SwipeDismissView.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Text.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.TextOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.TextureMapFragment.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.TextureMapView.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.Tile.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.TileOverlay.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.TileOverlayOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.UiSettings.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.UrlTileProvider.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.WearMapView.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Map.WinRound.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Model.CoordUtil.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Model.Inner.GeoPoint.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Model.Inner.MapBound.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Model.Inner.Point.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Model.LatLng.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Model.LatLngBounds.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Model.ParcelItem.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.ModuleName.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.NetworkUtil.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.OpenLogUtil.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.SDKInitializer.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.DisplayOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.Histroytrace.HistoryTraceConstant.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.Histroytrace.HistoryTraceData.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.Histroytrace.HistoryTraceDisplayOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.Histroytrace.HistoryTraceManager.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.Histroytrace.HistoryTraceQueryOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.Histroytrace.IOnHistoryTraceListener.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.ISynchronizationDisplayListener.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.RoleOptions.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.SyncCoordinateConverter.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.SynchronizationConstants.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.SynchronizationDisplayManager.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.Synchronization.SynchronizationUtil.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.UIMsg.cs" t="Include" />
+                <e p="Com.Baidu.Mapapi.VersionInfo.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Commonutils.SysUpdateUtil.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Favrite.FavSyncPoi.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Location.CoordinateType.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Map.A.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Map.C.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Map.H.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Map.IF.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Map.MapRenderer.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Map.MessageCenter.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Map.VersionInfo.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.NativeLoader.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Synchronization.Data.DriverPosition.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Synchronization.Data.RouteLineInfo.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Synchronization.Data.SyncResponseResult.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Synchronization.Data.TrafficInfo.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Synchronization.Render.LinkPointPolyLineInfo.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Util.CoordTrans.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Util.ISysUpdateObserver.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Util.PermissionCheck.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Util.SyncSysInfo.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comapi.Util.SysUpdateObservable.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Engine.AppEngine.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Engine.JNIEngine.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Map.Basemap.BaseMapCallback.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Map.Basemap.JNIBaseMap.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Map.Commonmemcache.JNICommonMemCache.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Map.Favorite.JNIFavorite.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Tools.BundleKeySet.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Tools.JNITools.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Tools.ParcelItem.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Util.AppMD5.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Util.JNIMD5.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkplatform.Comjni.Util.JNISysOSAPI.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkvi.VDeviceAPI.cs" t="Include" />
+                <e p="Com.Baidu.Mapsdkvi.VMsg.cs" t="Include" />
+                <e p="Java.Interop.__TypeRegistrations.cs" t="Include" />
+                <e p="Mapsdkvi.Com.Gdi.Bgl.Android.Java.EnvDrawText.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="EnumFields.xml" t="Include" />
+          <e p="EnumMethods.xml" t="Include" />
+          <e p="Metadata.xml" t="Include" />
+        </e>
+        <e p="x86" t="Include" />
+        <e p="x86_64" t="Include" />
+      </e>
+      <e p="FormsLibrary" t="Include" />
+      <e p="Library" t="Include" />
+      <e p="Native" t="Include" />
+      <e p="Native.Android" t="IncludeRecursive">
+        <e p="Assets" t="Include">
+          <e p="AboutAssets.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainActivity.cs" t="Include" />
+        <e p="Native.Android.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AndroidManifest.xml" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AboutResources.txt" t="Include" />
+          <e p="drawable" t="Include" />
+          <e p="layout" t="Include">
+            <e p="Main.axml" t="Include" />
+          </e>
+          <e p="mipmap-hdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="mipmap-mdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="mipmap-xhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="mipmap-xxhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="mipmap-xxxhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+          </e>
+          <e p="Resource.designer.cs" t="Include" />
+          <e p="values" t="Include">
+            <e p="Strings.xml" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Native.iOS" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="Contents.json" t="Include" />
+          </e>
+          <e p="Contents.json" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="LaunchScreen.storyboard" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="Main.storyboard" t="Include" />
+        <e p="Native.iOS.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Resources" t="Include" />
+        <e p="ViewController.cs" t="Include" />
+        <e p="ViewController.designer.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive">
+        <e p="Xamarin.Android.Arch.Lifecycle.Runtime.1.0.3/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Core.UI.27.0.2/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Design.27.0.2/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Media.Compat.27.0.2/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Transition.27.0.2/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.v7.RecyclerView.27.0.2/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+      </e>
+      <e p="Sample" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainPage.xaml" t="Include" />
+        <e p="MainPage.xaml.cs" t="Include" />
+        <e p="Map.xaml" t="Include" />
+        <e p="Map.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Sample.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Sample.csproj" t="IncludeRecursive" />
+        <e p="SamplePage.xaml" t="Include" />
+        <e p="SamplePage.xaml.cs" t="Include" />
+      </e>
+      <e p="Sample.Android" t="IncludeRecursive">
+        <e p="Assets" t="Include">
+          <e p="AboutAssets.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainActivity.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AndroidManifest.xml" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AboutResources.txt" t="Include" />
+          <e p="drawable" t="Include" />
+          <e p="drawable-hdpi" t="Include" />
+          <e p="drawable-xhdpi" t="Include" />
+          <e p="drawable-xxhdpi" t="Include" />
+          <e p="drawable-xxxhdpi" t="Include" />
+          <e p="layout" t="Include">
+            <e p="Tabbar.axml" t="Include" />
+            <e p="Toolbar.axml" t="Include" />
+          </e>
+          <e p="mipmap-anydpi-v26" t="Include">
+            <e p="icon.xml" t="Include" />
+            <e p="icon_round.xml" t="Include" />
+          </e>
+          <e p="mipmap-hdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="mipmap-mdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="mipmap-xhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="mipmap-xxhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="mipmap-xxxhdpi" t="Include">
+            <e p="Icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+          </e>
+          <e p="Resource.designer.cs" t="Include" />
+          <e p="values" t="Include">
+            <e p="colors.xml" t="Include" />
+            <e p="styles.xml" t="Include" />
+          </e>
+        </e>
+        <e p="Sample.Android.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Sample.iOS" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="Contents.json" t="Include" />
+            <e p="Icon1024.png" t="Include" />
+            <e p="Icon120.png" t="Include" />
+            <e p="Icon152.png" t="Include" />
+            <e p="Icon167.png" t="Include" />
+            <e p="Icon180.png" t="Include" />
+            <e p="Icon20.png" t="Include" />
+            <e p="Icon29.png" t="Include" />
+            <e p="Icon40.png" t="Include" />
+            <e p="Icon58.png" t="Include" />
+            <e p="Icon60.png" t="Include" />
+            <e p="Icon76.png" t="Include" />
+            <e p="Icon80.png" t="Include" />
+            <e p="Icon87.png" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="LaunchScreen.storyboard" t="Include" />
+        </e>
+        <e p="Sample.iOS.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Xamarin.Forms.BaiduMaps" t="IncludeRecursive">
+        <e p="Annotation.cs" t="Include" />
+        <e p="AnnotationEvents.cs" t="Include" />
+        <e p="BaseItem.cs" t="Include" />
+        <e p="BaseItemImpl.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BindableObjectEx.cs" t="Include" />
+        <e p="Circle.cs" t="Include" />
+        <e p="Coordinate.cs" t="Include" />
+        <e p="ILocationService.cs" t="Include" />
+        <e p="IMapManager.cs" t="Include" />
+        <e p="IOfflineMap.cs" t="Include" />
+        <e p="IProjection.cs" t="Include" />
+        <e p="Map.cs" t="Include" />
+        <e p="MapEvents.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Xamarin.Forms.BaiduMaps.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pin.cs" t="Include" />
+        <e p="Polygon.cs" t="Include" />
+        <e p="Polyline.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Xamarin.Forms.BaiduMaps.csproj" t="IncludeRecursive" />
+        <e p="XImage.cs" t="Include" />
+      </e>
+      <e p="Xamarin.Forms.BaiduMaps.Android" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CircleImpl.cs" t="Include" />
+        <e p="CoordinateEx.cs" t="Include" />
+        <e p="FormsBaiduMaps.cs" t="Include" />
+        <e p="LatLngEx.cs" t="Include" />
+        <e p="LocationServiceImpl.cs" t="Include" />
+        <e p="MapEvents.cs" t="Include" />
+        <e p="MapManagerImpl.cs" t="Include" />
+        <e p="MapRenderer.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OfflineMapImpl.cs" t="Include" />
+        <e p="packages.config" t="Include" />
+        <e p="PinImpl.cs" t="Include" />
+        <e p="PolygonImpl.cs" t="Include" />
+        <e p="PolylineImpl.cs" t="Include" />
+        <e p="ProjectionImpl.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Xamarin.Forms.BaiduMaps.Android.csproj" t="IncludeRecursive" />
+        <e p="XImageImpl.cs" t="Include" />
+      </e>
+      <e p="Xamarin.Forms.BaiduMaps.iOS" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CircleImpl.cs" t="Include" />
+        <e p="CLLocationCoordinate2DEx.cs" t="Include" />
+        <e p="CoordinateEx.cs" t="Include" />
+        <e p="FormsBaiduMaps.cs" t="Include" />
+        <e p="LocationServiceImpl.cs" t="Include" />
+        <e p="MapManagerImpl.cs" t="Include" />
+        <e p="MapRenderer.cs" t="Include" />
+        <e p="MapView.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PinImpl.cs" t="Include" />
+        <e p="PolygonImpl.cs" t="Include" />
+        <e p="PolylineImpl.cs" t="Include" />
+        <e p="ProjectionImpl.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include" />
+        <e p="Xamarin.Forms.BaiduMaps.iOS.csproj" t="IncludeRecursive" />
+        <e p="XImageImpl.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_BaiduMapSDK.Xamarin.-934992671.00" t="ExcludeRecursive" />
+  </component>
+</project>

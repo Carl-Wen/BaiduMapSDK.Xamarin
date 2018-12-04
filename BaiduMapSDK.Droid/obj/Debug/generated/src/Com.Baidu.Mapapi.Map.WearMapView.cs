@@ -359,6 +359,26 @@ namespace Com.Baidu.Mapapi.Map {
 
 		protected WearMapView (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.baidu.mapapi.map']/class[@name='WearMapView']/constructor[@name='WearMapView' and count(parameter)=1 and parameter[1][@type='android.content.Context']]"
+		[Register (".ctor", "(Landroid/content/Context;)V", "")]
+		public unsafe WearMapView (global::Android.Content.Context p0)
+			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			const string __id = "(Landroid/content/Context;)V";
+
+			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+				return;
+
+			try {
+				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
+				__args [0] = new JniArgumentValue ((p0 == null) ? IntPtr.Zero : ((global::Java.Lang.Object) p0).Handle);
+				var __r = _members.InstanceMethods.StartCreateInstance (__id, ((object) this).GetType (), __args);
+				SetHandle (__r.Handle, JniHandleOwnership.TransferLocalRef);
+				_members.InstanceMethods.FinishCreateInstance (__id, this, __args);
+			} finally {
+			}
+		}
+
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.baidu.mapapi.map']/class[@name='WearMapView']/constructor[@name='WearMapView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet']]"
 		[Register (".ctor", "(Landroid/content/Context;Landroid/util/AttributeSet;)V", "")]
 		public unsafe WearMapView (global::Android.Content.Context p0, global::Android.Util.IAttributeSet p1)
@@ -416,26 +436,6 @@ namespace Com.Baidu.Mapapi.Map {
 				JniArgumentValue* __args = stackalloc JniArgumentValue [2];
 				__args [0] = new JniArgumentValue ((p0 == null) ? IntPtr.Zero : ((global::Java.Lang.Object) p0).Handle);
 				__args [1] = new JniArgumentValue ((p1 == null) ? IntPtr.Zero : ((global::Java.Lang.Object) p1).Handle);
-				var __r = _members.InstanceMethods.StartCreateInstance (__id, ((object) this).GetType (), __args);
-				SetHandle (__r.Handle, JniHandleOwnership.TransferLocalRef);
-				_members.InstanceMethods.FinishCreateInstance (__id, this, __args);
-			} finally {
-			}
-		}
-
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.baidu.mapapi.map']/class[@name='WearMapView']/constructor[@name='WearMapView' and count(parameter)=1 and parameter[1][@type='android.content.Context']]"
-		[Register (".ctor", "(Landroid/content/Context;)V", "")]
-		public unsafe WearMapView (global::Android.Content.Context p0)
-			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
-		{
-			const string __id = "(Landroid/content/Context;)V";
-
-			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
-				return;
-
-			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [1];
-				__args [0] = new JniArgumentValue ((p0 == null) ? IntPtr.Zero : ((global::Java.Lang.Object) p0).Handle);
 				var __r = _members.InstanceMethods.StartCreateInstance (__id, ((object) this).GetType (), __args);
 				SetHandle (__r.Handle, JniHandleOwnership.TransferLocalRef);
 				_members.InstanceMethods.FinishCreateInstance (__id, this, __args);

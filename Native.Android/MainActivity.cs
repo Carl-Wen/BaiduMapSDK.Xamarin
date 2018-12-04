@@ -29,12 +29,12 @@ namespace Native.Android
             button.Click += delegate { button.Text = $"{count++} clicks!"; };
 
 
-            MapView mMapView = null;
+            MapView mMapview = null;
 
             LatLng point = new LatLng(39.963175, 116.400244);
 
 
-            mMapView = FindViewById<MapView>(Resource.Id.bmapView);
+            mMapview = FindViewById<MapView>(Resource.Id.bmapView);
 
 
         }

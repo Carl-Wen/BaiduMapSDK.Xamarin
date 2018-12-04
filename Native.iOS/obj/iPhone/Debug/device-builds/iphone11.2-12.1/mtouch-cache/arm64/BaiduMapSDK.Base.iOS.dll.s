@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/969357ac02b Wed Oct 31 18:22:58 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Tue Nov 20 23:30:52 EST 2018)"
 	.asciz "BaiduMapSDK.Base.iOS.dll"
 	.asciz ""
 
@@ -171,7 +171,7 @@ ldr x0, [x16, #216]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1b:
+Lme_19:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_ClassHandle
@@ -227,7 +227,7 @@ ldr x0, [x16, #232]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1c:
+Lme_1a:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor
@@ -447,7 +447,7 @@ bl _p_6
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1d:
+Lme_1b:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_Foundation_NSObjectFlag
@@ -548,7 +548,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1e:
+Lme_1c:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_intptr
@@ -649,7 +649,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1f:
+Lme_1d:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_AdCode
@@ -798,7 +798,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_20:
+Lme_1e:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_AdCode_string
@@ -1001,7 +1001,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_21:
+Lme_1f:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_City
@@ -1150,7 +1150,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_22:
+Lme_20:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_City_string
@@ -1353,7 +1353,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_23:
+Lme_21:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Country
@@ -1502,7 +1502,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_24:
+Lme_22:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Country_string
@@ -1705,7 +1705,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_25:
+Lme_23:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_CountryCode
@@ -1854,7 +1854,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_26:
+Lme_24:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_CountryCode_string
@@ -2057,7 +2057,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_27:
+Lme_25:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Direction
@@ -2206,7 +2206,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_26:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Direction_string
@@ -2409,7 +2409,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_29:
+Lme_27:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Distance
@@ -2558,7 +2558,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_2a:
+Lme_28:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Distance_string
@@ -2761,7 +2761,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_2b:
+Lme_29:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_District
@@ -2910,7 +2910,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_2c:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_District_string
@@ -3113,7 +3113,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_2d:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Province
@@ -3262,7 +3262,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_2e:
+Lme_2c:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Province_string
@@ -3465,7 +3465,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_2f:
+Lme_2d:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetName
@@ -3614,7 +3614,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_30:
+Lme_2e:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetName_string
@@ -3817,7 +3817,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_2f:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetNumber
@@ -3966,7 +3966,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_30:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetNumber_string
@@ -4169,7 +4169,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_33:
+Lme_31:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Town
@@ -4318,7 +4318,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Town_string
@@ -4521,7 +4521,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_35:
+Lme_33:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKAddressComponent__cctor
@@ -4572,7 +4572,7 @@ ldr x0, [x16, #232]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_34:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKGeneralDelegateWrapper__ctor_intptr_bool
@@ -4629,7 +4629,7 @@ bl _p_18
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_37:
+Lme_35:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor
@@ -4744,7 +4744,7 @@ bl _p_6
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_38:
+Lme_36:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_Foundation_NSObjectFlag
@@ -4815,7 +4815,7 @@ bl _p_3
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_39:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_intptr
@@ -4886,7 +4886,7 @@ bl _p_3
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_38:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetNetworkState_int
@@ -4943,7 +4943,7 @@ bl _p_12
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3b:
+Lme_39:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetPermissionState_int
@@ -5000,7 +5000,7 @@ bl _p_12
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_3a:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_ClassHandle
@@ -5056,7 +5056,7 @@ ldr x0, [x16, #536]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_3b:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor
@@ -5276,7 +5276,7 @@ bl _p_6
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_3e:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_Foundation_NSObjectFlag
@@ -5377,7 +5377,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_3f:
+Lme_3d:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_intptr
@@ -5478,7 +5478,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_40:
+Lme_3e:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Floor
@@ -5627,7 +5627,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_41:
+Lme_3f:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Floor_string
@@ -5830,7 +5830,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_42:
+Lme_40:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Pt
@@ -6426,7 +6426,7 @@ bl _p_24
 .word 0xa8d57bfd
 .word 0xd65f03c0
 
-Lme_43:
+Lme_41:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
@@ -6579,7 +6579,7 @@ bl _p_26
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_44:
+Lme_42:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__cctor
@@ -6630,7 +6630,7 @@ ldr x0, [x16, #536]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_45:
+Lme_43:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_get_ClassHandle
@@ -6686,7 +6686,7 @@ ldr x0, [x16, #624]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_46:
+Lme_44:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager__ctor
@@ -6906,7 +6906,7 @@ bl _p_6
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_47:
+Lme_45:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager__ctor_Foundation_NSObjectFlag
@@ -7007,7 +7007,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_48:
+Lme_46:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager__ctor_intptr
@@ -7108,7 +7108,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_49:
+Lme_47:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_LogEnable_bool_BaiduMapSDK_Base_iOS_BMKMapModule
@@ -7178,58 +7178,39 @@ bl _p_27
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_4a:
+Lme_48:
 .text
 	.align 4
-	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BmkCoordType
-BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BmkCoordType:
+	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE
+BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE:
 .loc 5 91 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013ba
-.word 0xaa0003fa
+.word 0xf9000bb9
+.word 0xf9000fa0
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #664]
-.word 0xf90017b0
+.word 0xf90013b0
 .word 0xf9400a11
-.word 0xf9001bb1
+.word 0xf90017b1
 .word 0xd2800019
-.word 0xd2800018
-.word 0xf94017b1
-.word 0xf9404231
+.word 0xf94013b1
+.word 0xf9403a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
+.word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9406231
+.word 0xf94013b1
+.word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 5 92 0
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800100
-.word 0xd2800101
-.word 0x6b01001f
-.word 0x9a9f17e0
-.word 0x53001c00
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0x340004a0
-.word 0xf94017b1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 93 0
-.word 0xf94017b1
-.word 0xf940b231
+.word 0xf94013b1
+.word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -7242,90 +7223,45 @@ adrp x0, L_OBJC_SELECTOR_REFERENCES_28@PAGE
 add x0, x0, L_OBJC_SELECTOR_REFERENCES_28@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf940e631
+.word 0xf94013b1
+.word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-.word 0xaa1a03e2
-.word 0xaa1a03e2
+.word 0xf9400fa2
 bl _p_28
 .word 0x53001c00
 .word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9411231
+.word 0xf94013b1
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x53001c00
-.word 0xaa0003f8
-.word 0x14000024
-.loc 5 94 0
-.word 0xf94017b1
-.word 0xf9413231
+.word 0xaa0003f9
+.loc 5 93 0
+.word 0xf94013b1
+.word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 95 0
-.word 0xf94017b1
-.word 0xf9414231
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0xf94013b1
+.word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #624]
-.word 0xf9400000
-.word 0xf90027a0
-adrp x0, L_OBJC_SELECTOR_REFERENCES_28@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_28@PAGEOFF
-ldr x0, [x0]
-.word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf9417631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a0
-.word 0xf9402ba1
-.word 0xaa1a03e2
-.word 0xaa1a03e2
-bl _p_29
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x53001c00
-.word 0xaa0003f8
-.loc 5 97 0
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0xf94017b1
-.word 0xf941e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94167b8
-.word 0xf94013ba
+.word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_4b:
+Lme_49:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_Start_string_BaiduMapSDK_Base_iOS_BMKGeneralDelegate
 BaiduMapSDK_Base_iOS_BMKMapManager_Start_string_BaiduMapSDK_Base_iOS_BMKGeneralDelegate:
-.loc 5 102 0 prologue_end
+.loc 5 98 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -7360,7 +7296,7 @@ ldr x16, [x16, #672]
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 103 0
+.loc 5 99 0
 .word 0xf9402bb1
 .word 0xf9409231
 .word 0xb4000051
@@ -7373,7 +7309,7 @@ ldr x16, [x16, #672]
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x34000240
-.loc 5 104 0
+.loc 5 100 0
 .word 0xf9402bb1
 .word 0xf940c231
 .word 0xb4000051
@@ -7392,7 +7328,7 @@ bl _p_11
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_12
-.loc 5 105 0
+.loc 5 101 0
 .word 0xf9402bb1
 .word 0xf9410631
 .word 0xb4000051
@@ -7405,7 +7341,7 @@ bl _p_12
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0x34000240
-.loc 5 106 0
+.loc 5 102 0
 .word 0xf9402bb1
 .word 0xf9413631
 .word 0xb4000051
@@ -7424,7 +7360,7 @@ bl _p_11
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_12
-.loc 5 107 0
+.loc 5 103 0
 .word 0xf9402bb1
 .word 0xf9417a31
 .word 0xb4000051
@@ -7439,7 +7375,7 @@ bl _p_13
 .word 0xd63f0220
 .word 0xf9403ba0
 .word 0xaa0003f7
-.loc 5 110 0
+.loc 5 106 0
 .word 0xf9402bb1
 .word 0xf941b231
 .word 0xb4000051
@@ -7453,7 +7389,7 @@ bl _p_13
 .word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 111 0
+.loc 5 107 0
 .word 0xf9402bb1
 .word 0xf941e631
 .word 0xb4000051
@@ -7488,7 +7424,7 @@ bl _p_4
 .word 0xf94043a1
 .word 0xf94047a3
 .word 0xaa1703e2
-bl _p_30
+bl _p_29
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf9402bb1
@@ -7498,7 +7434,7 @@ bl _p_30
 .word 0xf9403ba0
 .word 0x53001c00
 .word 0xaa0003f6
-.loc 5 112 0
+.loc 5 108 0
 .word 0xf9402bb1
 .word 0xf9429631
 .word 0xb4000051
@@ -7508,7 +7444,7 @@ bl _p_30
 .word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 113 0
+.loc 5 109 0
 .word 0xf9402bb1
 .word 0xf942ba31
 .word 0xb4000051
@@ -7543,7 +7479,7 @@ bl _p_4
 .word 0xf94043a1
 .word 0xf94047a3
 .word 0xaa1703e2
-bl _p_31
+bl _p_30
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf9402bb1
@@ -7553,12 +7489,12 @@ bl _p_31
 .word 0xf9403ba0
 .word 0x53001c00
 .word 0xaa0003f6
-.loc 5 114 0
+.loc 5 110 0
 .word 0xf9402bb1
 .word 0xf9436a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 115 0
+.loc 5 111 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -7574,7 +7510,7 @@ bl _p_16
 .word 0xf943a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 117 0
+.loc 5 113 0
 .word 0xf9402bb1
 .word 0xf943b631
 .word 0xb4000051
@@ -7582,7 +7518,7 @@ bl _p_16
 .word 0xaa1603e0
 .word 0x53001ec0
 .word 0x3901a3b6
-.loc 5 118 0
+.loc 5 114 0
 .word 0xf9402bb1
 .word 0xf943d231
 .word 0xb4000051
@@ -7600,58 +7536,38 @@ bl _p_16
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_4c:
+Lme_4a:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_get_CoordinateTypeUsedInBaiduMapSDK
 BaiduMapSDK_Base_iOS_BMKMapManager_get_CoordinateTypeUsedInBaiduMapSDK:
-.loc 5 123 0 prologue_end
-.word 0xa9ba7bfd
+.loc 5 119 0 prologue_end
+.word 0xa9bb7bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013ba
+.word 0xf9000bba
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #680]
-.word 0xf90017b0
+.word 0xf9000fb0
 .word 0xf9400a11
-.word 0xf9001bb1
+.word 0xf90013b1
 .word 0xd280001a
-.word 0xd2800019
-.word 0xd2800018
-.word 0xf94017b1
-.word 0xf9404231
+.word 0xf9400fb1
+.word 0xf9403631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
+.word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9406231
+.word 0xf9400fb1
+.word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 125 0
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800100
-.word 0xd2800101
-.word 0x6b01001f
-.word 0x9a9f17e0
-.word 0x53001c00
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0x340004a0
-.word 0xf94017b1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 126 0
-.word 0xf94017b1
-.word 0xf940b231
+.loc 5 120 0
+.word 0xf9400fb1
+.word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -7659,104 +7575,48 @@ adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #624]
 .word 0xf9400000
-.word 0xf90027a0
+.word 0xf90023a0
 adrp x0, L_OBJC_SELECTOR_REFERENCES_30@PAGE
 add x0, x0, L_OBJC_SELECTOR_REFERENCES_30@PAGEOFF
 ldr x0, [x0]
-.word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a0
-.word 0xf9402ba1
-bl _p_32
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9410631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xaa0003fa
-.loc 5 127 0
-.word 0xf94017b1
-.word 0xf9411e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000025
-.word 0xf94017b1
-.word 0xf9413231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 5 128 0
-.word 0xf94017b1
-.word 0xf9414231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #624]
-.word 0xf9400000
 .word 0xf90027a0
-adrp x0, L_OBJC_SELECTOR_REFERENCES_30@PAGE
-add x0, x0, L_OBJC_SELECTOR_REFERENCES_30@PAGEOFF
-ldr x0, [x0]
-.word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf9417631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a0
-.word 0xf9402ba1
-bl _p_33
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9419631
+.word 0xf9400fb1
+.word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x2a0003e0
+.word 0xf94027a1
+bl _p_31
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+.word 0xf9001ba0
 .word 0xaa0003fa
-.loc 5 129 0
-.word 0xf94017b1
-.word 0xf941b231
+.loc 5 121 0
+.word 0xf9400fb1
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 130 0
-.word 0xf9401bb1
-.word 0xf9400231
+.word 0xf9401ba0
+.word 0xaa0003e1
+.word 0xf9400fb1
+.word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf941d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03f8
-.loc 5 131 0
-.word 0xf94017b1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xf94017b1
-.word 0xf9420231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94167b8
-.word 0xf94013ba
+.word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_4d:
+Lme_4b:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_get_Stop
 BaiduMapSDK_Base_iOS_BMKMapManager_get_Stop:
-.loc 5 138 0 prologue_end
+.loc 5 128 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -7783,7 +7643,7 @@ ldr x16, [x16, #688]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 139 0
+.loc 5 129 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -7797,7 +7657,7 @@ ldr x16, [x16, #688]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 140 0
+.loc 5 130 0
 .word 0xf94017b1
 .word 0xf940a631
 .word 0xb4000051
@@ -7820,7 +7680,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_34
+bl _p_32
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -7831,12 +7691,12 @@ bl _p_34
 .word 0x53001c00
 .word 0xaa0003f8
 .word 0x14000025
-.loc 5 141 0
+.loc 5 131 0
 .word 0xf94017b1
 .word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 142 0
+.loc 5 132 0
 .word 0xf94017b1
 .word 0xf9413a31
 .word 0xb4000051
@@ -7859,7 +7719,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_35
+bl _p_33
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -7869,7 +7729,7 @@ bl _p_35
 .word 0xf94023a0
 .word 0x53001c00
 .word 0xaa0003f8
-.loc 5 144 0
+.loc 5 134 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -7890,12 +7750,12 @@ bl _p_35
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_4e:
+Lme_4c:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalRecvFlaxLength
 BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalRecvFlaxLength:
-.loc 5 151 0 prologue_end
+.loc 5 141 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -7922,7 +7782,7 @@ ldr x16, [x16, #696]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 152 0
+.loc 5 142 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -7936,7 +7796,7 @@ ldr x16, [x16, #696]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 153 0
+.loc 5 143 0
 .word 0xf94017b1
 .word 0xf940a631
 .word 0xb4000051
@@ -7959,7 +7819,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_36
+bl _p_34
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9410631
@@ -7968,12 +7828,12 @@ bl _p_36
 .word 0xf94023a0
 .word 0xaa0003f8
 .word 0x14000023
-.loc 5 154 0
+.loc 5 144 0
 .word 0xf94017b1
 .word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 155 0
+.loc 5 145 0
 .word 0xf94017b1
 .word 0xf9413231
 .word 0xb4000051
@@ -7996,7 +7856,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_37
+bl _p_35
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9419231
@@ -8004,7 +7864,7 @@ bl _p_37
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f8
-.loc 5 157 0
+.loc 5 147 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8025,12 +7885,12 @@ bl _p_37
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_4f:
+Lme_4d:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalSendFlaxLength
 BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalSendFlaxLength:
-.loc 5 164 0 prologue_end
+.loc 5 154 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -8057,7 +7917,7 @@ ldr x16, [x16, #704]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 165 0
+.loc 5 155 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -8071,7 +7931,7 @@ ldr x16, [x16, #704]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 166 0
+.loc 5 156 0
 .word 0xf94017b1
 .word 0xf940a631
 .word 0xb4000051
@@ -8094,7 +7954,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_36
+bl _p_34
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9410631
@@ -8103,12 +7963,12 @@ bl _p_36
 .word 0xf94023a0
 .word 0xaa0003f8
 .word 0x14000023
-.loc 5 167 0
+.loc 5 157 0
 .word 0xf94017b1
 .word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 168 0
+.loc 5 158 0
 .word 0xf94017b1
 .word 0xf9413231
 .word 0xb4000051
@@ -8131,7 +7991,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_37
+bl _p_35
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9419231
@@ -8139,7 +7999,7 @@ bl _p_37
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f8
-.loc 5 170 0
+.loc 5 160 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8160,7 +8020,7 @@ bl _p_37
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_50:
+Lme_4e:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKMapManager__cctor
@@ -8211,7 +8071,7 @@ ldr x0, [x16, #624]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_51:
+Lme_4f:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_get_ClassHandle
@@ -8267,7 +8127,7 @@ ldr x0, [x16, #736]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_52:
+Lme_50:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode__ctor
@@ -8487,7 +8347,7 @@ bl _p_6
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_53:
+Lme_51:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_Foundation_NSObjectFlag
@@ -8588,7 +8448,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_54:
+Lme_52:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_intptr
@@ -8689,7 +8549,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_55:
+Lme_53:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityID
@@ -8758,7 +8618,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_38
+bl _p_36
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9410631
@@ -8795,7 +8655,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_39
+bl _p_37
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9419231
@@ -8824,7 +8684,7 @@ bl _p_39
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_56:
+Lme_54:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityID_System_nint
@@ -8895,7 +8755,7 @@ ldr x0, [x0]
 .word 0xf94027a1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_40
+bl _p_38
 .word 0xf94017b1
 .word 0xf9410a31
 .word 0xb4000051
@@ -8935,7 +8795,7 @@ ldr x0, [x0]
 .word 0xf94027a1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_41
+bl _p_39
 .word 0xf94017b1
 .word 0xf941a231
 .word 0xb4000051
@@ -8964,7 +8824,7 @@ bl _p_41
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_57:
+Lme_55:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityName
@@ -9113,7 +8973,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_58:
+Lme_56:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityName_string
@@ -9316,7 +9176,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_59:
+Lme_57:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_get_Name
@@ -9465,7 +9325,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_5a:
+Lme_58:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_set_Name_string
@@ -9668,7 +9528,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_5b:
+Lme_59:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_get_Pt
@@ -10264,7 +10124,7 @@ bl _p_24
 .word 0xa8d57bfd
 .word 0xd65f03c0
 
-Lme_5c:
+Lme_5a:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
@@ -10417,7 +10277,7 @@ bl _p_26
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_5d:
+Lme_5b:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKPlanNode__cctor
@@ -10468,7 +10328,7 @@ ldr x0, [x16, #736]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5e:
+Lme_5c:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_get_ClassHandle
@@ -10524,7 +10384,7 @@ ldr x0, [x16, #856]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5f:
+Lme_5d:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation__ctor
@@ -10744,7 +10604,7 @@ bl _p_6
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_60:
+Lme_5e:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_Foundation_NSObjectFlag
@@ -10845,7 +10705,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_61:
+Lme_5f:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_intptr
@@ -10946,7 +10806,7 @@ bl _p_3
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_62:
+Lme_60:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_get_Heading
@@ -11027,7 +10887,7 @@ bl _p_5
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x15, [x16, #896]
-bl _p_42
+bl _p_40
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9413231
@@ -11079,7 +10939,7 @@ bl _p_8
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x15, [x16, #896]
-bl _p_42
+bl _p_40
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf941f631
@@ -11120,7 +10980,7 @@ bl _p_42
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_63:
+Lme_61:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_set_Heading_CoreLocation_CLHeading
@@ -11309,7 +11169,7 @@ bl _p_15
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_64:
+Lme_62:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_get_Location
@@ -11390,7 +11250,7 @@ bl _p_5
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x15, [x16, #920]
-bl _p_43
+bl _p_41
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9413231
@@ -11442,7 +11302,7 @@ bl _p_8
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x15, [x16, #920]
-bl _p_43
+bl _p_41
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf941f631
@@ -11483,7 +11343,7 @@ bl _p_43
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_65:
+Lme_63:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_set_Location_CoreLocation_CLLocation
@@ -11672,7 +11532,7 @@ bl _p_15
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_66:
+Lme_64:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_get_Subtitle
@@ -11821,7 +11681,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_67:
+Lme_65:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_set_Subtitle_string
@@ -12024,7 +11884,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_68:
+Lme_66:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_get_Title
@@ -12173,7 +12033,7 @@ bl _p_10
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_69:
+Lme_67:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_set_Title_string
@@ -12376,7 +12236,7 @@ bl _p_16
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_6a:
+Lme_68:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_get_Updating
@@ -12445,7 +12305,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_34
+bl _p_32
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -12484,7 +12344,7 @@ ldr x0, [x0]
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf9402ba1
-bl _p_35
+bl _p_33
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -12515,7 +12375,7 @@ bl _p_35
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_6b:
+Lme_69:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation_set_Updating_bool
@@ -12586,7 +12446,7 @@ ldr x0, [x0]
 .word 0xf94027a1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_44
+bl _p_42
 .word 0xf94017b1
 .word 0xf9410a31
 .word 0xb4000051
@@ -12626,7 +12486,7 @@ ldr x0, [x0]
 .word 0xf94027a1
 .word 0xaa1a03e2
 .word 0xaa1a03e2
-bl _p_45
+bl _p_43
 .word 0xf94017b1
 .word 0xf941a231
 .word 0xb4000051
@@ -12655,7 +12515,7 @@ bl _p_45
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_6c:
+Lme_6a:
 .text
 	.align 4
 	.no_dead_strip BaiduMapSDK_Base_iOS_BMKUserLocation__cctor
@@ -12706,7 +12566,7 @@ ldr x0, [x16, #856]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6d:
+Lme_6b:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
@@ -12755,7 +12615,7 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_46
+bl _p_44
 .word 0xaa0003f7
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -12763,7 +12623,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -12788,7 +12648,7 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_6f:
+Lme_6d:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
@@ -12837,7 +12697,7 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_48
+bl _p_46
 .word 0xaa0003f7
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -12845,7 +12705,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -12870,7 +12730,7 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_70:
+Lme_6e:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
@@ -12920,14 +12780,14 @@ ldr x0, [x16, #112]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf94013a2
-bl _p_49
+bl _p_47
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -12950,7 +12810,7 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_71:
+Lme_6f:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
@@ -13000,14 +12860,14 @@ ldr x0, [x16, #112]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf94013a2
-bl _p_50
+bl _p_48
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -13030,7 +12890,7 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_72:
+Lme_70:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr
@@ -13085,7 +12945,7 @@ ldr x0, [x16, #112]
 .word 0xf9402fa1
 .word 0x910223a2
 .word 0xf900a3a2
-bl _p_51
+bl _p_49
 .word 0xf940a3be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -13101,7 +12961,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0xaa1603e1
@@ -13138,7 +12998,7 @@ bl _p_12
 .word 0xa8d57bfd
 .word 0xd65f03c0
 
-Lme_73:
+Lme_71:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr
@@ -13193,7 +13053,7 @@ ldr x0, [x16, #112]
 .word 0xf9402fa1
 .word 0x910223a2
 .word 0xf900a3a2
-bl _p_52
+bl _p_50
 .word 0xf940a3be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -13209,7 +13069,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0xaa1603e1
@@ -13246,7 +13106,7 @@ bl _p_12
 .word 0xa8d57bfd
 .word 0xd65f03c0
 
-Lme_74:
+Lme_72:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
@@ -13296,14 +13156,14 @@ ldr x0, [x16, #112]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf94013a2
-bl _p_53
+bl _p_51
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -13326,7 +13186,7 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_75:
+Lme_73:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
@@ -13376,14 +13236,14 @@ ldr x0, [x16, #112]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf94013a2
-bl _p_54
+bl _p_52
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -13406,7 +13266,7 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_76:
+Lme_74:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
@@ -13465,14 +13325,14 @@ ldr x0, [x16, #112]
 .word 0x9101e3a2
 .word 0xfd403fa0
 .word 0xfd4043a1
-bl _p_55
+bl _p_53
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0xaa1603e1
@@ -13495,7 +13355,7 @@ bl _p_12
 .word 0xa8d27bfd
 .word 0xd65f03c0
 
-Lme_77:
+Lme_75:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
@@ -13554,14 +13414,14 @@ ldr x0, [x16, #112]
 .word 0x9101e3a2
 .word 0xfd403fa0
 .word 0xfd4043a1
-bl _p_56
+bl _p_54
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0xaa1603e1
@@ -13584,11 +13444,11 @@ bl _p_12
 .word 0xa8d27bfd
 .word 0xd65f03c0
 
-Lme_78:
+Lme_76:
 .text
 	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
-wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr:
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
+wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr:
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0x1000001e
@@ -13633,7 +13493,7 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_57
+bl _p_55
 .word 0xaa0003f7
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -13641,7 +13501,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -13666,11 +13526,11 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_79:
+Lme_77:
 .text
 	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
-wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr:
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
+wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr:
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0x1000001e
@@ -13696,6 +13556,7 @@ ldr x16, [x16, #1096]
 .word 0xf9005fbf
 .word 0x390303bf
 .word 0xd2800017
+.word 0xf90067bf
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
@@ -13707,7 +13568,7 @@ ldr x0, [x16, #112]
 .word 0xf9001fa1
 .word 0xf90002c0
 .word 0xf94013b1
-.word 0xf9409231
+.word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
@@ -13715,7 +13576,7 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_58
+bl _p_56
 .word 0xaa0003f7
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -13723,7 +13584,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -13739,7 +13600,7 @@ bl _p_12
 .word 0xf90002c0
 .word 0xaa1703e0
 .word 0xf94013b1
-.word 0xf9410e31
+.word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa945d7b4
@@ -13748,11 +13609,11 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_7a:
+Lme_78:
 .text
 	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
-wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr:
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
+wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr:
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0x1000001e
@@ -13798,7 +13659,7 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_59
+bl _p_57
 .word 0xaa0003f7
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -13806,7 +13667,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -13831,11 +13692,11 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_7b:
+Lme_79:
 .text
 	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
-wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr:
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
+wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0x1000001e
@@ -13861,7 +13722,6 @@ ldr x16, [x16, #1112]
 .word 0xf9005fbf
 .word 0x390303bf
 .word 0xd2800017
-.word 0xf90067bf
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
@@ -13873,7 +13733,7 @@ ldr x0, [x16, #112]
 .word 0xf9001fa1
 .word 0xf90002c0
 .word 0xf94013b1
-.word 0xf9409631
+.word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
@@ -13881,7 +13741,8 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_60
+bl _p_58
+.word 0x53001c00
 .word 0xaa0003f7
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -13889,7 +13750,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -13914,11 +13775,11 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_7c:
+Lme_7a:
 .text
 	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
-wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
+wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0x1000001e
@@ -13963,7 +13824,7 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_61
+bl _p_59
 .word 0x53001c00
 .word 0xaa0003f7
 
@@ -13972,7 +13833,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -13997,175 +13858,7 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_7d:
-.text
-	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
-.word 0xa9b37bfd
-.word 0x910003fd
-.word 0x1000001e
-.word 0xf90027be
-.word 0xa90553b3
-.word 0xa9065bb5
-.word 0xa90763b7
-.word 0xa9086bb9
-.word 0xa90973bb
-.word 0xf90053bd
-.word 0x910003f1
-.word 0xf90057b1
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1128]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf9005bbf
-.word 0xf9005fbf
-.word 0x390303bf
-.word 0xd2800017
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #112]
-.word 0xd63f0000
-.word 0xaa0003f6
-.word 0x9100e3a0
-.word 0xf94002c1
-.word 0xf9001fa1
-.word 0xf90002c0
-.word 0xf94013b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0x53001c01
-.word 0x390303a0
-.word 0xf9400ba0
-.word 0xf9400fa1
-bl _p_62
-.word 0x53001c00
-.word 0xaa0003f7
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #1008]
-.word 0xb9400000
-.word 0x34000160
-bl _p_47
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xaa1503e1
-.word 0xaa0003f4
-.word 0xb4000095
-.word 0xaa1403e0
-.word 0xaa1403e0
-bl _p_12
-.word 0xaa1403e0
-.word 0xaa1703e0
-.word 0x9100e3a0
-.word 0xf9401fa0
-.word 0xf90002c0
-.word 0xaa1703e0
-.word 0xf94013b1
-.word 0xf9411231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa945d7b4
-.word 0xa946dfb6
-.word 0x910003bf
-.word 0xa8cd7bfd
-.word 0xd65f03c0
-
-Lme_7e:
-.text
-	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint
-wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint:
-.word 0xa9b37bfd
-.word 0x910003fd
-.word 0x1000001e
-.word 0xf9002bbe
-.word 0xa905d3b3
-.word 0xa906dbb5
-.word 0xa907e3b7
-.word 0xa908ebb9
-.word 0xa909f3bb
-.word 0xf90057bd
-.word 0x910003f1
-.word 0xf9005bb1
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1136]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf9005fbf
-.word 0xf90063bf
-.word 0x390323bf
-.word 0xd2800016
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #112]
-.word 0xd63f0000
-.word 0xaa0003f5
-.word 0x910103a0
-.word 0xf94002a1
-.word 0xf90023a1
-.word 0xf90002a0
-.word 0xf94017b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0x53001c01
-.word 0x390323a0
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xb94023a2
-bl _p_63
-.word 0x53001c00
-.word 0xaa0003f6
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #1008]
-.word 0xb9400000
-.word 0x34000160
-bl _p_47
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xaa1403e1
-.word 0xaa0003f3
-.word 0xb4000094
-.word 0xaa1303e0
-.word 0xaa1303e0
-bl _p_12
-.word 0xaa1303e0
-.word 0xaa1603e0
-.word 0x910103a0
-.word 0xf94023a0
-.word 0xf90002a0
-.word 0xaa1603e0
-.word 0xf94017b1
-.word 0xf9411a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa945d3b3
-.word 0xa946dbb5
-.word 0x910003bf
-.word 0xa8cd7bfd
-.word 0xd65f03c0
-
-Lme_7f:
+Lme_7b:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
@@ -14188,7 +13881,7 @@ wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intpt
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1128]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14216,7 +13909,7 @@ ldr x0, [x16, #112]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf94013a2
-bl _p_64
+bl _p_60
 .word 0x53001c00
 .word 0xaa0003f6
 
@@ -14225,7 +13918,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0xaa1403e1
@@ -14250,11 +13943,185 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_80:
+Lme_7c:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
 wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint:
+.word 0xa9b27bfd
+.word 0x910003fd
+.word 0x1000001e
+.word 0xf9002fbe
+.word 0xa90653b3
+.word 0xa9075bb5
+.word 0xa90863b7
+.word 0xa9096bb9
+.word 0xa90a73bb
+.word 0xf9005bbd
+.word 0x910003f1
+.word 0xf9005fb1
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf90017a3
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x16, [x16, #1136]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf90063bf
+.word 0xf90067bf
+.word 0x390343bf
+.word 0xd2800015
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x0, [x16, #112]
+.word 0xd63f0000
+.word 0xaa0003f4
+.word 0x910123a0
+.word 0xf9400281
+.word 0xf90027a1
+.word 0xf9000280
+.word 0xf9401bb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0x53001c01
+.word 0x390343a0
+.word 0x394083a0
+.word 0x34000040
+.word 0xd2800035
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xaa1503e2
+.word 0xb9402ba3
+.word 0xaa1503e2
+bl _p_61
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x0, [x16, #1008]
+.word 0xb9400000
+.word 0x34000160
+bl _p_45
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xaa0003fa
+.word 0xb4000093
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_12
+.word 0xaa1a03e0
+.word 0x910123a0
+.word 0xf94027a0
+.word 0xf9000280
+.word 0xf9401bb1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94653b3
+.word 0xf9403bb5
+.word 0xf9404fba
+.word 0x910003bf
+.word 0xa8ce7bfd
+.word 0xd65f03c0
+
+Lme_7d:
+.text
+	.align 4
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
+.word 0xa9b27bfd
+.word 0x910003fd
+.word 0x1000001e
+.word 0xf9002fbe
+.word 0xa90653b3
+.word 0xa9075bb5
+.word 0xa90863b7
+.word 0xa9096bb9
+.word 0xa90a73bb
+.word 0xf9005bbd
+.word 0x910003f1
+.word 0xf9005fb1
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf90017a3
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x16, [x16, #1144]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf90063bf
+.word 0xf90067bf
+.word 0x390343bf
+.word 0xd2800015
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x0, [x16, #112]
+.word 0xd63f0000
+.word 0xaa0003f4
+.word 0x910123a0
+.word 0xf9400281
+.word 0xf90027a1
+.word 0xf9000280
+.word 0xf9401bb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0x53001c01
+.word 0x390343a0
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf94013a2
+.word 0xf94017a3
+bl _p_62
+.word 0x53001c00
+.word 0xaa0003f5
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x0, [x16, #1008]
+.word 0xb9400000
+.word 0x34000140
+bl _p_45
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf9006fa0
+.word 0xb4000073
+.word 0xf9406fa0
+bl _p_12
+.word 0xf9406fa0
+.word 0xaa1503e0
+.word 0x910123a0
+.word 0xf94027a0
+.word 0xf9000280
+.word 0xaa1503e0
+.word 0xf9401bb1
+.word 0xf9411e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94653b3
+.word 0xf9403bb5
+.word 0x910003bf
+.word 0xa8ce7bfd
+.word 0xd65f03c0
+
+Lme_7e:
+.text
+	.align 4
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 .word 0xa9b27bfd
 .word 0x910003fd
 .word 0x1000001e
@@ -14299,99 +14166,11 @@ ldr x0, [x16, #112]
 .word 0xd2800000
 .word 0x53001c01
 .word 0x390343a0
-.word 0x394083a0
-.word 0x34000040
-.word 0xd2800035
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xaa1503e2
-.word 0xb9402ba3
-.word 0xaa1503e2
-bl _p_65
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #1008]
-.word 0xb9400000
-.word 0x34000160
-bl _p_47
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xaa0003fa
-.word 0xb4000093
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_12
-.word 0xaa1a03e0
-.word 0x910123a0
-.word 0xf94027a0
-.word 0xf9000280
-.word 0xf9401bb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94653b3
-.word 0xf9403bb5
-.word 0xf9404fba
-.word 0x910003bf
-.word 0xa8ce7bfd
-.word 0xd65f03c0
-
-Lme_81:
-.text
-	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
-.word 0xa9b27bfd
-.word 0x910003fd
-.word 0x1000001e
-.word 0xf9002fbe
-.word 0xa90653b3
-.word 0xa9075bb5
-.word 0xa90863b7
-.word 0xa9096bb9
-.word 0xa90a73bb
-.word 0xf9005bbd
-.word 0x910003f1
-.word 0xf9005fb1
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf90017a3
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1160]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf90063bf
-.word 0xf90067bf
-.word 0x390343bf
-.word 0xd2800015
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #112]
-.word 0xd63f0000
-.word 0xaa0003f4
-.word 0x910123a0
-.word 0xf9400281
-.word 0xf90027a1
-.word 0xf9000280
-.word 0xf9401bb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0x53001c01
-.word 0x390343a0
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf94013a2
 .word 0xf94017a3
-bl _p_66
+bl _p_63
 .word 0x53001c00
 .word 0xaa0003f5
 
@@ -14400,7 +14179,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000140
-bl _p_47
+bl _p_45
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
@@ -14424,93 +14203,7 @@ bl _p_12
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_82:
-.text
-	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
-.word 0xa9b27bfd
-.word 0x910003fd
-.word 0x1000001e
-.word 0xf9002fbe
-.word 0xa90653b3
-.word 0xa9075bb5
-.word 0xa90863b7
-.word 0xa9096bb9
-.word 0xa90a73bb
-.word 0xf9005bbd
-.word 0x910003f1
-.word 0xf9005fb1
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf90017a3
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1168]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf90063bf
-.word 0xf90067bf
-.word 0x390343bf
-.word 0xd2800015
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #112]
-.word 0xd63f0000
-.word 0xaa0003f4
-.word 0x910123a0
-.word 0xf9400281
-.word 0xf90027a1
-.word 0xf9000280
-.word 0xf9401bb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0x53001c01
-.word 0x390343a0
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xf94013a2
-.word 0xf94017a3
-bl _p_67
-.word 0x53001c00
-.word 0xaa0003f5
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #1008]
-.word 0xb9400000
-.word 0x34000140
-bl _p_47
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf9006fa0
-.word 0xb4000073
-.word 0xf9406fa0
-bl _p_12
-.word 0xf9406fa0
-.word 0xaa1503e0
-.word 0x910123a0
-.word 0xf94027a0
-.word 0xf9000280
-.word 0xaa1503e0
-.word 0xf9401bb1
-.word 0xf9411e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94653b3
-.word 0xf9403bb5
-.word 0x910003bf
-.word 0xa8ce7bfd
-.word 0xd65f03c0
-
-Lme_83:
+Lme_7f:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
@@ -14532,7 +14225,7 @@ wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intpt
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1160]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14560,7 +14253,7 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_68
+bl _p_64
 .word 0xaa0003f7
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -14568,7 +14261,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -14593,7 +14286,7 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_84:
+Lme_80:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
@@ -14615,7 +14308,7 @@ wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1168]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14643,7 +14336,7 @@ ldr x0, [x16, #112]
 .word 0x390303a0
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_69
+bl _p_65
 .word 0xaa0003f7
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -14651,7 +14344,7 @@ add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0xaa1503e1
@@ -14676,11 +14369,171 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_85:
+Lme_81:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
 wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint:
+.word 0xa9b37bfd
+.word 0x910003fd
+.word 0x1000001e
+.word 0xf9002bbe
+.word 0xa905d3b3
+.word 0xa906dbb5
+.word 0xa907e3b7
+.word 0xa908ebb9
+.word 0xa909f3bb
+.word 0xf90057bd
+.word 0x910003f1
+.word 0xf9005bb1
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x16, [x16, #1176]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf9005fbf
+.word 0xf90063bf
+.word 0x390323bf
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x0, [x16, #112]
+.word 0xd63f0000
+.word 0xaa0003f6
+.word 0x910103a0
+.word 0xf94002c1
+.word 0xf90023a1
+.word 0xf90002c0
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0x53001c01
+.word 0x390323a0
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf94013a2
+bl _p_66
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x0, [x16, #1008]
+.word 0xb9400000
+.word 0x34000160
+bl _p_45
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xaa1503e1
+.word 0xaa0003f4
+.word 0xb4000095
+.word 0xaa1403e0
+.word 0xaa1403e0
+bl _p_12
+.word 0xaa1403e0
+.word 0x910103a0
+.word 0xf94023a0
+.word 0xf90002c0
+.word 0xf94017b1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94657b4
+.word 0xf9403bb6
+.word 0x910003bf
+.word 0xa8cd7bfd
+.word 0xd65f03c0
+
+Lme_82:
+.text
+	.align 4
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
+wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint:
+.word 0xa9b37bfd
+.word 0x910003fd
+.word 0x1000001e
+.word 0xf9002bbe
+.word 0xa905d3b3
+.word 0xa906dbb5
+.word 0xa907e3b7
+.word 0xa908ebb9
+.word 0xa909f3bb
+.word 0xf90057bd
+.word 0x910003f1
+.word 0xf9005bb1
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x16, [x16, #1184]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf9005fbf
+.word 0xf90063bf
+.word 0x390323bf
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x0, [x16, #112]
+.word 0xd63f0000
+.word 0xaa0003f6
+.word 0x910103a0
+.word 0xf94002c1
+.word 0xf90023a1
+.word 0xf90002c0
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0x53001c01
+.word 0x390323a0
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf94013a2
+bl _p_67
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x0, [x16, #1008]
+.word 0xb9400000
+.word 0x34000160
+bl _p_45
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xaa1503e1
+.word 0xaa0003f4
+.word 0xb4000095
+.word 0xaa1403e0
+.word 0xaa1403e0
+bl _p_12
+.word 0xaa1403e0
+.word 0x910103a0
+.word 0xf94023a0
+.word 0xf90002c0
+.word 0xf94017b1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94657b4
+.word 0xf9403bb6
+.word 0x910003bf
+.word 0xa8cd7bfd
+.word 0xd65f03c0
+
+Lme_83:
+.text
+	.align 4
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
+wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0x1000001e
@@ -14706,61 +14559,66 @@ ldr x16, [x16, #1192]
 .word 0xf9005fbf
 .word 0xf90063bf
 .word 0x390323bf
+.word 0xd2800016
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #112]
 .word 0xd63f0000
-.word 0xaa0003f6
+.word 0xaa0003f5
 .word 0x910103a0
-.word 0xf94002c1
+.word 0xf94002a1
 .word 0xf90023a1
-.word 0xf90002c0
+.word 0xf90002a0
 .word 0xf94017b1
-.word 0xf9409231
+.word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0x53001c01
 .word 0x390323a0
+.word 0x394083a0
+.word 0x34000040
+.word 0xd2800036
 .word 0xf9400ba0
 .word 0xf9400fa1
-.word 0xf94013a2
-bl _p_70
+.word 0xaa1603e2
+.word 0xaa1603e2
+bl _p_68
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xaa1503e1
+bl _p_45
 .word 0xaa0003f4
-.word 0xb4000095
 .word 0xaa1403e0
-.word 0xaa1403e0
+.word 0xaa1403e1
+.word 0xaa0003f3
+.word 0xb4000094
+.word 0xaa1303e0
+.word 0xaa1303e0
 bl _p_12
-.word 0xaa1403e0
+.word 0xaa1303e0
 .word 0x910103a0
 .word 0xf94023a0
-.word 0xf90002c0
+.word 0xf90002a0
 .word 0xf94017b1
-.word 0xf9410631
+.word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94657b4
-.word 0xf9403bb6
+.word 0xa945d3b3
+.word 0xa946dbb5
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_86:
+Lme_84:
 .text
 	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
-wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint:
+	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
+wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0x1000001e
@@ -14786,86 +14644,6 @@ ldr x16, [x16, #1200]
 .word 0xf9005fbf
 .word 0xf90063bf
 .word 0x390323bf
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #112]
-.word 0xd63f0000
-.word 0xaa0003f6
-.word 0x910103a0
-.word 0xf94002c1
-.word 0xf90023a1
-.word 0xf90002c0
-.word 0xf94017b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0x53001c01
-.word 0x390323a0
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xf94013a2
-bl _p_71
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #1008]
-.word 0xb9400000
-.word 0x34000160
-bl _p_47
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xaa1503e1
-.word 0xaa0003f4
-.word 0xb4000095
-.word 0xaa1403e0
-.word 0xaa1403e0
-bl _p_12
-.word 0xaa1403e0
-.word 0x910103a0
-.word 0xf94023a0
-.word 0xf90002c0
-.word 0xf94017b1
-.word 0xf9410631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94657b4
-.word 0xf9403bb6
-.word 0x910003bf
-.word 0xa8cd7bfd
-.word 0xd65f03c0
-
-Lme_87:
-.text
-	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
-wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
-.word 0xa9b37bfd
-.word 0x910003fd
-.word 0x1000001e
-.word 0xf9002bbe
-.word 0xa905d3b3
-.word 0xa906dbb5
-.word 0xa907e3b7
-.word 0xa908ebb9
-.word 0xa909f3bb
-.word 0xf90057bd
-.word 0x910003f1
-.word 0xf9005bb1
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1208]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf9005fbf
-.word 0xf90063bf
-.word 0x390323bf
 .word 0xd2800016
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
@@ -14891,14 +14669,14 @@ ldr x0, [x16, #112]
 .word 0xf9400fa1
 .word 0xaa1603e2
 .word 0xaa1603e2
-bl _p_72
+bl _p_69
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x0, [x16, #1008]
 .word 0xb9400000
 .word 0x34000160
-bl _p_47
+bl _p_45
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0xaa1403e1
@@ -14921,94 +14699,9 @@ bl _p_12
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_88:
+Lme_85:
 .text
-	.align 4
-	.no_dead_strip wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
-wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
-.word 0xa9b37bfd
-.word 0x910003fd
-.word 0x1000001e
-.word 0xf9002bbe
-.word 0xa905d3b3
-.word 0xa906dbb5
-.word 0xa907e3b7
-.word 0xa908ebb9
-.word 0xa909f3bb
-.word 0xf90057bd
-.word 0x910003f1
-.word 0xf9005bb1
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1216]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf9005fbf
-.word 0xf90063bf
-.word 0x390323bf
-.word 0xd2800016
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #112]
-.word 0xd63f0000
-.word 0xaa0003f5
-.word 0x910103a0
-.word 0xf94002a1
-.word 0xf90023a1
-.word 0xf90002a0
-.word 0xf94017b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0x53001c01
-.word 0x390323a0
-.word 0x394083a0
-.word 0x34000040
-.word 0xd2800036
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xaa1603e2
-.word 0xaa1603e2
-bl _p_73
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x0, [x16, #1008]
-.word 0xb9400000
-.word 0x34000160
-bl _p_47
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xaa1403e1
-.word 0xaa0003f3
-.word 0xb4000094
-.word 0xaa1303e0
-.word 0xaa1303e0
-bl _p_12
-.word 0xaa1303e0
-.word 0x910103a0
-.word 0xf94023a0
-.word 0xf90002a0
-.word 0xf94017b1
-.word 0xf9411a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa945d3b3
-.word 0xa946dbb5
-.word 0x910003bf
-.word 0xa8cd7bfd
-.word 0xd65f03c0
-
-Lme_89:
-.text
-ut_138:
+ut_134:
 add x0, x0, 16
 b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_StructureToPtr_object_intptr_bool
 ut_end:
@@ -15016,7 +14709,7 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_138
+LDIFF_SYM3=ut_end - ut_134
 	.long LDIFF_SYM3
 .text
 	.align 4
@@ -15030,7 +14723,7 @@ wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_StructureToPtr_object_int
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1208]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15054,9 +14747,9 @@ ldr x16, [x16, #1224]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8a:
+Lme_86:
 .text
-ut_139:
+ut_135:
 add x0, x0, 16
 b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_PtrToStructure_intptr_object
 .text
@@ -15070,7 +14763,7 @@ wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_PtrToStructure_intptr_obj
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1216]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15094,15 +14787,104 @@ ldr x16, [x16, #1232]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8b:
+Lme_87:
 .text
-ut_140:
+ut_136:
 add x0, x0, 16
 b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_StructureToPtr_object_intptr_bool
 .text
 	.align 4
 	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_StructureToPtr_object_intptr_bool
 wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_StructureToPtr_object_intptr_bool:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x16, [x16, #1224]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+.word 0xf9400ba1
+.word 0x91004021
+.word 0xd2800402
+.word 0xf9400022
+.word 0xf9000002
+.word 0xf9400422
+.word 0xf9000402
+.word 0xf9400822
+.word 0xf9000802
+.word 0xf9400c21
+.word 0xf9000c01
+.word 0xf94017b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_88:
+.text
+ut_137:
+add x0, x0, 16
+b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object
+.text
+	.align 4
+	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object
+wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x16, [x16, #1232]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+.word 0x91004000
+.word 0xf9400ba1
+.word 0xd2800402
+.word 0xf9400022
+.word 0xf9000002
+.word 0xf9400422
+.word 0xf9000402
+.word 0xf9400822
+.word 0xf9000802
+.word 0xf9400c21
+.word 0xf9000c01
+.word 0xf94013b1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_89:
+.text
+ut_138:
+add x0, x0, 16
+b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool
+.text
+	.align 4
+	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool
+wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -15139,15 +14921,15 @@ ldr x16, [x16, #1240]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8c:
+Lme_8a:
 .text
-ut_141:
+ut_139:
 add x0, x0, 16
-b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object
+b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object
 .text
 	.align 4
-	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object
-wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object:
+	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object
+wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -15183,15 +14965,15 @@ ldr x16, [x16, #1248]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8d:
+Lme_8b:
 .text
-ut_142:
+ut_140:
 add x0, x0, 16
-b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool
+b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool
 .text
 	.align 4
-	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool
-wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool:
+	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool
+wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -15211,32 +14993,28 @@ ldr x16, [x16, #1256]
 .word 0xf9400fa0
 .word 0xf9400ba1
 .word 0x91004021
-.word 0xd2800402
+.word 0xd2800202
 .word 0xf9400022
 .word 0xf9000002
-.word 0xf9400422
-.word 0xf9000402
-.word 0xf9400822
-.word 0xf9000802
-.word 0xf9400c21
-.word 0xf9000c01
+.word 0xf9400421
+.word 0xf9000401
 .word 0xf94017b1
-.word 0xf9407a31
+.word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8e:
+Lme_8c:
 .text
-ut_143:
+ut_141:
 add x0, x0, 16
-b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object
+b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object
 .text
 	.align 4
-	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object
-wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object:
+	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object
+wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -15255,32 +15033,28 @@ ldr x16, [x16, #1264]
 .word 0xf9400fa0
 .word 0x91004000
 .word 0xf9400ba1
-.word 0xd2800402
+.word 0xd2800202
 .word 0xf9400022
 .word 0xf9000002
-.word 0xf9400422
-.word 0xf9000402
-.word 0xf9400822
-.word 0xf9000802
-.word 0xf9400c21
-.word 0xf9000c01
+.word 0xf9400421
+.word 0xf9000401
 .word 0xf94013b1
-.word 0xf9407631
+.word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8f:
+Lme_8d:
 .text
-ut_144:
+ut_142:
 add x0, x0, 16
-b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool
+b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool
 .text
 	.align 4
-	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool
-wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool:
+	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool
+wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -15313,15 +15087,15 @@ ldr x16, [x16, #1272]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_90:
+Lme_8e:
 .text
-ut_145:
+ut_143:
 add x0, x0, 16
-b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object
+b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object
 .text
 	.align 4
-	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object
-wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object:
+	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object
+wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -15353,90 +15127,9 @@ ldr x16, [x16, #1280]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_91:
+Lme_8f:
 .text
-ut_146:
-add x0, x0, 16
-b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool
-.text
-	.align 4
-	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool
-wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool:
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1288]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fa0
-.word 0xf9400ba1
-.word 0x91004021
-.word 0xd2800202
-.word 0xf9400022
-.word 0xf9000002
-.word 0xf9400421
-.word 0xf9000401
-.word 0xf94017b1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_92:
-.text
-ut_147:
-add x0, x0, 16
-b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object
-.text
-	.align 4
-	.no_dead_strip wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object
-wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object:
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1296]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fa0
-.word 0x91004000
-.word 0xf9400ba1
-.word 0xd2800202
-.word 0xf9400022
-.word 0xf9000002
-.word 0xf9400421
-.word 0xf9000401
-.word 0xf94013b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_93:
-.text
-ut_148:
+ut_144:
 add x0, x0, 16
 b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_StructureToPtr_object_intptr_bool
 .text
@@ -15451,7 +15144,7 @@ wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_StructureToPtr_object_intptr_boo
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1288]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15479,9 +15172,9 @@ ldr x16, [x16, #1304]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_94:
+Lme_90:
 .text
-ut_149:
+ut_145:
 add x0, x0, 16
 b wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_PtrToStructure_intptr_object
 .text
@@ -15495,7 +15188,7 @@ wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_PtrToStructure_intptr_object:
 
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15523,7 +15216,7 @@ ldr x16, [x16, #1312]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_95:
+Lme_91:
 .text
 	.align 3
 jit_code_end:
@@ -15533,8 +15226,6 @@ jit_code_end:
 	.align 3
 method_addresses:
 	.no_dead_strip method_addresses
-bl method_addresses
-bl method_addresses
 bl method_addresses
 bl method_addresses
 bl method_addresses
@@ -15608,7 +15299,7 @@ bl BaiduMapSDK_Base_iOS_BMKMapManager__ctor
 bl BaiduMapSDK_Base_iOS_BMKMapManager__ctor_Foundation_NSObjectFlag
 bl BaiduMapSDK_Base_iOS_BMKMapManager__ctor_intptr
 bl BaiduMapSDK_Base_iOS_BMKMapManager_LogEnable_bool_BaiduMapSDK_Base_iOS_BMKMapModule
-bl BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BmkCoordType
+bl BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE
 bl BaiduMapSDK_Base_iOS_BMKMapManager_Start_string_BaiduMapSDK_Base_iOS_BMKGeneralDelegate
 bl BaiduMapSDK_Base_iOS_BMKMapManager_get_CoordinateTypeUsedInBaiduMapSDK
 bl BaiduMapSDK_Base_iOS_BMKMapManager_get_Stop
@@ -15654,13 +15345,11 @@ bl wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc
 bl wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
 bl wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
 bl wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
-bl wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
 bl wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
 bl wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
 bl wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
 bl wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
 bl wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-bl wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint
 bl wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
 bl wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
 bl wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
@@ -15689,14 +15378,18 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 138,139,140,141,142,143,144,145
-	.long 146,147,148,149
+	.long 134,135,136,137,138,139,140,141
+	.long 142,143,144,145
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
+bl ut_134
+bl ut_135
+bl ut_136
+bl ut_137
 bl ut_138
 bl ut_139
 bl ut_140
@@ -15705,10 +15398,6 @@ bl ut_142
 bl ut_143
 bl ut_144
 bl ut_145
-bl ut_146
-bl ut_147
-bl ut_148
-bl ut_149
 
 	.long 0
 .section __TEXT, __const
@@ -15741,589 +15430,557 @@ plt_Foundation_NSObject__ctor_Foundation_NSObjectFlag:
 _p_1:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1312]
 br x16
-.word 1544
+.word 1508
 	.no_dead_strip plt_System_Reflection_Assembly_op_Equality_System_Reflection_Assembly_System_Reflection_Assembly
 plt_System_Reflection_Assembly_op_Equality_System_Reflection_Assembly_System_Reflection_Assembly:
 _p_2:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1320]
 br x16
-.word 1549
+.word 1513
 	.no_dead_strip plt_Foundation_NSObject_set_IsDirectBinding_bool
 plt_Foundation_NSObject_set_IsDirectBinding_bool:
 _p_3:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1328]
 br x16
-.word 1554
+.word 1518
 	.no_dead_strip plt_Foundation_NSObject_get_Handle
 plt_Foundation_NSObject_get_Handle:
 _p_4:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1336]
 br x16
-.word 1559
+.word 1523
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr:
 _p_5:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1344]
 br x16
-.word 1564
+.word 1528
 	.no_dead_strip plt_Foundation_NSObject_InitializeHandle_intptr_string
 plt_Foundation_NSObject_InitializeHandle_intptr_string:
 _p_6:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1352]
 br x16
-.word 1566
+.word 1530
 	.no_dead_strip plt_Foundation_NSObject_get_SuperHandle
 plt_Foundation_NSObject_get_SuperHandle:
 _p_7:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1360]
 br x16
-.word 1571
+.word 1535
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr:
 _p_8:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1368]
 br x16
-.word 1576
+.word 1540
 	.no_dead_strip plt_Foundation_NSObject__ctor_intptr
 plt_Foundation_NSObject__ctor_intptr:
 _p_9:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1376]
 br x16
-.word 1578
+.word 1542
 	.no_dead_strip plt_Foundation_NSString_FromHandle_intptr
 plt_Foundation_NSString_FromHandle_intptr:
 _p_10:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1384]
 br x16
-.word 1583
+.word 1547
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_11:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1392]
 br x16
-.word 1588
+.word 1552
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_12:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1400]
 br x16
-.word 1608
+.word 1572
 	.no_dead_strip plt_Foundation_NSString_CreateNative_string
 plt_Foundation_NSString_CreateNative_string:
 _p_13:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1408]
 br x16
-.word 1636
+.word 1600
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_14:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1416]
 br x16
-.word 1641
+.word 1605
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_15:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1424]
 br x16
-.word 1643
+.word 1607
 	.no_dead_strip plt_Foundation_NSString_ReleaseNative_intptr
 plt_Foundation_NSString_ReleaseNative_intptr:
 _p_16:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1432]
 br x16
-.word 1645
+.word 1609
 	.no_dead_strip plt_ObjCRuntime_Class_GetHandle_string
 plt_ObjCRuntime_Class_GetHandle_string:
 _p_17:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1440]
 br x16
-.word 1650
+.word 1614
 	.no_dead_strip plt_ObjCRuntime_BaseWrapper__ctor_intptr_bool
 plt_ObjCRuntime_BaseWrapper__ctor_intptr_bool:
 _p_18:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1448]
 br x16
-.word 1655
+.word 1619
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_19:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1456]
 br x16
-.word 1660
+.word 1624
 	.no_dead_strip plt_Foundation_You_Should_Not_Call_base_In_This_Method__ctor
 plt_Foundation_You_Should_Not_Call_base_In_This_Method__ctor:
 _p_20:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1464]
 br x16
-.word 1668
+.word 1632
 	.no_dead_strip plt_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr:
 _p_21:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1472]
 br x16
-.word 1673
+.word 1637
 	.no_dead_strip plt_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
 plt_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr:
 _p_22:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1480]
 br x16
-.word 1675
+.word 1639
 	.no_dead_strip plt_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr:
 _p_23:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1488]
 br x16
-.word 1677
+.word 1641
 	.no_dead_strip plt_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
 plt_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr:
 _p_24:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1496]
 br x16
-.word 1679
+.word 1643
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
 plt_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D:
 _p_25:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1504]
 br x16
-.word 1681
+.word 1645
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D:
 _p_26:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1512]
 br x16
-.word 1683
+.word 1647
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
 plt_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint:
 _p_27:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1520]
 br x16
-.word 1685
+.word 1649
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
 plt_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong:
 _p_28:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x16, [x16, #1528]
+br x16
+.word 1651
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
+_p_29:
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
+ldr x16, [x16, #1536]
+br x16
+.word 1653
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
+_p_30:
+adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
+add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 1687
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint
-plt_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint:
-_p_29:
+.word 1655
+	.no_dead_strip plt_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr:
+_p_31:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 1689
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
-_p_30:
+.word 1657
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
+_p_32:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 1691
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
-_p_31:
+.word 1659
+	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
+plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
+_p_33:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 1693
-	.no_dead_strip plt_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr:
-_p_32:
+.word 1661
+	.no_dead_strip plt_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr:
+_p_34:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 1695
-	.no_dead_strip plt_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr:
-_p_33:
+.word 1663
+	.no_dead_strip plt_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
+plt_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr:
+_p_35:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 1697
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
-_p_34:
+.word 1665
+	.no_dead_strip plt_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
+plt_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr:
+_p_36:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 1699
-	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
-_p_35:
+.word 1667
+	.no_dead_strip plt_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
+plt_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr:
+_p_37:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 1701
-	.no_dead_strip plt_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr:
-_p_36:
+.word 1669
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
+plt_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint:
+_p_38:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 1703
-	.no_dead_strip plt_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
-plt_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr:
-_p_37:
+.word 1671
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
+plt_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint:
+_p_39:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 1705
-	.no_dead_strip plt_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
-plt_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr:
-_p_38:
+.word 1673
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_CoreLocation_CLHeading_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_CoreLocation_CLHeading_intptr:
+_p_40:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 1707
-	.no_dead_strip plt_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
-plt_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr:
-_p_39:
+.word 1675
+	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_CoreLocation_CLLocation_intptr
+plt_ObjCRuntime_Runtime_GetNSObject_CoreLocation_CLLocation_intptr:
+_p_41:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 1709
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
-plt_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint:
-_p_40:
+.word 1687
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
+plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
+_p_42:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 1711
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
-plt_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint:
-_p_41:
+.word 1699
+	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
+plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
+_p_43:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 1713
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_CoreLocation_CLHeading_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_CoreLocation_CLHeading_intptr:
-_p_42:
+.word 1701
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr:
+_p_44:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 1715
-	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_CoreLocation_CLLocation_intptr
-plt_ObjCRuntime_Runtime_GetNSObject_CoreLocation_CLLocation_intptr:
-_p_43:
+.word 1703
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_45:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 1727
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
-plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
-_p_44:
+.word 1705
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr:
+_p_46:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 1739
-	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
-plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
-_p_45:
+.word 1743
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr:
+_p_47:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 1741
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr:
-_p_46:
+.word 1745
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
+_p_48:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 1743
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_47:
+.word 1747
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr:
+_p_49:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 1745
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr:
-_p_48:
+.word 1749
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr:
+_p_50:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 1783
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr:
-_p_49:
+.word 1751
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr:
+_p_51:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 1785
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
-_p_50:
+.word 1753
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr:
+_p_52:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 1787
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr:
-_p_51:
+.word 1755
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D:
+_p_53:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 1789
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr:
-_p_52:
+.word 1757
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D:
+_p_54:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 1791
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr:
-_p_53:
+.word 1759
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr:
+_p_55:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 1793
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr:
-_p_54:
+.word 1761
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr:
+_p_56:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 1795
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D:
-_p_55:
+.word 1763
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr:
+_p_57:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 1797
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D:
-_p_56:
+.word 1765
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
+_p_58:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 1799
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr:
-_p_57:
+.word 1767
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
+_p_59:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 1801
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr:
-_p_58:
+.word 1769
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
+plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong:
+_p_60:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 1803
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr:
-_p_59:
+.word 1771
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint:
+_p_61:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 1805
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr:
-_p_60:
+.word 1773
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
+_p_62:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 1807
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
-_p_61:
+.word 1775
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
+_p_63:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 1809
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
-_p_62:
+.word 1777
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr:
+_p_64:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 1811
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint
-plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint:
-_p_63:
+.word 1779
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
+plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr:
+_p_65:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 1813
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
-plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong:
-_p_64:
+.word 1781
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint:
+_p_66:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 1815
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint:
-_p_65:
+.word 1783
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint:
+_p_67:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 1817
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
-_p_66:
+.word 1785
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
+_p_68:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 1819
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
-_p_67:
+.word 1787
+	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
+plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
+_p_69:
 adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
 add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 1821
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr:
-_p_68:
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1864]
-br x16
-.word 1823
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
-plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr:
-_p_69:
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1872]
-br x16
-.word 1825
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint:
-_p_70:
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1880]
-br x16
-.word 1827
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint:
-_p_71:
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1888]
-br x16
-.word 1829
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
-_p_72:
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1896]
-br x16
-.word 1831
-	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
-plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
-_p_73:
-adrp x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGE+0
-add x16, x16, mono_aot_BaiduMapSDK_Base_iOS_got@PAGEOFF
-ldr x16, [x16, #1904]
-br x16
-.word 1833
+.word 1789
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_BaiduMapSDK_Base_iOS_got, 1912
+.lcomm mono_aot_BaiduMapSDK_Base_iOS_got, 1864
 got_end:
 .section	__DATA,__objc_selrefs,literal_pointers,no_dead_strip
 .align	3
@@ -16612,7 +16269,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "DA073076-1A3A-48B1-B5E8-D1D7019349F8"
+	.asciz "08743DD2-C36B-4E57-9AD9-801FB79576CC"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -16691,13 +16348,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 165,1912,74,150,70,391195135,0,23605
-	.long 128,8,8,8,0,25,26224,2608
-	.long 2336,1584,0,2000,2280,1760,0,1264
-	.long 208,2600,0,0,0,0,0,0
+	.long 163,1864,70,146,70,391195135,0,23138
+	.long 128,8,8,8,0,25,25736,2592
+	.long 2320,1568,0,1976,2264,1744,0,1264
+	.long 208,2584,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 136,89,30,212,204,224,151,66,200,143,131,126,121,218,75,106
+	.byte 182,144,58,223,198,134,194,91,94,73,104,43,195,70,2,129
 	.globl _mono_aot_module_BaiduMapSDK_Base_iOS_info
 	.align 3
 _mono_aot_module_BaiduMapSDK_Base_iOS_info:
@@ -16711,7 +16368,7 @@ _mono_aot_module_BaiduMapSDK_Base_iOS_info:
 
 	.byte 1,47
 	.quad ApiDefinition_Messaging__cctor
-	.quad Lme_1b
+	.quad Lme_19
 
 	.byte 2,118,16,0
 
@@ -16725,7 +16382,7 @@ Lfde0_start:
 	.align 3
 	.quad ApiDefinition_Messaging__cctor
 
-LDIFF_SYM5=Lme_1b - ApiDefinition_Messaging__cctor
+LDIFF_SYM5=Lme_19 - ApiDefinition_Messaging__cctor
 	.long LDIFF_SYM5
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -16864,7 +16521,7 @@ LDIFF_SYM23=LTDIE_0 - Ldebug_info_start
 
 	.byte 2,52
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_ClassHandle
-	.quad Lme_1c
+	.quad Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -16888,7 +16545,7 @@ Lfde1_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_ClassHandle
 
-LDIFF_SYM27=Lme_1c - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_ClassHandle
+LDIFF_SYM27=Lme_1a - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_ClassHandle
 	.long LDIFF_SYM27
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
@@ -16953,7 +16610,7 @@ LDIFF_SYM36=LTDIE_4 - Ldebug_info_start
 
 	.byte 2,57
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor
-	.quad Lme_1d
+	.quad Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -16977,7 +16634,7 @@ Lfde2_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor
 
-LDIFF_SYM40=Lme_1d - BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor
+LDIFF_SYM40=Lme_1b - BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor
 	.long LDIFF_SYM40
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
@@ -17014,7 +16671,7 @@ LDIFF_SYM44=LTDIE_6 - Ldebug_info_start
 
 	.byte 2,69
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_Foundation_NSObjectFlag
-	.quad Lme_1e
+	.quad Lme_1c
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17038,7 +16695,7 @@ Lfde3_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM48=Lme_1e - BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_Foundation_NSObjectFlag
+LDIFF_SYM48=Lme_1c - BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_Foundation_NSObjectFlag
 	.long LDIFF_SYM48
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
@@ -17053,7 +16710,7 @@ Lfde3_end:
 
 	.byte 2,76
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_intptr
-	.quad Lme_1f
+	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17077,7 +16734,7 @@ Lfde4_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_intptr
 
-LDIFF_SYM52=Lme_1f - BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_intptr
+LDIFF_SYM52=Lme_1d - BaiduMapSDK_Base_iOS_BMKAddressComponent__ctor_intptr
 	.long LDIFF_SYM52
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
@@ -17092,7 +16749,7 @@ Lfde4_end:
 
 	.byte 2,84
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_AdCode
-	.quad Lme_20
+	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17121,7 +16778,7 @@ Lfde5_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_AdCode
 
-LDIFF_SYM57=Lme_20 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_AdCode
+LDIFF_SYM57=Lme_1e - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_AdCode
 	.long LDIFF_SYM57
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17136,7 +16793,7 @@ Lfde5_end:
 
 	.byte 2,93
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_AdCode_string
-	.quad Lme_21
+	.quad Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17175,7 +16832,7 @@ Lfde6_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_AdCode_string
 
-LDIFF_SYM64=Lme_21 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_AdCode_string
+LDIFF_SYM64=Lme_1f - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_AdCode_string
 	.long LDIFF_SYM64
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17190,7 +16847,7 @@ Lfde6_end:
 
 	.byte 2,111
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_City
-	.quad Lme_22
+	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17219,7 +16876,7 @@ Lfde7_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_City
 
-LDIFF_SYM69=Lme_22 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_City
+LDIFF_SYM69=Lme_20 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_City
 	.long LDIFF_SYM69
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17234,7 +16891,7 @@ Lfde7_end:
 
 	.byte 2,120
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_City_string
-	.quad Lme_23
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17273,7 +16930,7 @@ Lfde8_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_City_string
 
-LDIFF_SYM76=Lme_23 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_City_string
+LDIFF_SYM76=Lme_21 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_City_string
 	.long LDIFF_SYM76
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17288,7 +16945,7 @@ Lfde8_end:
 
 	.byte 2,138,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Country
-	.quad Lme_24
+	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17317,7 +16974,7 @@ Lfde9_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Country
 
-LDIFF_SYM81=Lme_24 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Country
+LDIFF_SYM81=Lme_22 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Country
 	.long LDIFF_SYM81
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17332,7 +16989,7 @@ Lfde9_end:
 
 	.byte 2,147,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Country_string
-	.quad Lme_25
+	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17371,7 +17028,7 @@ Lfde10_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Country_string
 
-LDIFF_SYM88=Lme_25 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Country_string
+LDIFF_SYM88=Lme_23 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Country_string
 	.long LDIFF_SYM88
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17386,7 +17043,7 @@ Lfde10_end:
 
 	.byte 2,165,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_CountryCode
-	.quad Lme_26
+	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17415,7 +17072,7 @@ Lfde11_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_CountryCode
 
-LDIFF_SYM93=Lme_26 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_CountryCode
+LDIFF_SYM93=Lme_24 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_CountryCode
 	.long LDIFF_SYM93
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17430,7 +17087,7 @@ Lfde11_end:
 
 	.byte 2,174,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_CountryCode_string
-	.quad Lme_27
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17469,7 +17126,7 @@ Lfde12_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_CountryCode_string
 
-LDIFF_SYM100=Lme_27 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_CountryCode_string
+LDIFF_SYM100=Lme_25 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_CountryCode_string
 	.long LDIFF_SYM100
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17484,7 +17141,7 @@ Lfde12_end:
 
 	.byte 2,192,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Direction
-	.quad Lme_28
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17513,7 +17170,7 @@ Lfde13_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Direction
 
-LDIFF_SYM105=Lme_28 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Direction
+LDIFF_SYM105=Lme_26 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Direction
 	.long LDIFF_SYM105
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17528,7 +17185,7 @@ Lfde13_end:
 
 	.byte 2,201,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Direction_string
-	.quad Lme_29
+	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17567,7 +17224,7 @@ Lfde14_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Direction_string
 
-LDIFF_SYM112=Lme_29 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Direction_string
+LDIFF_SYM112=Lme_27 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Direction_string
 	.long LDIFF_SYM112
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17582,7 +17239,7 @@ Lfde14_end:
 
 	.byte 2,219,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Distance
-	.quad Lme_2a
+	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17611,7 +17268,7 @@ Lfde15_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Distance
 
-LDIFF_SYM117=Lme_2a - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Distance
+LDIFF_SYM117=Lme_28 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Distance
 	.long LDIFF_SYM117
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17626,7 +17283,7 @@ Lfde15_end:
 
 	.byte 2,228,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Distance_string
-	.quad Lme_2b
+	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17665,7 +17322,7 @@ Lfde16_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Distance_string
 
-LDIFF_SYM124=Lme_2b - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Distance_string
+LDIFF_SYM124=Lme_29 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Distance_string
 	.long LDIFF_SYM124
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17680,7 +17337,7 @@ Lfde16_end:
 
 	.byte 2,246,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_District
-	.quad Lme_2c
+	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17709,7 +17366,7 @@ Lfde17_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_District
 
-LDIFF_SYM129=Lme_2c - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_District
+LDIFF_SYM129=Lme_2a - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_District
 	.long LDIFF_SYM129
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17724,7 +17381,7 @@ Lfde17_end:
 
 	.byte 2,255,1
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_District_string
-	.quad Lme_2d
+	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17763,7 +17420,7 @@ Lfde18_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_District_string
 
-LDIFF_SYM136=Lme_2d - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_District_string
+LDIFF_SYM136=Lme_2b - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_District_string
 	.long LDIFF_SYM136
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17778,7 +17435,7 @@ Lfde18_end:
 
 	.byte 2,145,2
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Province
-	.quad Lme_2e
+	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17807,7 +17464,7 @@ Lfde19_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Province
 
-LDIFF_SYM141=Lme_2e - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Province
+LDIFF_SYM141=Lme_2c - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Province
 	.long LDIFF_SYM141
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17822,7 +17479,7 @@ Lfde19_end:
 
 	.byte 2,154,2
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Province_string
-	.quad Lme_2f
+	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17861,7 +17518,7 @@ Lfde20_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Province_string
 
-LDIFF_SYM148=Lme_2f - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Province_string
+LDIFF_SYM148=Lme_2d - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Province_string
 	.long LDIFF_SYM148
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17876,7 +17533,7 @@ Lfde20_end:
 
 	.byte 2,172,2
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetName
-	.quad Lme_30
+	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17905,7 +17562,7 @@ Lfde21_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetName
 
-LDIFF_SYM153=Lme_30 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetName
+LDIFF_SYM153=Lme_2e - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetName
 	.long LDIFF_SYM153
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -17920,7 +17577,7 @@ Lfde21_end:
 
 	.byte 2,181,2
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetName_string
-	.quad Lme_31
+	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -17959,7 +17616,7 @@ Lfde22_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetName_string
 
-LDIFF_SYM160=Lme_31 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetName_string
+LDIFF_SYM160=Lme_2f - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetName_string
 	.long LDIFF_SYM160
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -17974,7 +17631,7 @@ Lfde22_end:
 
 	.byte 2,199,2
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetNumber
-	.quad Lme_32
+	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18003,7 +17660,7 @@ Lfde23_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetNumber
 
-LDIFF_SYM165=Lme_32 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetNumber
+LDIFF_SYM165=Lme_30 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_StreetNumber
 	.long LDIFF_SYM165
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -18018,7 +17675,7 @@ Lfde23_end:
 
 	.byte 2,208,2
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetNumber_string
-	.quad Lme_33
+	.quad Lme_31
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18057,7 +17714,7 @@ Lfde24_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetNumber_string
 
-LDIFF_SYM172=Lme_33 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetNumber_string
+LDIFF_SYM172=Lme_31 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_StreetNumber_string
 	.long LDIFF_SYM172
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -18072,7 +17729,7 @@ Lfde24_end:
 
 	.byte 2,226,2
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Town
-	.quad Lme_34
+	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18101,7 +17758,7 @@ Lfde25_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Town
 
-LDIFF_SYM177=Lme_34 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Town
+LDIFF_SYM177=Lme_32 - BaiduMapSDK_Base_iOS_BMKAddressComponent_get_Town
 	.long LDIFF_SYM177
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -18116,7 +17773,7 @@ Lfde25_end:
 
 	.byte 2,235,2
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Town_string
-	.quad Lme_35
+	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18155,7 +17812,7 @@ Lfde26_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Town_string
 
-LDIFF_SYM184=Lme_35 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Town_string
+LDIFF_SYM184=Lme_33 - BaiduMapSDK_Base_iOS_BMKAddressComponent_set_Town_string
 	.long LDIFF_SYM184
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -18170,7 +17827,7 @@ Lfde26_end:
 
 	.byte 2,50
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent__cctor
-	.quad Lme_36
+	.quad Lme_34
 
 	.byte 2,118,16,0
 
@@ -18184,7 +17841,7 @@ Lfde27_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKAddressComponent__cctor
 
-LDIFF_SYM186=Lme_36 - BaiduMapSDK_Base_iOS_BMKAddressComponent__cctor
+LDIFF_SYM186=Lme_34 - BaiduMapSDK_Base_iOS_BMKAddressComponent__cctor
 	.long LDIFF_SYM186
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -18249,7 +17906,7 @@ LDIFF_SYM195=LTDIE_7 - Ldebug_info_start
 
 	.byte 3,71
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegateWrapper__ctor_intptr_bool
-	.quad Lme_37
+	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18278,7 +17935,7 @@ Lfde28_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM200=Lme_37 - BaiduMapSDK_Base_iOS_BMKGeneralDelegateWrapper__ctor_intptr_bool
+LDIFF_SYM200=Lme_35 - BaiduMapSDK_Base_iOS_BMKGeneralDelegateWrapper__ctor_intptr_bool
 	.long LDIFF_SYM200
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -18315,7 +17972,7 @@ LDIFF_SYM204=LTDIE_9 - Ldebug_info_start
 
 	.byte 3,86
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor
-	.quad Lme_38
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18334,7 +17991,7 @@ Lfde29_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor
 
-LDIFF_SYM207=Lme_38 - BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor
+LDIFF_SYM207=Lme_36 - BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor
 	.long LDIFF_SYM207
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
@@ -18349,7 +18006,7 @@ Lfde29_end:
 
 	.byte 3,94
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_Foundation_NSObjectFlag
-	.quad Lme_39
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18373,7 +18030,7 @@ Lfde30_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM211=Lme_39 - BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_Foundation_NSObjectFlag
+LDIFF_SYM211=Lme_37 - BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_Foundation_NSObjectFlag
 	.long LDIFF_SYM211
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
@@ -18388,7 +18045,7 @@ Lfde30_end:
 
 	.byte 3,101
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_intptr
-	.quad Lme_3a
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18412,7 +18069,7 @@ Lfde31_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_intptr
 
-LDIFF_SYM215=Lme_3a - BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_intptr
+LDIFF_SYM215=Lme_38 - BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor_intptr
 	.long LDIFF_SYM215
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
@@ -18454,7 +18111,7 @@ LDIFF_SYM220=LTDIE_10 - Ldebug_info_start
 
 	.byte 3,109
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetNetworkState_int
-	.quad Lme_3b
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18478,7 +18135,7 @@ Lfde32_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetNetworkState_int
 
-LDIFF_SYM224=Lme_3b - BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetNetworkState_int
+LDIFF_SYM224=Lme_39 - BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetNetworkState_int
 	.long LDIFF_SYM224
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
@@ -18493,7 +18150,7 @@ Lfde32_end:
 
 	.byte 3,116
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetPermissionState_int
-	.quad Lme_3c
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18517,7 +18174,7 @@ Lfde33_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetPermissionState_int
 
-LDIFF_SYM228=Lme_3c - BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetPermissionState_int
+LDIFF_SYM228=Lme_3a - BaiduMapSDK_Base_iOS_BMKGeneralDelegate_OnGetPermissionState_int
 	.long LDIFF_SYM228
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
@@ -18554,7 +18211,7 @@ LDIFF_SYM232=LTDIE_11 - Ldebug_info_start
 
 	.byte 4,52
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_ClassHandle
-	.quad Lme_3d
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18578,7 +18235,7 @@ Lfde34_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_ClassHandle
 
-LDIFF_SYM236=Lme_3d - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_ClassHandle
+LDIFF_SYM236=Lme_3b - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_ClassHandle
 	.long LDIFF_SYM236
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
@@ -18593,7 +18250,7 @@ Lfde34_end:
 
 	.byte 4,57
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor
-	.quad Lme_3e
+	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18617,7 +18274,7 @@ Lfde35_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor
 
-LDIFF_SYM240=Lme_3e - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor
+LDIFF_SYM240=Lme_3c - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor
 	.long LDIFF_SYM240
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
@@ -18632,7 +18289,7 @@ Lfde35_end:
 
 	.byte 4,69
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_Foundation_NSObjectFlag
-	.quad Lme_3f
+	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18656,7 +18313,7 @@ Lfde36_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM244=Lme_3f - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_Foundation_NSObjectFlag
+LDIFF_SYM244=Lme_3d - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_Foundation_NSObjectFlag
 	.long LDIFF_SYM244
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
@@ -18671,7 +18328,7 @@ Lfde36_end:
 
 	.byte 4,76
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_intptr
-	.quad Lme_40
+	.quad Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18695,7 +18352,7 @@ Lfde37_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_intptr
 
-LDIFF_SYM248=Lme_40 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_intptr
+LDIFF_SYM248=Lme_3e - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__ctor_intptr
 	.long LDIFF_SYM248
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
@@ -18710,7 +18367,7 @@ Lfde37_end:
 
 	.byte 4,84
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Floor
-	.quad Lme_41
+	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18739,7 +18396,7 @@ Lfde38_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Floor
 
-LDIFF_SYM253=Lme_41 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Floor
+LDIFF_SYM253=Lme_3f - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Floor
 	.long LDIFF_SYM253
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
@@ -18754,7 +18411,7 @@ Lfde38_end:
 
 	.byte 4,93
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Floor_string
-	.quad Lme_42
+	.quad Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18793,7 +18450,7 @@ Lfde39_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Floor_string
 
-LDIFF_SYM260=Lme_42 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Floor_string
+LDIFF_SYM260=Lme_40 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Floor_string
 	.long LDIFF_SYM260
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
@@ -18808,7 +18465,7 @@ Lfde39_end:
 
 	.byte 4,111
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Pt
-	.quad Lme_43
+	.quad Lme_41
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18872,7 +18529,7 @@ Lfde40_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Pt
 
-LDIFF_SYM272=Lme_43 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Pt
+LDIFF_SYM272=Lme_41 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_get_Pt
 	.long LDIFF_SYM272
 	.long 0
 	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,147,40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34
@@ -18888,7 +18545,7 @@ Lfde40_end:
 
 	.byte 4,142,1
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
-	.quad Lme_44
+	.quad Lme_42
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -18917,7 +18574,7 @@ Lfde41_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
 
-LDIFF_SYM277=Lme_44 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
+LDIFF_SYM277=Lme_42 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
 	.long LDIFF_SYM277
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20,154,19
@@ -18932,7 +18589,7 @@ Lfde41_end:
 
 	.byte 4,50
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__cctor
-	.quad Lme_45
+	.quad Lme_43
 
 	.byte 2,118,16,0
 
@@ -18946,7 +18603,7 @@ Lfde42_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__cctor
 
-LDIFF_SYM279=Lme_45 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__cctor
+LDIFF_SYM279=Lme_43 - BaiduMapSDK_Base_iOS_BMKIndoorPlanNode__cctor
 	.long LDIFF_SYM279
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -18983,7 +18640,7 @@ LDIFF_SYM283=LTDIE_12 - Ldebug_info_start
 
 	.byte 5,52
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_ClassHandle
-	.quad Lme_46
+	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -19007,7 +18664,7 @@ Lfde43_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_ClassHandle
 
-LDIFF_SYM287=Lme_46 - BaiduMapSDK_Base_iOS_BMKMapManager_get_ClassHandle
+LDIFF_SYM287=Lme_44 - BaiduMapSDK_Base_iOS_BMKMapManager_get_ClassHandle
 	.long LDIFF_SYM287
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
@@ -19022,7 +18679,7 @@ Lfde43_end:
 
 	.byte 5,57
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager__ctor
-	.quad Lme_47
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -19046,7 +18703,7 @@ Lfde44_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager__ctor
 
-LDIFF_SYM291=Lme_47 - BaiduMapSDK_Base_iOS_BMKMapManager__ctor
+LDIFF_SYM291=Lme_45 - BaiduMapSDK_Base_iOS_BMKMapManager__ctor
 	.long LDIFF_SYM291
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
@@ -19061,7 +18718,7 @@ Lfde44_end:
 
 	.byte 5,69
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager__ctor_Foundation_NSObjectFlag
-	.quad Lme_48
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -19085,7 +18742,7 @@ Lfde45_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM295=Lme_48 - BaiduMapSDK_Base_iOS_BMKMapManager__ctor_Foundation_NSObjectFlag
+LDIFF_SYM295=Lme_46 - BaiduMapSDK_Base_iOS_BMKMapManager__ctor_Foundation_NSObjectFlag
 	.long LDIFF_SYM295
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
@@ -19100,7 +18757,7 @@ Lfde45_end:
 
 	.byte 5,76
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager__ctor_intptr
-	.quad Lme_49
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -19124,7 +18781,7 @@ Lfde46_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager__ctor_intptr
 
-LDIFF_SYM299=Lme_49 - BaiduMapSDK_Base_iOS_BMKMapManager__ctor_intptr
+LDIFF_SYM299=Lme_47 - BaiduMapSDK_Base_iOS_BMKMapManager__ctor_intptr
 	.long LDIFF_SYM299
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
@@ -19164,7 +18821,7 @@ LDIFF_SYM303=LTDIE_13 - Ldebug_info_start
 
 	.byte 5,84
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_LogEnable_bool_BaiduMapSDK_Base_iOS_BMKMapModule
-	.quad Lme_4a
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "enable"
@@ -19188,7 +18845,7 @@ Lfde47_start:
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_LogEnable_bool_BaiduMapSDK_Base_iOS_BMKMapModule
 
-LDIFF_SYM307=Lme_4a - BaiduMapSDK_Base_iOS_BMKMapManager_LogEnable_bool_BaiduMapSDK_Base_iOS_BMKMapModule
+LDIFF_SYM307=Lme_48 - BaiduMapSDK_Base_iOS_BMKMapManager_LogEnable_bool_BaiduMapSDK_Base_iOS_BMKMapModule
 	.long LDIFF_SYM307
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
@@ -19199,7 +18856,7 @@ Lfde47_end:
 LTDIE_14:
 
 	.byte 8
-	.asciz "BaiduMapSDK_Base_iOS_BmkCoordType"
+	.asciz "BaiduMapSDK_Base_iOS_BMK_COORD_TYPE"
 
 	.byte 8
 LDIFF_SYM308=LDIE_U8 - Ldebug_info_start
@@ -19214,7 +18871,7 @@ LDIFF_SYM308=LDIE_U8 - Ldebug_info_start
 	.asciz "Bd09ll"
 
 	.byte 2,0,7
-	.asciz "BaiduMapSDK_Base_iOS_BmkCoordType"
+	.asciz "BaiduMapSDK_Base_iOS_BMK_COORD_TYPE"
 
 LDIFF_SYM309=LTDIE_14 - Ldebug_info_start
 	.long LDIFF_SYM309
@@ -19230,43 +18887,38 @@ LDIFF_SYM311=LTDIE_14 - Ldebug_info_start
 	.long LDIFF_SYM311
 	.byte 2
 	.asciz "BaiduMapSDK.Base.iOS.BMKMapManager:SetCoordinateTypeUsedInBaiduMapSDK"
-	.asciz "BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BmkCoordType"
+	.asciz "BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE"
 
 	.byte 5,91
-	.quad BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BmkCoordType
-	.quad Lme_4b
+	.quad BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "coorType"
 
 LDIFF_SYM312=LTDIE_14 - Ldebug_info_start
 	.long LDIFF_SYM312
-	.byte 1,106,11
+	.byte 2,141,24,11
 	.asciz "V_0"
 
 LDIFF_SYM313=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM313
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM314=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM314
-	.byte 1,104,0
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM315=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM315
+LDIFF_SYM314=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM314
 Lfde48_start:
 
 	.long 0
 	.align 3
-	.quad BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BmkCoordType
+	.quad BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE
 
-LDIFF_SYM316=Lme_4b - BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BmkCoordType
-	.long LDIFF_SYM316
+LDIFF_SYM315=Lme_49 - BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE
+	.long LDIFF_SYM315
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
 Lfde48_end:
 
@@ -19276,69 +18928,69 @@ Lfde48_end:
 	.asciz "BaiduMapSDK.Base.iOS.BMKMapManager:Start"
 	.asciz "BaiduMapSDK_Base_iOS_BMKMapManager_Start_string_BaiduMapSDK_Base_iOS_BMKGeneralDelegate"
 
-	.byte 5,102
+	.byte 5,98
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_Start_string_BaiduMapSDK_Base_iOS_BMKGeneralDelegate
-	.quad Lme_4c
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM317=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM317
+LDIFF_SYM316=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM316
 	.byte 1,104,3
 	.asciz "key"
 
-LDIFF_SYM318=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM318
+LDIFF_SYM317=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM317
 	.byte 1,105,3
 	.asciz "delegate"
 
-LDIFF_SYM319=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM319
+LDIFF_SYM318=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM318
 	.byte 1,106,11
 	.asciz "nskey"
 
-LDIFF_SYM320=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM319=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM319
 	.byte 1,103,11
 	.asciz "ret"
 
-LDIFF_SYM321=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM321
+LDIFF_SYM320=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM320
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM322=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM322
+LDIFF_SYM321=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM321
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM323=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM323
+LDIFF_SYM322=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM322
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM324=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM324
+LDIFF_SYM323=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM323
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM325=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM325
+LDIFF_SYM324=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM324
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM326=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM326
+LDIFF_SYM325=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM325
 Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_Start_string_BaiduMapSDK_Base_iOS_BMKGeneralDelegate
 
-LDIFF_SYM327=Lme_4c - BaiduMapSDK_Base_iOS_BMKMapManager_Start_string_BaiduMapSDK_Base_iOS_BMKGeneralDelegate
-	.long LDIFF_SYM327
+LDIFF_SYM326=Lme_4a - BaiduMapSDK_Base_iOS_BMKMapManager_Start_string_BaiduMapSDK_Base_iOS_BMKGeneralDelegate
+	.long LDIFF_SYM326
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -19351,41 +19003,31 @@ Lfde49_end:
 	.asciz "BaiduMapSDK.Base.iOS.BMKMapManager:get_CoordinateTypeUsedInBaiduMapSDK"
 	.asciz "BaiduMapSDK_Base_iOS_BMKMapManager_get_CoordinateTypeUsedInBaiduMapSDK"
 
-	.byte 5,123
+	.byte 5,119
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_CoordinateTypeUsedInBaiduMapSDK
-	.quad Lme_4d
+	.quad Lme_4b
 
 	.byte 2,118,16,11
-	.asciz "ret"
+	.asciz "V_0"
 
-LDIFF_SYM328=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM328
-	.byte 1,106,11
-	.asciz "V_1"
-
-LDIFF_SYM329=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM329
-	.byte 1,105,11
-	.asciz "V_2"
-
-LDIFF_SYM330=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM330
-	.byte 1,104,0
+LDIFF_SYM327=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM327
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM331=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM331
+LDIFF_SYM328=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM328
 Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_CoordinateTypeUsedInBaiduMapSDK
 
-LDIFF_SYM332=Lme_4d - BaiduMapSDK_Base_iOS_BMKMapManager_get_CoordinateTypeUsedInBaiduMapSDK
-	.long LDIFF_SYM332
+LDIFF_SYM329=Lme_4b - BaiduMapSDK_Base_iOS_BMKMapManager_get_CoordinateTypeUsedInBaiduMapSDK
+	.long LDIFF_SYM329
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
 Lfde50_end:
 
@@ -19395,39 +19037,39 @@ Lfde50_end:
 	.asciz "BaiduMapSDK.Base.iOS.BMKMapManager:get_Stop"
 	.asciz "BaiduMapSDK_Base_iOS_BMKMapManager_get_Stop"
 
-	.byte 5,138,1
+	.byte 5,128,1
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_Stop
-	.quad Lme_4e
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM333=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM333
+LDIFF_SYM330=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM330
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM334=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM331=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM331
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM335=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM332=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM332
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM336=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM336
+LDIFF_SYM333=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM333
 Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_Stop
 
-LDIFF_SYM337=Lme_4e - BaiduMapSDK_Base_iOS_BMKMapManager_get_Stop
-	.long LDIFF_SYM337
+LDIFF_SYM334=Lme_4c - BaiduMapSDK_Base_iOS_BMKMapManager_get_Stop
+	.long LDIFF_SYM334
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -19439,39 +19081,39 @@ Lfde51_end:
 	.asciz "BaiduMapSDK.Base.iOS.BMKMapManager:get_TotalRecvFlaxLength"
 	.asciz "BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalRecvFlaxLength"
 
-	.byte 5,151,1
+	.byte 5,141,1
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalRecvFlaxLength
-	.quad Lme_4f
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM338=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM335=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM335
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM339=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM339
+LDIFF_SYM336=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM336
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM340=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM340
+LDIFF_SYM337=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM337
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM341=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM341
+LDIFF_SYM338=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM338
 Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalRecvFlaxLength
 
-LDIFF_SYM342=Lme_4f - BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalRecvFlaxLength
-	.long LDIFF_SYM342
+LDIFF_SYM339=Lme_4d - BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalRecvFlaxLength
+	.long LDIFF_SYM339
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -19483,39 +19125,39 @@ Lfde52_end:
 	.asciz "BaiduMapSDK.Base.iOS.BMKMapManager:get_TotalSendFlaxLength"
 	.asciz "BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalSendFlaxLength"
 
-	.byte 5,164,1
+	.byte 5,154,1
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalSendFlaxLength
-	.quad Lme_50
+	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM343=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM340=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM344=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM341=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM345=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM342=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM342
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM346=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM346
+LDIFF_SYM343=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM343
 Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalSendFlaxLength
 
-LDIFF_SYM347=Lme_50 - BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalSendFlaxLength
-	.long LDIFF_SYM347
+LDIFF_SYM344=Lme_4e - BaiduMapSDK_Base_iOS_BMKMapManager_get_TotalSendFlaxLength
+	.long LDIFF_SYM344
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -19529,22 +19171,22 @@ Lfde53_end:
 
 	.byte 5,50
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager__cctor
-	.quad Lme_51
+	.quad Lme_4f
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM348=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM348
+LDIFF_SYM345=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM345
 Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKMapManager__cctor
 
-LDIFF_SYM349=Lme_51 - BaiduMapSDK_Base_iOS_BMKMapManager__cctor
-	.long LDIFF_SYM349
+LDIFF_SYM346=Lme_4f - BaiduMapSDK_Base_iOS_BMKMapManager__cctor
+	.long LDIFF_SYM346
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -19557,55 +19199,55 @@ LTDIE_15:
 	.asciz "BaiduMapSDK_Base_iOS_BMKPlanNode"
 
 	.byte 40,16
-LDIFF_SYM350=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM350
+LDIFF_SYM347=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM347
 	.byte 2,35,0,0,7
 	.asciz "BaiduMapSDK_Base_iOS_BMKPlanNode"
 
-LDIFF_SYM351=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM348=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM348
 LTDIE_15_POINTER:
 
 	.byte 13
-LDIFF_SYM352=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM352
+LDIFF_SYM349=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM349
 LTDIE_15_REFERENCE:
 
 	.byte 14
-LDIFF_SYM353=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM353
+LDIFF_SYM350=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 2
 	.asciz "BaiduMapSDK.Base.iOS.BMKPlanNode:get_ClassHandle"
 	.asciz "BaiduMapSDK_Base_iOS_BMKPlanNode_get_ClassHandle"
 
 	.byte 6,52
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_ClassHandle
-	.quad Lme_52
+	.quad Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM354=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM354
+LDIFF_SYM351=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM351
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM355=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM355
+LDIFF_SYM352=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM352
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM356=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM356
+LDIFF_SYM353=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM353
 Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_ClassHandle
 
-LDIFF_SYM357=Lme_52 - BaiduMapSDK_Base_iOS_BMKPlanNode_get_ClassHandle
-	.long LDIFF_SYM357
+LDIFF_SYM354=Lme_50 - BaiduMapSDK_Base_iOS_BMKPlanNode_get_ClassHandle
+	.long LDIFF_SYM354
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -19619,32 +19261,32 @@ Lfde55_end:
 
 	.byte 6,57
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode__ctor
-	.quad Lme_53
+	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM358=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM358
+LDIFF_SYM355=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM355
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM359=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM356=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM356
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM360=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM360
+LDIFF_SYM357=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM357
 Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode__ctor
 
-LDIFF_SYM361=Lme_53 - BaiduMapSDK_Base_iOS_BMKPlanNode__ctor
-	.long LDIFF_SYM361
+LDIFF_SYM358=Lme_51 - BaiduMapSDK_Base_iOS_BMKPlanNode__ctor
+	.long LDIFF_SYM358
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -19658,32 +19300,32 @@ Lfde56_end:
 
 	.byte 6,69
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_Foundation_NSObjectFlag
-	.quad Lme_54
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM362=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM359=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM363=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM363
+LDIFF_SYM360=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM364=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM364
+LDIFF_SYM361=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM361
 Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM365=Lme_54 - BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM365
+LDIFF_SYM362=Lme_52 - BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM362
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -19697,32 +19339,32 @@ Lfde57_end:
 
 	.byte 6,76
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_intptr
-	.quad Lme_55
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM366=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM366
+LDIFF_SYM363=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM367=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM367
+LDIFF_SYM364=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM364
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM368=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM368
+LDIFF_SYM365=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM365
 Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_intptr
 
-LDIFF_SYM369=Lme_55 - BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_intptr
-	.long LDIFF_SYM369
+LDIFF_SYM366=Lme_53 - BaiduMapSDK_Base_iOS_BMKPlanNode__ctor_intptr
+	.long LDIFF_SYM366
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -19736,37 +19378,37 @@ Lfde58_end:
 
 	.byte 6,84
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityID
-	.quad Lme_56
+	.quad Lme_54
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM370=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM370
+LDIFF_SYM367=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM367
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM371=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM371
+LDIFF_SYM368=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM368
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM372=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM372
+LDIFF_SYM369=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM369
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM373=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM373
+LDIFF_SYM370=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM370
 Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityID
 
-LDIFF_SYM374=Lme_56 - BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityID
-	.long LDIFF_SYM374
+LDIFF_SYM371=Lme_54 - BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityID
+	.long LDIFF_SYM371
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -19780,37 +19422,37 @@ Lfde59_end:
 
 	.byte 6,93
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityID_System_nint
-	.quad Lme_57
+	.quad Lme_55
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM375=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM372=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM372
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM376=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM373=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM373
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM377=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM374=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM374
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM378=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM378
+LDIFF_SYM375=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM375
 Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityID_System_nint
 
-LDIFF_SYM379=Lme_57 - BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityID_System_nint
-	.long LDIFF_SYM379
+LDIFF_SYM376=Lme_55 - BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityID_System_nint
+	.long LDIFF_SYM376
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -19824,37 +19466,37 @@ Lfde60_end:
 
 	.byte 6,105
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityName
-	.quad Lme_58
+	.quad Lme_56
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM380=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM380
+LDIFF_SYM377=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM377
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM381=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM381
+LDIFF_SYM378=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM378
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM382=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM382
+LDIFF_SYM379=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM379
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM383=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM383
+LDIFF_SYM380=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM380
 Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityName
 
-LDIFF_SYM384=Lme_58 - BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityName
-	.long LDIFF_SYM384
+LDIFF_SYM381=Lme_56 - BaiduMapSDK_Base_iOS_BMKPlanNode_get_CityName
+	.long LDIFF_SYM381
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -19868,47 +19510,47 @@ Lfde61_end:
 
 	.byte 6,114
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityName_string
-	.quad Lme_59
+	.quad Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM385=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM385
+LDIFF_SYM382=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM382
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM386=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM386
+LDIFF_SYM383=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM383
 	.byte 1,106,11
 	.asciz "nsvalue"
 
-LDIFF_SYM387=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM387
+LDIFF_SYM384=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM384
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM388=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM388
+LDIFF_SYM385=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM385
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM389=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM386=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM386
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM390=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM390
+LDIFF_SYM387=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM387
 Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityName_string
 
-LDIFF_SYM391=Lme_59 - BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityName_string
-	.long LDIFF_SYM391
+LDIFF_SYM388=Lme_57 - BaiduMapSDK_Base_iOS_BMKPlanNode_set_CityName_string
+	.long LDIFF_SYM388
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -19922,37 +19564,37 @@ Lfde62_end:
 
 	.byte 6,132,1
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_Name
-	.quad Lme_5a
+	.quad Lme_58
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM392=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM392
+LDIFF_SYM389=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM389
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM393=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM390=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM390
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM394=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM394
+LDIFF_SYM391=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM391
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM395=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM395
+LDIFF_SYM392=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM392
 Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_Name
 
-LDIFF_SYM396=Lme_5a - BaiduMapSDK_Base_iOS_BMKPlanNode_get_Name
-	.long LDIFF_SYM396
+LDIFF_SYM393=Lme_58 - BaiduMapSDK_Base_iOS_BMKPlanNode_get_Name
+	.long LDIFF_SYM393
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -19966,47 +19608,47 @@ Lfde63_end:
 
 	.byte 6,141,1
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_set_Name_string
-	.quad Lme_5b
+	.quad Lme_59
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM397=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM394=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM394
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM398=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM398
+LDIFF_SYM395=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM395
 	.byte 1,106,11
 	.asciz "nsvalue"
 
-LDIFF_SYM399=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM399
+LDIFF_SYM396=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM396
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM400=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM400
+LDIFF_SYM397=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM397
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM401=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM398=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM398
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM402=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM402
+LDIFF_SYM399=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM399
 Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_set_Name_string
 
-LDIFF_SYM403=Lme_5b - BaiduMapSDK_Base_iOS_BMKPlanNode_set_Name_string
-	.long LDIFF_SYM403
+LDIFF_SYM400=Lme_59 - BaiduMapSDK_Base_iOS_BMKPlanNode_set_Name_string
+	.long LDIFF_SYM400
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -20020,72 +19662,72 @@ Lfde64_end:
 
 	.byte 6,159,1
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_Pt
-	.quad Lme_5c
+	.quad Lme_5a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM404=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM401=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM401
 	.byte 1,106,11
 	.asciz "ret"
 
-LDIFF_SYM405=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM405
+LDIFF_SYM402=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM402
 	.byte 3,141,152,2,11
 	.asciz "V_1"
 
-LDIFF_SYM406=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM406
+LDIFF_SYM403=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM403
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM407=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM407
+LDIFF_SYM404=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM404
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM408=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM408
+LDIFF_SYM405=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM405
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM409=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM409
+LDIFF_SYM406=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM406
 	.byte 1,102,11
 	.asciz "V_5"
 
-LDIFF_SYM410=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM410
+LDIFF_SYM407=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM407
 	.byte 1,101,11
 	.asciz "V_6"
 
-LDIFF_SYM411=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM408=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM408
 	.byte 1,100,11
 	.asciz "V_7"
 
-LDIFF_SYM412=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM412
+LDIFF_SYM409=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM409
 	.byte 1,99,11
 	.asciz "V_8"
 
-LDIFF_SYM413=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM413
+LDIFF_SYM410=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM410
 	.byte 3,141,136,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM414=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM414
+LDIFF_SYM411=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM411
 Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_get_Pt
 
-LDIFF_SYM415=Lme_5c - BaiduMapSDK_Base_iOS_BMKPlanNode_get_Pt
-	.long LDIFF_SYM415
+LDIFF_SYM412=Lme_5a - BaiduMapSDK_Base_iOS_BMKPlanNode_get_Pt
+	.long LDIFF_SYM412
 	.long 0
 	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,147,40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34
 	.byte 154,33
@@ -20100,37 +19742,37 @@ Lfde65_end:
 
 	.byte 6,190,1
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
-	.quad Lme_5d
+	.quad Lme_5b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM416=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM416
+LDIFF_SYM413=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM413
 	.byte 1,106,3
 	.asciz "value"
 
-LDIFF_SYM417=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM417
+LDIFF_SYM414=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM414
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM418=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM418
+LDIFF_SYM415=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM415
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM419=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM419
+LDIFF_SYM416=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM416
 Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
 
-LDIFF_SYM420=Lme_5d - BaiduMapSDK_Base_iOS_BMKPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
-	.long LDIFF_SYM420
+LDIFF_SYM417=Lme_5b - BaiduMapSDK_Base_iOS_BMKPlanNode_set_Pt_CoreLocation_CLLocationCoordinate2D
+	.long LDIFF_SYM417
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20,154,19
 	.align 3
@@ -20144,22 +19786,22 @@ Lfde66_end:
 
 	.byte 6,50
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode__cctor
-	.quad Lme_5e
+	.quad Lme_5c
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM421=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM421
+LDIFF_SYM418=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM418
 Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKPlanNode__cctor
 
-LDIFF_SYM422=Lme_5e - BaiduMapSDK_Base_iOS_BMKPlanNode__cctor
-	.long LDIFF_SYM422
+LDIFF_SYM419=Lme_5c - BaiduMapSDK_Base_iOS_BMKPlanNode__cctor
+	.long LDIFF_SYM419
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20172,55 +19814,55 @@ LTDIE_16:
 	.asciz "BaiduMapSDK_Base_iOS_BMKUserLocation"
 
 	.byte 40,16
-LDIFF_SYM423=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM423
+LDIFF_SYM420=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM420
 	.byte 2,35,0,0,7
 	.asciz "BaiduMapSDK_Base_iOS_BMKUserLocation"
 
-LDIFF_SYM424=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM421=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM421
 LTDIE_16_POINTER:
 
 	.byte 13
-LDIFF_SYM425=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM425
+LDIFF_SYM422=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM422
 LTDIE_16_REFERENCE:
 
 	.byte 14
-LDIFF_SYM426=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM426
+LDIFF_SYM423=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM423
 	.byte 2
 	.asciz "BaiduMapSDK.Base.iOS.BMKUserLocation:get_ClassHandle"
 	.asciz "BaiduMapSDK_Base_iOS_BMKUserLocation_get_ClassHandle"
 
 	.byte 7,52
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_ClassHandle
-	.quad Lme_5f
+	.quad Lme_5d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM427=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM427
+LDIFF_SYM424=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM424
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM428=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM428
+LDIFF_SYM425=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM425
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM429=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM429
+LDIFF_SYM426=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM426
 Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_ClassHandle
 
-LDIFF_SYM430=Lme_5f - BaiduMapSDK_Base_iOS_BMKUserLocation_get_ClassHandle
-	.long LDIFF_SYM430
+LDIFF_SYM427=Lme_5d - BaiduMapSDK_Base_iOS_BMKUserLocation_get_ClassHandle
+	.long LDIFF_SYM427
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -20234,32 +19876,32 @@ Lfde68_end:
 
 	.byte 7,57
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation__ctor
-	.quad Lme_60
+	.quad Lme_5e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM431=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM431
+LDIFF_SYM428=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM428
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM432=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM432
+LDIFF_SYM429=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM429
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM433=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM433
+LDIFF_SYM430=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM430
 Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation__ctor
 
-LDIFF_SYM434=Lme_60 - BaiduMapSDK_Base_iOS_BMKUserLocation__ctor
-	.long LDIFF_SYM434
+LDIFF_SYM431=Lme_5e - BaiduMapSDK_Base_iOS_BMKUserLocation__ctor
+	.long LDIFF_SYM431
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -20273,32 +19915,32 @@ Lfde69_end:
 
 	.byte 7,69
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_Foundation_NSObjectFlag
-	.quad Lme_61
+	.quad Lme_5f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM435=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM435
+LDIFF_SYM432=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM432
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM436=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM436
+LDIFF_SYM433=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM433
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM437=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM437
+LDIFF_SYM434=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM434
 Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM438=Lme_61 - BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM438
+LDIFF_SYM435=Lme_5f - BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM435
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -20312,32 +19954,32 @@ Lfde70_end:
 
 	.byte 7,76
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_intptr
-	.quad Lme_62
+	.quad Lme_60
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM439=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM439
+LDIFF_SYM436=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM436
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM440=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM440
+LDIFF_SYM437=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM441=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM441
+LDIFF_SYM438=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM438
 Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_intptr
 
-LDIFF_SYM442=Lme_62 - BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_intptr
-	.long LDIFF_SYM442
+LDIFF_SYM439=Lme_60 - BaiduMapSDK_Base_iOS_BMKUserLocation__ctor_intptr
+	.long LDIFF_SYM439
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -20350,65 +19992,65 @@ LTDIE_17:
 	.asciz "CoreLocation_CLHeading"
 
 	.byte 40,16
-LDIFF_SYM443=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM443
+LDIFF_SYM440=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM440
 	.byte 2,35,0,0,7
 	.asciz "CoreLocation_CLHeading"
 
-LDIFF_SYM444=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM444
+LDIFF_SYM441=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM441
 LTDIE_17_POINTER:
 
 	.byte 13
-LDIFF_SYM445=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM445
+LDIFF_SYM442=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM442
 LTDIE_17_REFERENCE:
 
 	.byte 14
-LDIFF_SYM446=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM446
+LDIFF_SYM443=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 2
 	.asciz "BaiduMapSDK.Base.iOS.BMKUserLocation:get_Heading"
 	.asciz "BaiduMapSDK_Base_iOS_BMKUserLocation_get_Heading"
 
 	.byte 7,84
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Heading
-	.quad Lme_63
+	.quad Lme_61
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM447=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM444=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM444
 	.byte 1,106,11
 	.asciz "ret"
 
-LDIFF_SYM448=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM445=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM445
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM449=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM449
+LDIFF_SYM446=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM446
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM450=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM450
+LDIFF_SYM447=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM451=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM451
+LDIFF_SYM448=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM448
 Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Heading
 
-LDIFF_SYM452=Lme_63 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Heading
-	.long LDIFF_SYM452
+LDIFF_SYM449=Lme_61 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Heading
+	.long LDIFF_SYM449
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
@@ -20422,42 +20064,42 @@ Lfde72_end:
 
 	.byte 7,95
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Heading_CoreLocation_CLHeading
-	.quad Lme_64
+	.quad Lme_62
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM453=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM453
+LDIFF_SYM450=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM450
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM454=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM454
+LDIFF_SYM451=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM451
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM455=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM455
+LDIFF_SYM452=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM452
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM456=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM456
+LDIFF_SYM453=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM453
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM457=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM457
+LDIFF_SYM454=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM454
 Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Heading_CoreLocation_CLHeading
 
-LDIFF_SYM458=Lme_64 - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Heading_CoreLocation_CLHeading
-	.long LDIFF_SYM458
+LDIFF_SYM455=Lme_62 - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Heading_CoreLocation_CLHeading
+	.long LDIFF_SYM455
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
@@ -20470,65 +20112,65 @@ LTDIE_18:
 	.asciz "CoreLocation_CLLocation"
 
 	.byte 40,16
-LDIFF_SYM459=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM459
+LDIFF_SYM456=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM456
 	.byte 2,35,0,0,7
 	.asciz "CoreLocation_CLLocation"
 
-LDIFF_SYM460=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM460
+LDIFF_SYM457=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM457
 LTDIE_18_POINTER:
 
 	.byte 13
-LDIFF_SYM461=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM461
+LDIFF_SYM458=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM458
 LTDIE_18_REFERENCE:
 
 	.byte 14
-LDIFF_SYM462=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM462
+LDIFF_SYM459=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM459
 	.byte 2
 	.asciz "BaiduMapSDK.Base.iOS.BMKUserLocation:get_Location"
 	.asciz "BaiduMapSDK_Base_iOS_BMKUserLocation_get_Location"
 
 	.byte 7,109
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Location
-	.quad Lme_65
+	.quad Lme_63
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM463=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM463
+LDIFF_SYM460=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM460
 	.byte 1,106,11
 	.asciz "ret"
 
-LDIFF_SYM464=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM464
+LDIFF_SYM461=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM461
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM465=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM465
+LDIFF_SYM462=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM462
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM466=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM466
+LDIFF_SYM463=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM463
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM467=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM467
+LDIFF_SYM464=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM464
 Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Location
 
-LDIFF_SYM468=Lme_65 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Location
-	.long LDIFF_SYM468
+LDIFF_SYM465=Lme_63 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Location
+	.long LDIFF_SYM465
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
@@ -20542,42 +20184,42 @@ Lfde74_end:
 
 	.byte 7,120
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Location_CoreLocation_CLLocation
-	.quad Lme_66
+	.quad Lme_64
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM469=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM469
+LDIFF_SYM466=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM466
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM470=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM470
+LDIFF_SYM467=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM467
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM471=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM471
+LDIFF_SYM468=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM468
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM472=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM472
+LDIFF_SYM469=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM469
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM473=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM473
+LDIFF_SYM470=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM470
 Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Location_CoreLocation_CLLocation
 
-LDIFF_SYM474=Lme_66 - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Location_CoreLocation_CLLocation
-	.long LDIFF_SYM474
+LDIFF_SYM471=Lme_64 - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Location_CoreLocation_CLLocation
+	.long LDIFF_SYM471
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
@@ -20591,37 +20233,37 @@ Lfde75_end:
 
 	.byte 7,134,1
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Subtitle
-	.quad Lme_67
+	.quad Lme_65
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM475=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM475
+LDIFF_SYM472=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM472
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM476=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM476
+LDIFF_SYM473=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM473
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM477=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM477
+LDIFF_SYM474=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM474
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM478=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM478
+LDIFF_SYM475=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM475
 Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Subtitle
 
-LDIFF_SYM479=Lme_67 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Subtitle
-	.long LDIFF_SYM479
+LDIFF_SYM476=Lme_65 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Subtitle
+	.long LDIFF_SYM476
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -20635,47 +20277,47 @@ Lfde76_end:
 
 	.byte 7,143,1
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Subtitle_string
-	.quad Lme_68
+	.quad Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM480=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM480
+LDIFF_SYM477=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM477
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM481=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM481
+LDIFF_SYM478=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM478
 	.byte 1,106,11
 	.asciz "nsvalue"
 
-LDIFF_SYM482=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM482
+LDIFF_SYM479=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM479
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM483=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM483
+LDIFF_SYM480=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM480
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM484=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM484
+LDIFF_SYM481=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM481
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM485=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM485
+LDIFF_SYM482=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM482
 Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Subtitle_string
 
-LDIFF_SYM486=Lme_68 - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Subtitle_string
-	.long LDIFF_SYM486
+LDIFF_SYM483=Lme_66 - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Subtitle_string
+	.long LDIFF_SYM483
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -20689,37 +20331,37 @@ Lfde77_end:
 
 	.byte 7,161,1
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Title
-	.quad Lme_69
+	.quad Lme_67
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM487=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM487
+LDIFF_SYM484=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM484
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM488=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM488
+LDIFF_SYM485=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM485
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM489=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM489
+LDIFF_SYM486=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM486
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM490=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM490
+LDIFF_SYM487=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM487
 Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Title
 
-LDIFF_SYM491=Lme_69 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Title
-	.long LDIFF_SYM491
+LDIFF_SYM488=Lme_67 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Title
+	.long LDIFF_SYM488
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -20733,47 +20375,47 @@ Lfde78_end:
 
 	.byte 7,170,1
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Title_string
-	.quad Lme_6a
+	.quad Lme_68
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM492=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM492
+LDIFF_SYM489=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM489
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM493=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM493
+LDIFF_SYM490=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM490
 	.byte 1,106,11
 	.asciz "nsvalue"
 
-LDIFF_SYM494=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM494
+LDIFF_SYM491=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM491
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM495=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM495
+LDIFF_SYM492=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM492
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM496=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM496
+LDIFF_SYM493=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM493
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM497=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM497
+LDIFF_SYM494=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM494
 Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Title_string
 
-LDIFF_SYM498=Lme_6a - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Title_string
-	.long LDIFF_SYM498
+LDIFF_SYM495=Lme_68 - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Title_string
+	.long LDIFF_SYM495
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -20787,37 +20429,37 @@ Lfde79_end:
 
 	.byte 7,188,1
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Updating
-	.quad Lme_6b
+	.quad Lme_69
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM499=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM499
+LDIFF_SYM496=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM496
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM500=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM500
+LDIFF_SYM497=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM497
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM501=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM501
+LDIFF_SYM498=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM498
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM502=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM502
+LDIFF_SYM499=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM499
 Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_get_Updating
 
-LDIFF_SYM503=Lme_6b - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Updating
-	.long LDIFF_SYM503
+LDIFF_SYM500=Lme_69 - BaiduMapSDK_Base_iOS_BMKUserLocation_get_Updating
+	.long LDIFF_SYM500
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -20831,37 +20473,37 @@ Lfde80_end:
 
 	.byte 7,197,1
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Updating_bool
-	.quad Lme_6c
+	.quad Lme_6a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM504=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM504
+LDIFF_SYM501=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM501
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM505=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM505
+LDIFF_SYM502=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM502
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM506=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM506
+LDIFF_SYM503=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM503
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM507=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM507
+LDIFF_SYM504=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM504
 Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation_set_Updating_bool
 
-LDIFF_SYM508=Lme_6c - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Updating_bool
-	.long LDIFF_SYM508
+LDIFF_SYM505=Lme_6a - BaiduMapSDK_Base_iOS_BMKUserLocation_set_Updating_bool
+	.long LDIFF_SYM505
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -20875,22 +20517,22 @@ Lfde81_end:
 
 	.byte 7,50
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation__cctor
-	.quad Lme_6d
+	.quad Lme_6b
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM509=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM509
+LDIFF_SYM506=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM506
 Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad BaiduMapSDK_Base_iOS_BMKUserLocation__cctor
 
-LDIFF_SYM510=Lme_6d - BaiduMapSDK_Base_iOS_BMKUserLocation__cctor
-	.long LDIFF_SYM510
+LDIFF_SYM507=Lme_6b - BaiduMapSDK_Base_iOS_BMKUserLocation__cctor
+	.long LDIFF_SYM507
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20904,52 +20546,52 @@ Lfde82_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
-	.quad Lme_6f
+	.quad Lme_6d
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM511=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM511
+LDIFF_SYM508=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM508
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM512=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM512
+LDIFF_SYM509=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM509
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM513=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM513
+LDIFF_SYM510=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM510
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM514=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM514
+LDIFF_SYM511=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM511
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM515=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM515
+LDIFF_SYM512=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM512
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM516=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM516
+LDIFF_SYM513=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM513
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM517=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM517
+LDIFF_SYM514=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM514
 Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
 
-LDIFF_SYM518=Lme_6f - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM518
+LDIFF_SYM515=Lme_6d - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM515
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -20964,52 +20606,52 @@ Lfde83_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
-	.quad Lme_70
+	.quad Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM519=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM519
+LDIFF_SYM516=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM516
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM520=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM520
+LDIFF_SYM517=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM517
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM521=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM521
+LDIFF_SYM518=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM518
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM522=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM522
+LDIFF_SYM519=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM519
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM523=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM523
+LDIFF_SYM520=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM520
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM524=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM524
+LDIFF_SYM521=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM521
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM525=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM525
+LDIFF_SYM522=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM522
 Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM526=Lme_70 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM526
+LDIFF_SYM523=Lme_6e - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM523
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -21024,52 +20666,52 @@ Lfde84_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
-	.quad Lme_71
+	.quad Lme_6f
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM527=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM527
+LDIFF_SYM524=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM524
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM528=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM528
+LDIFF_SYM525=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM525
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM529=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM529
+LDIFF_SYM526=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM526
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM530=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM530
+LDIFF_SYM527=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM527
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM531=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM531
+LDIFF_SYM528=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM528
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM532=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM532
+LDIFF_SYM529=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM529
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM533=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM533
+LDIFF_SYM530=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM530
 Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM534=Lme_71 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM534
+LDIFF_SYM531=Lme_6f - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM531
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -21084,52 +20726,52 @@ Lfde85_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
-	.quad Lme_72
+	.quad Lme_70
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM535=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM535
+LDIFF_SYM532=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM532
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM536=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM536
+LDIFF_SYM533=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM533
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM537=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM537
+LDIFF_SYM534=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM534
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM538=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM538
+LDIFF_SYM535=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM535
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM539=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM539
+LDIFF_SYM536=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM536
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM540=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM540
+LDIFF_SYM537=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM537
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM541=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM541
+LDIFF_SYM538=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM538
 Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM542=Lme_72 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM542
+LDIFF_SYM539=Lme_70 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM539
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -21144,57 +20786,57 @@ Lfde86_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr
-	.quad Lme_73
+	.quad Lme_71
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM543=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM543
+LDIFF_SYM540=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM540
 	.byte 3,141,208,0,3
 	.asciz "param1"
 
-LDIFF_SYM544=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM544
+LDIFF_SYM541=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM541
 	.byte 3,141,216,0,11
 	.asciz "V_0"
 
-LDIFF_SYM545=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM545
+LDIFF_SYM542=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM542
 	.byte 3,141,160,2,11
 	.asciz "V_1"
 
-LDIFF_SYM546=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM546
+LDIFF_SYM543=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM543
 	.byte 3,141,168,2,11
 	.asciz "V_2"
 
-LDIFF_SYM547=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM547
+LDIFF_SYM544=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM544
 	.byte 3,141,176,2,11
 	.asciz "V_3"
 
-LDIFF_SYM548=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM548
+LDIFF_SYM545=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM545
 	.byte 3,141,144,2,11
 	.asciz "V_4"
 
-LDIFF_SYM549=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM549
+LDIFF_SYM546=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM546
 	.byte 3,141,184,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM550=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM550
+LDIFF_SYM547=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM547
 Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr
 
-LDIFF_SYM551=Lme_73 - wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM551
+LDIFF_SYM548=Lme_71 - wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM548
 	.long 0
 	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,76,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.byte 154,13,68,155,12,156,11
@@ -21209,57 +20851,57 @@ Lfde87_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr
-	.quad Lme_74
+	.quad Lme_72
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM552=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM552
+LDIFF_SYM549=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM549
 	.byte 3,141,208,0,3
 	.asciz "param1"
 
-LDIFF_SYM553=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM553
+LDIFF_SYM550=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM550
 	.byte 3,141,216,0,11
 	.asciz "V_0"
 
-LDIFF_SYM554=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM554
+LDIFF_SYM551=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM551
 	.byte 3,141,160,2,11
 	.asciz "V_1"
 
-LDIFF_SYM555=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM555
+LDIFF_SYM552=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM552
 	.byte 3,141,168,2,11
 	.asciz "V_2"
 
-LDIFF_SYM556=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM556
+LDIFF_SYM553=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM553
 	.byte 3,141,176,2,11
 	.asciz "V_3"
 
-LDIFF_SYM557=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM557
+LDIFF_SYM554=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM554
 	.byte 3,141,144,2,11
 	.asciz "V_4"
 
-LDIFF_SYM558=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM558
+LDIFF_SYM555=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM555
 	.byte 3,141,184,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM559=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM559
+LDIFF_SYM556=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM556
 Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM560=Lme_74 - wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM560
+LDIFF_SYM557=Lme_72 - wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM557
 	.long 0
 	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,76,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.byte 154,13,68,155,12,156,11
@@ -21273,113 +20915,113 @@ LTDIE_20:
 	.asciz "System_Double"
 
 	.byte 24,16
-LDIFF_SYM561=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM561
+LDIFF_SYM558=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM558
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM562=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM562
+LDIFF_SYM559=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM559
 	.byte 2,35,16,0,7
 	.asciz "System_Double"
 
-LDIFF_SYM563=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM563
+LDIFF_SYM560=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM560
 LTDIE_20_POINTER:
 
 	.byte 13
-LDIFF_SYM564=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM564
+LDIFF_SYM561=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM561
 LTDIE_20_REFERENCE:
 
 	.byte 14
-LDIFF_SYM565=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM565
+LDIFF_SYM562=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM562
 LTDIE_19:
 
 	.byte 5
 	.asciz "CoreLocation_CLLocationCoordinate2D"
 
 	.byte 32,16
-LDIFF_SYM566=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM566
+LDIFF_SYM563=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM563
 	.byte 2,35,0,6
 	.asciz "Latitude"
 
-LDIFF_SYM567=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM567
+LDIFF_SYM564=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM564
 	.byte 2,35,0,6
 	.asciz "Longitude"
 
-LDIFF_SYM568=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM568
+LDIFF_SYM565=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM565
 	.byte 2,35,8,0,7
 	.asciz "CoreLocation_CLLocationCoordinate2D"
 
-LDIFF_SYM569=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM569
+LDIFF_SYM566=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM566
 LTDIE_19_POINTER:
 
 	.byte 13
-LDIFF_SYM570=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM570
+LDIFF_SYM567=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM567
 LTDIE_19_REFERENCE:
 
 	.byte 14
-LDIFF_SYM571=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM571
+LDIFF_SYM568=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM568
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:CLLocationCoordinate2D_objc_msgSend_stret"
 	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr"
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
-	.quad Lme_75
+	.quad Lme_73
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM572=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM572
+LDIFF_SYM569=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM569
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM573=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM573
+LDIFF_SYM570=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM570
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM574=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM574
+LDIFF_SYM571=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM571
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM575=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM575
+LDIFF_SYM572=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM572
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM576=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM576
+LDIFF_SYM573=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM573
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM577=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM577
+LDIFF_SYM574=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM574
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM578=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM578
+LDIFF_SYM575=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM575
 Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
 
-LDIFF_SYM579=Lme_75 - wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
-	.long LDIFF_SYM579
+LDIFF_SYM576=Lme_73 - wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSend_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
+	.long LDIFF_SYM576
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -21394,52 +21036,52 @@ Lfde89_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
-	.quad Lme_76
+	.quad Lme_74
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM580=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM580
+LDIFF_SYM577=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM577
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM581=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM581
+LDIFF_SYM578=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM578
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM582=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM582
+LDIFF_SYM579=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM579
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM583=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM583
+LDIFF_SYM580=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM580
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM584=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM581=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM581
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM585=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM585
+LDIFF_SYM582=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM582
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM586=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM586
+LDIFF_SYM583=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM583
 Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
 
-LDIFF_SYM587=Lme_76 - wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
-	.long LDIFF_SYM587
+LDIFF_SYM584=Lme_74 - wrapper_managed_to_native_ApiDefinition_Messaging_CLLocationCoordinate2D_objc_msgSendSuper_stret_CoreLocation_CLLocationCoordinate2D__intptr_intptr
+	.long LDIFF_SYM584
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -21454,52 +21096,52 @@ Lfde90_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
-	.quad Lme_77
+	.quad Lme_75
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM588=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM588
+LDIFF_SYM585=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM585
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM589=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM589
+LDIFF_SYM586=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM586
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM590=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM590
+LDIFF_SYM587=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM587
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM591=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM591
+LDIFF_SYM588=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM588
 	.byte 3,141,128,2,11
 	.asciz "V_1"
 
-LDIFF_SYM592=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM592
+LDIFF_SYM589=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM589
 	.byte 3,141,136,2,11
 	.asciz "V_2"
 
-LDIFF_SYM593=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM593
+LDIFF_SYM590=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM590
 	.byte 3,141,144,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM594=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM594
+LDIFF_SYM591=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM591
 Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
 
-LDIFF_SYM595=Lme_77 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
-	.long LDIFF_SYM595
+LDIFF_SYM592=Lme_75 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
+	.long LDIFF_SYM592
 	.long 0
 	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -21514,52 +21156,52 @@ Lfde91_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
-	.quad Lme_78
+	.quad Lme_76
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM596=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM596
+LDIFF_SYM593=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM593
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM597=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM597
+LDIFF_SYM594=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM594
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM598=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM598
+LDIFF_SYM595=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM595
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM599=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM599
+LDIFF_SYM596=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM596
 	.byte 3,141,128,2,11
 	.asciz "V_1"
 
-LDIFF_SYM600=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM600
+LDIFF_SYM597=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM597
 	.byte 3,141,136,2,11
 	.asciz "V_2"
 
-LDIFF_SYM601=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM601
+LDIFF_SYM598=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM598
 	.byte 3,141,144,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM602=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM602
+LDIFF_SYM599=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM599
 Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
 
-LDIFF_SYM603=Lme_78 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
-	.long LDIFF_SYM603
+LDIFF_SYM600=Lme_76 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_CLLocationCoordinate2D_intptr_intptr_CoreLocation_CLLocationCoordinate2D
+	.long LDIFF_SYM600
 	.long 0
 	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -21570,175 +21212,88 @@ Lfde92_end:
 LTDIE_21:
 
 	.byte 5
-	.asciz "System_UInt32"
-
-	.byte 20,16
-LDIFF_SYM604=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM604
-	.byte 2,35,0,6
-	.asciz "m_value"
-
-LDIFF_SYM605=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM605
-	.byte 2,35,16,0,7
-	.asciz "System_UInt32"
-
-LDIFF_SYM606=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM606
-LTDIE_21_POINTER:
-
-	.byte 13
-LDIFF_SYM607=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM607
-LTDIE_21_REFERENCE:
-
-	.byte 14
-LDIFF_SYM608=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM608
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:UInt32_objc_msgSend"
-	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
-	.quad Lme_79
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM609=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM609
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM610=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM610
-	.byte 2,141,24,11
-	.asciz "V_0"
-
-LDIFF_SYM611=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM611
-	.byte 3,141,176,1,11
-	.asciz "V_1"
-
-LDIFF_SYM612=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM612
-	.byte 3,141,184,1,11
-	.asciz "V_2"
-
-LDIFF_SYM613=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM613
-	.byte 3,141,192,1,11
-	.asciz "V_3"
-
-LDIFF_SYM614=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM614
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM615=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM615
-Lfde93_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
-
-LDIFF_SYM616=Lme_79 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM616
-	.long 0
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9,68,155,8,156,7
-	.align 3
-Lfde93_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_22:
-
-	.byte 5
 	.asciz "System_UInt64"
 
 	.byte 24,16
-LDIFF_SYM617=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM617
+LDIFF_SYM601=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM601
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM618=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM618
+LDIFF_SYM602=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM602
 	.byte 2,35,16,0,7
 	.asciz "System_UInt64"
 
-LDIFF_SYM619=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM619
-LTDIE_22_POINTER:
+LDIFF_SYM603=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM603
+LTDIE_21_POINTER:
 
 	.byte 13
-LDIFF_SYM620=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM620
-LTDIE_22_REFERENCE:
+LDIFF_SYM604=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM604
+LTDIE_21_REFERENCE:
 
 	.byte 14
-LDIFF_SYM621=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM621
+LDIFF_SYM605=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM605
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:UInt64_objc_msgSend"
 	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr"
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
-	.quad Lme_7a
+	.quad Lme_77
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM622=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM622
+LDIFF_SYM606=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM606
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM623=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM623
+LDIFF_SYM607=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM607
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM624=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM624
+LDIFF_SYM608=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM608
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM625=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM625
+LDIFF_SYM609=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM609
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM626=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM626
+LDIFF_SYM610=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM610
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM627=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM627
+LDIFF_SYM611=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM611
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM628=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM628
-Lfde94_start:
+LDIFF_SYM612=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM612
+Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
 
-LDIFF_SYM629=Lme_7a - wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM629
+LDIFF_SYM613=Lme_77 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM613
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
 	.align 3
-Lfde94_end:
+Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -21748,62 +21303,62 @@ Lfde94_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
-	.quad Lme_7b
+	.quad Lme_78
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM630=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM630
+LDIFF_SYM614=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM614
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM631=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM631
+LDIFF_SYM615=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM615
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM632=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM632
+LDIFF_SYM616=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM616
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM633=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM633
+LDIFF_SYM617=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM617
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM634=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM634
+LDIFF_SYM618=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM618
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM635=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM635
+LDIFF_SYM619=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM619
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM636=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM636
+LDIFF_SYM620=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM620
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM637=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM637
-Lfde95_start:
+LDIFF_SYM621=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM621
+Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
 
-LDIFF_SYM638=Lme_7b - wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM638
+LDIFF_SYM622=Lme_78 - wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM622
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
 	.align 3
-Lfde95_end:
+Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -21813,62 +21368,62 @@ Lfde95_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
-	.quad Lme_7c
+	.quad Lme_79
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM639=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM639
+LDIFF_SYM623=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM623
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM640=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM640
+LDIFF_SYM624=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM624
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM641=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM641
+LDIFF_SYM625=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM625
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM642=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM642
+LDIFF_SYM626=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM626
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM643=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM627=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM627
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM644=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM644
+LDIFF_SYM628=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM628
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM645=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM645
+LDIFF_SYM629=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM629
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM646=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM646
-Lfde96_start:
+LDIFF_SYM630=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM630
+Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM647=Lme_7c - wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM647
+LDIFF_SYM631=Lme_79 - wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM631
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
 	.align 3
-Lfde96_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -21878,7 +21433,127 @@ Lfde96_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
-	.quad Lme_7d
+	.quad Lme_7a
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM632=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM632
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM633=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM633
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM634=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM634
+	.byte 3,141,176,1,11
+	.asciz "V_1"
+
+LDIFF_SYM635=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM635
+	.byte 3,141,184,1,11
+	.asciz "V_2"
+
+LDIFF_SYM636=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM636
+	.byte 3,141,192,1,11
+	.asciz "V_3"
+
+LDIFF_SYM637=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM637
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM638=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM638
+Lfde96_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
+
+LDIFF_SYM639=Lme_7a - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM639
+	.long 0
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9,68,155,8,156,7
+	.align 3
+Lfde96_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSendSuper"
+	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
+	.quad Lme_7b
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM640=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM640
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM641=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM641
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM642=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM642
+	.byte 3,141,176,1,11
+	.asciz "V_1"
+
+LDIFF_SYM643=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM643
+	.byte 3,141,184,1,11
+	.asciz "V_2"
+
+LDIFF_SYM644=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM644
+	.byte 3,141,192,1,11
+	.asciz "V_3"
+
+LDIFF_SYM645=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM645
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM646=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM646
+Lfde97_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
+
+LDIFF_SYM647=Lme_7b - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM647
+	.long 0
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9,68,155,8,156,7
+	.align 3
+Lfde97_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSend_UInt64"
+	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
+	.quad Lme_7c
 
 	.byte 2,118,16,3
 	.asciz "param0"
@@ -21890,217 +21565,199 @@ LDIFF_SYM648=LDIE_I - Ldebug_info_start
 
 LDIFF_SYM649=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM649
-	.byte 2,141,24,11
-	.asciz "V_0"
+	.byte 2,141,24,3
+	.asciz "param2"
 
-LDIFF_SYM650=LDIE_I - Ldebug_info_start
+LDIFF_SYM650=LDIE_U8 - Ldebug_info_start
 	.long LDIFF_SYM650
-	.byte 3,141,176,1,11
-	.asciz "V_1"
+	.byte 2,141,32,11
+	.asciz "V_0"
 
 LDIFF_SYM651=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM651
 	.byte 3,141,184,1,11
-	.asciz "V_2"
+	.asciz "V_1"
 
-LDIFF_SYM652=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM652=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM652
 	.byte 3,141,192,1,11
-	.asciz "V_3"
+	.asciz "V_2"
 
 LDIFF_SYM653=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM653
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM654=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM654
-Lfde97_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
-
-LDIFF_SYM655=Lme_7d - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM655
-	.long 0
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9,68,155,8,156,7
-	.align 3
-Lfde97_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSendSuper"
-	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-	.quad Lme_7e
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM656=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM656
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM657=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM657
-	.byte 2,141,24,11
-	.asciz "V_0"
-
-LDIFF_SYM658=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM658
-	.byte 3,141,176,1,11
-	.asciz "V_1"
-
-LDIFF_SYM659=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM659
-	.byte 3,141,184,1,11
-	.asciz "V_2"
-
-LDIFF_SYM660=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM660
-	.byte 3,141,192,1,11
-	.asciz "V_3"
-
-LDIFF_SYM661=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM661
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM662=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM662
-Lfde98_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-
-LDIFF_SYM663=Lme_7e - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM663
-	.long 0
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9,68,155,8,156,7
-	.align 3
-Lfde98_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSend_UInt32"
-	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint
-	.quad Lme_7f
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM664=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM664
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM665=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM665
-	.byte 2,141,24,3
-	.asciz "param2"
-
-LDIFF_SYM666=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM666
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM667=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM667
-	.byte 3,141,184,1,11
-	.asciz "V_1"
-
-LDIFF_SYM668=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM668
-	.byte 3,141,192,1,11
-	.asciz "V_2"
-
-LDIFF_SYM669=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM669
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM670=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM670
+LDIFF_SYM654=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM654
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM671=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM671
+LDIFF_SYM655=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM655
+Lfde98_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
+
+LDIFF_SYM656=Lme_7c - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
+	.long LDIFF_SYM656
+	.long 0
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
+	.byte 154,8,68,155,7,156,6
+	.align 3
+Lfde98_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_22:
+
+	.byte 5
+	.asciz "System_UInt32"
+
+	.byte 20,16
+LDIFF_SYM657=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM657
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM658=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM658
+	.byte 2,35,16,0,7
+	.asciz "System_UInt32"
+
+LDIFF_SYM659=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM659
+LTDIE_22_POINTER:
+
+	.byte 13
+LDIFF_SYM660=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM660
+LTDIE_22_REFERENCE:
+
+	.byte 14
+LDIFF_SYM661=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM661
+	.byte 2
+	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:void_objc_msgSend_bool_UInt32"
+	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
+	.quad Lme_7d
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM662=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM662
+	.byte 2,141,16,3
+	.asciz "param1"
+
+LDIFF_SYM663=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM663
+	.byte 2,141,24,3
+	.asciz "param2"
+
+LDIFF_SYM664=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM664
+	.byte 2,141,32,3
+	.asciz "param3"
+
+LDIFF_SYM665=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM665
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM666=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM666
+	.byte 3,141,192,1,11
+	.asciz "V_1"
+
+LDIFF_SYM667=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM667
+	.byte 3,141,200,1,11
+	.asciz "V_2"
+
+LDIFF_SYM668=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM668
+	.byte 3,141,208,1,11
+	.asciz "V_3"
+
+LDIFF_SYM669=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM669
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM670=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM670
 Lfde99_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
 
-LDIFF_SYM672=Lme_7f - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_intptr_intptr_uint
-	.long LDIFF_SYM672
+LDIFF_SYM671=Lme_7d - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
+	.long LDIFF_SYM671
 	.long 0
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
-	.byte 154,8,68,155,7,156,6
+	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9,68,155,8,156,7
 	.align 3
 Lfde99_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSend_UInt64"
-	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong"
+	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSend_IntPtr_IntPtr"
+	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr"
 
 	.byte 0,0
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
-	.quad Lme_80
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+	.quad Lme_7e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM673=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM672=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM672
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM674=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM674
+LDIFF_SYM673=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM673
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM675=LDIE_U8 - Ldebug_info_start
+LDIFF_SYM674=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM674
+	.byte 2,141,32,3
+	.asciz "param3"
+
+LDIFF_SYM675=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM675
-	.byte 2,141,32,11
+	.byte 2,141,40,11
 	.asciz "V_0"
 
 LDIFF_SYM676=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM676
-	.byte 3,141,184,1,11
+	.byte 3,141,192,1,11
 	.asciz "V_1"
 
 LDIFF_SYM677=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM677
-	.byte 3,141,192,1,11
+	.byte 3,141,200,1,11
 	.asciz "V_2"
 
 LDIFF_SYM678=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM678
-	.byte 3,141,200,1,11
+	.byte 3,141,208,1,11
 	.asciz "V_3"
 
 LDIFF_SYM679=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM679
-	.byte 1,102,0
+	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -22110,25 +21767,25 @@ Lfde100_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM681=Lme_80 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_intptr_intptr_ulong
+LDIFF_SYM681=Lme_7e - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 	.long LDIFF_SYM681
 	.long 0
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
-	.byte 154,8,68,155,7,156,6
+	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9,68,155,8,156,7
 	.align 3
 Lfde100_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:void_objc_msgSend_bool_UInt32"
-	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint"
+	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSendSuper_IntPtr_IntPtr"
+	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr"
 
 	.byte 0,0
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
-	.quad Lme_81
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+	.quad Lme_7f
 
 	.byte 2,118,16,3
 	.asciz "param0"
@@ -22143,12 +21800,12 @@ LDIFF_SYM683=LDIE_I - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM684=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM684=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM684
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM685=LDIE_U4 - Ldebug_info_start
+LDIFF_SYM685=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM685
 	.byte 2,141,40,11
 	.asciz "V_0"
@@ -22168,7 +21825,7 @@ LDIFF_SYM688=LDIE_BOOLEAN - Ldebug_info_start
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM689=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM689=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM689
 	.byte 1,101,0
 
@@ -22180,9 +21837,9 @@ Lfde101_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM691=Lme_81 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_UInt32_intptr_intptr_bool_uint
+LDIFF_SYM691=Lme_7f - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 	.long LDIFF_SYM691
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
@@ -22193,12 +21850,12 @@ Lfde101_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSend_IntPtr_IntPtr"
-	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr"
+	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:nint_objc_msgSend"
+	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr"
 
 	.byte 0,0
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-	.quad Lme_82
+	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
+	.quad Lme_80
 
 	.byte 2,118,16,3
 	.asciz "param0"
@@ -22210,190 +21867,50 @@ LDIFF_SYM692=LDIE_I - Ldebug_info_start
 
 LDIFF_SYM693=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM693
-	.byte 2,141,24,3
-	.asciz "param2"
-
-LDIFF_SYM694=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM694
-	.byte 2,141,32,3
-	.asciz "param3"
-
-LDIFF_SYM695=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM695
-	.byte 2,141,40,11
-	.asciz "V_0"
-
-LDIFF_SYM696=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM696
-	.byte 3,141,192,1,11
-	.asciz "V_1"
-
-LDIFF_SYM697=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM697
-	.byte 3,141,200,1,11
-	.asciz "V_2"
-
-LDIFF_SYM698=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM698
-	.byte 3,141,208,1,11
-	.asciz "V_3"
-
-LDIFF_SYM699=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM699
-	.byte 1,101,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM700=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM700
-Lfde102_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-
-LDIFF_SYM701=Lme_82 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM701
-	.long 0
-	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9,68,155,8,156,7
-	.align 3
-Lfde102_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:bool_objc_msgSendSuper_IntPtr_IntPtr"
-	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-	.quad Lme_83
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM702=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM702
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM703=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM703
-	.byte 2,141,24,3
-	.asciz "param2"
-
-LDIFF_SYM704=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM704
-	.byte 2,141,32,3
-	.asciz "param3"
-
-LDIFF_SYM705=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM705
-	.byte 2,141,40,11
-	.asciz "V_0"
-
-LDIFF_SYM706=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM706
-	.byte 3,141,192,1,11
-	.asciz "V_1"
-
-LDIFF_SYM707=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM707
-	.byte 3,141,200,1,11
-	.asciz "V_2"
-
-LDIFF_SYM708=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM708
-	.byte 3,141,208,1,11
-	.asciz "V_3"
-
-LDIFF_SYM709=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM709
-	.byte 1,101,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM710=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM710
-Lfde103_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-
-LDIFF_SYM711=Lme_83 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM711
-	.long 0
-	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9,68,155,8,156,7
-	.align 3
-Lfde103_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:nint_objc_msgSend"
-	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr"
-
-	.byte 0,0
-	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
-	.quad Lme_84
-
-	.byte 2,118,16,3
-	.asciz "param0"
-
-LDIFF_SYM712=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM712
-	.byte 2,141,16,3
-	.asciz "param1"
-
-LDIFF_SYM713=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM713
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM714=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM714
+LDIFF_SYM694=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM694
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM715=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM715
+LDIFF_SYM695=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM695
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM716=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM696=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM696
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM717=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM717
+LDIFF_SYM697=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM697
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM718=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM718
+LDIFF_SYM698=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM698
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM719=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM719
-Lfde104_start:
+LDIFF_SYM699=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM699
+Lfde102_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
 
-LDIFF_SYM720=Lme_84 - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM720
+LDIFF_SYM700=Lme_80 - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM700
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
 	.align 3
-Lfde104_end:
+Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22403,62 +21920,62 @@ Lfde104_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
-	.quad Lme_85
+	.quad Lme_81
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM721=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM701=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM701
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM722=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM722
+LDIFF_SYM702=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM702
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM723=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM723
+LDIFF_SYM703=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM724=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM724
+LDIFF_SYM704=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM725=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM725
+LDIFF_SYM705=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM705
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM726=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM726
+LDIFF_SYM706=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM706
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM727=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM727
+LDIFF_SYM707=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM707
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM728=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM728
-Lfde105_start:
+LDIFF_SYM708=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM708
+Lfde103_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM729=Lme_85 - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM729
+LDIFF_SYM709=Lme_81 - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM709
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
 	.align 3
-Lfde105_end:
+Lfde103_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22468,57 +21985,57 @@ Lfde105_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
-	.quad Lme_86
+	.quad Lme_82
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM730=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM730
+LDIFF_SYM710=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM710
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM731=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM731
+LDIFF_SYM711=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM711
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM732=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM732
+LDIFF_SYM712=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM712
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM733=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM733
+LDIFF_SYM713=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM713
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM734=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM734
+LDIFF_SYM714=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM714
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM735=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM715=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM715
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM736=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM736
-Lfde106_start:
+LDIFF_SYM716=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM716
+Lfde104_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
 
-LDIFF_SYM737=Lme_86 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
-	.long LDIFF_SYM737
+LDIFF_SYM717=Lme_82 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_nint_intptr_intptr_System_nint
+	.long LDIFF_SYM717
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
 	.align 3
-Lfde106_end:
+Lfde104_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22528,57 +22045,57 @@ Lfde106_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
-	.quad Lme_87
+	.quad Lme_83
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM738=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM738
+LDIFF_SYM718=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM718
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM739=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM739
+LDIFF_SYM719=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM740=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM740
+LDIFF_SYM720=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM720
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM741=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM741
+LDIFF_SYM721=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM721
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM742=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM742
+LDIFF_SYM722=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM722
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM743=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM743
+LDIFF_SYM723=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM723
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM744=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM744
-Lfde107_start:
+LDIFF_SYM724=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM724
+Lfde105_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
 
-LDIFF_SYM745=Lme_87 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
-	.long LDIFF_SYM745
+LDIFF_SYM725=Lme_83 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_nint_intptr_intptr_System_nint
+	.long LDIFF_SYM725
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
 	.align 3
-Lfde107_end:
+Lfde105_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22588,62 +22105,62 @@ Lfde107_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
-	.quad Lme_88
+	.quad Lme_84
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM746=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM746
+LDIFF_SYM726=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM726
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM747=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM747
+LDIFF_SYM727=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM727
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM748=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM748
+LDIFF_SYM728=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM728
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM749=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM749
+LDIFF_SYM729=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM729
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM750=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM750
+LDIFF_SYM730=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM730
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM751=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM751
+LDIFF_SYM731=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM731
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM752=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM752
+LDIFF_SYM732=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM732
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM753=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM753
-Lfde108_start:
+LDIFF_SYM733=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM733
+Lfde106_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
 
-LDIFF_SYM754=Lme_88 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
-	.long LDIFF_SYM754
+LDIFF_SYM734=Lme_84 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
+	.long LDIFF_SYM734
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
 	.align 3
-Lfde108_end:
+Lfde106_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22653,62 +22170,62 @@ Lfde108_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
-	.quad Lme_89
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM755=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM735=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM735
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM756=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM756
+LDIFF_SYM736=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM736
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM757=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM757
+LDIFF_SYM737=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM737
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM758=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM758
+LDIFF_SYM738=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM738
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM759=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM759
+LDIFF_SYM739=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM739
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM760=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM760
+LDIFF_SYM740=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM740
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM761=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM761
+LDIFF_SYM741=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM741
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM762=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM762
-Lfde109_start:
+LDIFF_SYM742=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM742
+Lfde107_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
 
-LDIFF_SYM763=Lme_89 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
-	.long LDIFF_SYM763
+LDIFF_SYM743=Lme_85 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
+	.long LDIFF_SYM743
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
 	.align 3
-Lfde109_end:
+Lfde107_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22718,41 +22235,41 @@ Lfde109_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_StructureToPtr_object_intptr_bool
-	.quad Lme_8a
+	.quad Lme_86
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM764=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM764
+LDIFF_SYM744=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM744
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM765=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM765
+LDIFF_SYM745=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM745
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM766=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM746=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM746
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM767=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM767
-Lfde110_start:
+LDIFF_SYM747=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM747
+Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM768=Lme_8a - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM768
+LDIFF_SYM748=Lme_86 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM748
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde110_end:
+Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22762,36 +22279,36 @@ Lfde110_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_PtrToStructure_intptr_object
-	.quad Lme_8b
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM769=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM749=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM749
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM770=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM750=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM750
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM771=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM771
-Lfde111_start:
+LDIFF_SYM751=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM751
+Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_PtrToStructure_intptr_object
 
-LDIFF_SYM772=Lme_8b - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_PtrToStructure_intptr_object
-	.long LDIFF_SYM772
+LDIFF_SYM752=Lme_87 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateSpan_PtrToStructure_intptr_object
+	.long LDIFF_SYM752
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde111_end:
+Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22801,41 +22318,41 @@ Lfde111_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_StructureToPtr_object_intptr_bool
-	.quad Lme_8c
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM773=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM773
+LDIFF_SYM753=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM774=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM774
+LDIFF_SYM754=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM754
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM775=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM755=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM776=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM776
-Lfde112_start:
+LDIFF_SYM756=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM756
+Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM777=Lme_8c - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM777
+LDIFF_SYM757=Lme_88 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM757
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde112_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22845,36 +22362,36 @@ Lfde112_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object
-	.quad Lme_8d
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM778=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM778
+LDIFF_SYM758=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM758
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM779=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM779
+LDIFF_SYM759=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM780=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM780
-Lfde113_start:
+LDIFF_SYM760=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM760
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object
 
-LDIFF_SYM781=Lme_8d - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object
-	.long LDIFF_SYM781
+LDIFF_SYM761=Lme_89 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateBounds_PtrToStructure_intptr_object
+	.long LDIFF_SYM761
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde113_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22884,41 +22401,41 @@ Lfde113_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool
-	.quad Lme_8e
+	.quad Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM782=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM762=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM762
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM783=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM783
+LDIFF_SYM763=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM763
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM784=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM784
+LDIFF_SYM764=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM764
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM785=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM785
-Lfde114_start:
+LDIFF_SYM765=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM765
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM786=Lme_8e - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM786
+LDIFF_SYM766=Lme_8a - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM766
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde114_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22928,36 +22445,36 @@ Lfde114_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object
-	.quad Lme_8f
+	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM787=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM767=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM788=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM768=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM768
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM789=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM789
-Lfde115_start:
+LDIFF_SYM769=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM769
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object
 
-LDIFF_SYM790=Lme_8f - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object
-	.long LDIFF_SYM790
+LDIFF_SYM770=Lme_8b - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKCoordinateRegion_PtrToStructure_intptr_object
+	.long LDIFF_SYM770
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde115_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22967,41 +22484,41 @@ Lfde115_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool
-	.quad Lme_90
+	.quad Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM791=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM791
+LDIFF_SYM771=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM771
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM792=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM792
+LDIFF_SYM772=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM772
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM793=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM773=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM773
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM794=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM794
-Lfde116_start:
+LDIFF_SYM774=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM774
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM795=Lme_90 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM795
+LDIFF_SYM775=Lme_8c - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM775
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde116_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23011,36 +22528,36 @@ Lfde116_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object
-	.quad Lme_91
+	.quad Lme_8d
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM796=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM776=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM776
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM797=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM777=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM777
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM798=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM798
-Lfde117_start:
+LDIFF_SYM778=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM778
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object
 
-LDIFF_SYM799=Lme_91 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object
-	.long LDIFF_SYM799
+LDIFF_SYM779=Lme_8d - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapPoint_PtrToStructure_intptr_object
+	.long LDIFF_SYM779
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde117_end:
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23050,41 +22567,41 @@ Lfde117_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool
-	.quad Lme_92
+	.quad Lme_8e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM800=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM800
+LDIFF_SYM780=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM780
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM801=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM801
+LDIFF_SYM781=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM802=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM782=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM782
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM803=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM803
-Lfde118_start:
+LDIFF_SYM783=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM783
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM804=Lme_92 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM804
+LDIFF_SYM784=Lme_8e - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM784
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde118_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23094,36 +22611,36 @@ Lfde118_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object
-	.quad Lme_93
+	.quad Lme_8f
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM805=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM805
+LDIFF_SYM785=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM785
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM806=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM786=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM786
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM807=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM807
-Lfde119_start:
+LDIFF_SYM787=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM787
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object
 
-LDIFF_SYM808=Lme_93 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object
-	.long LDIFF_SYM808
+LDIFF_SYM788=Lme_8f - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapSize_PtrToStructure_intptr_object
+	.long LDIFF_SYM788
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde119_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23133,41 +22650,41 @@ Lfde119_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_StructureToPtr_object_intptr_bool
-	.quad Lme_94
+	.quad Lme_90
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM809=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM789=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM789
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM810=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM810
+LDIFF_SYM790=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM790
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM811=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM811
+LDIFF_SYM791=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM791
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM812=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM812
-Lfde120_start:
+LDIFF_SYM792=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM792
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM813=Lme_94 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM813
+LDIFF_SYM793=Lme_90 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM793
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde120_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23177,36 +22694,36 @@ Lfde120_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_PtrToStructure_intptr_object
-	.quad Lme_95
+	.quad Lme_91
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM814=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM794=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM794
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM815=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM795=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM795
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM816=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM816
-Lfde121_start:
+LDIFF_SYM796=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM796
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_PtrToStructure_intptr_object
 
-LDIFF_SYM817=Lme_95 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_PtrToStructure_intptr_object
-	.long LDIFF_SYM817
+LDIFF_SYM797=Lme_91 - wrapper_unknown_BaiduMapSDK_Base_iOS_BMKMapRect_PtrToStructure_intptr_object
+	.long LDIFF_SYM797
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde121_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 

@@ -4498,11 +4498,11 @@
       <constructor deprecated="not deprecated" final="false" name="WearMapView" static="false" type="com.baidu.mapapi.map.WearMapView" visibility="public">
         <parameter name="p0" type="android.content.Context"></parameter>
         <parameter name="p1" type="android.util.AttributeSet"></parameter>
+        <parameter name="p2" type="int"></parameter>
       </constructor>
       <constructor deprecated="not deprecated" final="false" name="WearMapView" static="false" type="com.baidu.mapapi.map.WearMapView" visibility="public">
         <parameter name="p0" type="android.content.Context"></parameter>
         <parameter name="p1" type="android.util.AttributeSet"></parameter>
-        <parameter name="p2" type="int"></parameter>
       </constructor>
       <constructor deprecated="not deprecated" final="false" name="WearMapView" static="false" type="com.baidu.mapapi.map.WearMapView" visibility="public">
         <parameter name="p0" type="android.content.Context"></parameter>

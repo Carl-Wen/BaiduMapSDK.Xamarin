@@ -1,0 +1,6 @@
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Search.iOS/bin/Debug/BaiduMapSDK.Search.iOS.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Search.iOS/bin/Debug/BaiduMapSDK.Search.iOS.pdb
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Search.iOS/obj/Debug/BaiduMapSDK.Search.iOS.csprojAssemblyReference.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Search.iOS/obj/Debug/BaiduMapSDK.Search.iOS.csproj.CoreCompileInputs.cache
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Search.iOS/obj/Debug/BaiduMapSDK.Search.iOS.dll
+/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/BaiduMapSDK.Search.iOS/obj/Debug/BaiduMapSDK.Search.iOS.pdb

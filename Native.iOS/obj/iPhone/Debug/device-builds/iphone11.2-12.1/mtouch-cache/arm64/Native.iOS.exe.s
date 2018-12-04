@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/969357ac02b Wed Oct 31 18:22:58 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Tue Nov 20 23:30:52 EST 2018)"
 	.asciz "Native.iOS.exe"
 	.asciz ""
 
@@ -603,54 +603,56 @@ Lme_a:
 	.no_dead_strip Native_iOS_ViewController__ctor_intptr
 Native_iOS_ViewController__ctor_intptr:
 .file 3 "/Users/bruceoh/Beflex/BaiduMapSDK.Xamarin/Native.iOS/ViewController.cs"
-.loc 3 10 0 prologue_end
-.word 0xa9b47bfd
+.loc 3 11 0 prologue_end
+.word 0xa9b37bfd
 .word 0x910003fd
-.word 0xa90157b4
-.word 0xa9025fb6
-.word 0xa90367b8
-.word 0xaa0003f9
-.word 0xf90023a1
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xf90023b9
+.word 0xf90027a0
+.word 0xf9002ba1
 
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
 ldr x16, [x16, #296]
-.word 0xf90027b0
+.word 0xf9002fb0
 .word 0xf9400a11
-.word 0xf9002bb1
+.word 0xf90033b1
 .word 0xd2800018
 .word 0xd2800017
 .word 0xd2800016
 .word 0xd2800015
 .word 0xd2800014
-.word 0xf94027b1
-.word 0xf9405631
+.word 0xd2800013
+.word 0xd2800019
+.word 0xf9402fb1
+.word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
+.word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9407631
+.word 0xf9402fb1
+.word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf94023a1
-.word 0xaa1903e0
+.word 0xf94027a0
+.word 0xf9402ba1
 bl _p_3
-.word 0xf94027b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 11 0
-.word 0xf94027b1
-.word 0xf940a631
+.word 0xf9402fb1
+.word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 12 0
-.word 0xf94027b1
-.word 0xf940b631
+.word 0xf9402fb1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 16 0
+.word 0xf9402fb1
+.word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -658,123 +660,206 @@ adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
 ldr x0, [x16, #304]
 bl _p_4
-.word 0xf9005ba0
+.word 0xf9005fa0
 bl _p_5
-.word 0xf94027b1
-.word 0xf940de31
+.word 0xf9402fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405fa0
+.word 0xaa0003f8
+.loc 3 17 0
+.word 0xf9402fb1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800040
+.word 0xd2800040
+bl _p_6
+.word 0x53001c00
+.word 0xf9005ba0
+.word 0xf9402fb1
+.word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405ba0
-.word 0xaa0003f8
-.loc 3 13 0
-.word 0xf94027b1
-.word 0xf940f631
+.word 0x53001c00
+.word 0xaa0003f7
+.loc 3 18 0
+.word 0xf9402fb1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xd2800000
+.word 0x6b0002ff
+.word 0x9a9f17e0
+.word 0x53001c00
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0x340002c0
+.loc 3 19 0
+.word 0xf9402fb1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 20 0
+.word 0xf9402fb1
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
 ldr x0, [x16, #312]
-bl _p_4
-.word 0xf90057a0
-bl _p_6
-.word 0xf94027b1
-.word 0xf9411e31
+bl _p_7
+.word 0xf9402fb1
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94057a0
-.word 0xaa0003f7
-.loc 3 15 0
-.word 0xf94027b1
-.word 0xf9413631
+.loc 3 22 0
+.word 0xf9402fb1
+.word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1803e3
-
-adrp x16, mono_aot_Native_iOS_got@PAGE+0
-add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x1, [x16, #320]
-.word 0xaa1703e0
-.word 0xaa0303e0
-.word 0xaa1703e2
-.word 0xf9400063
-.word 0xf940dc70
-.word 0xd63f0200
-.word 0x53001c00
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf9417631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0x53001c00
-.word 0xaa0003f6
-.loc 3 18 0
-.word 0xf94027b1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xd2800000
-.word 0x6b0002df
-.word 0x9a9f17e0
-.word 0x53001c00
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0x340002a0
-.loc 3 19 0
-.word 0xf94027b1
+.word 0x14000015
+.loc 3 24 0
+.word 0xf9402fb1
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 21 0
-.word 0xf94027b1
+.loc 3 25 0
+.word 0xf9402fb1
 .word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x0, [x16, #328]
+ldr x0, [x16, #320]
 bl _p_7
-.word 0xf94027b1
+.word 0xf9402fb1
 .word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 23 0
-.word 0xf94027b1
+.loc 3 26 0
+.word 0xf9402fb1
 .word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 27 0
-.word 0xf9402bb1
+.loc 3 28 0
+.word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
+.word 0xf9402fb1
 .word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #328]
 bl _p_4
-.word 0xf9005ba0
+.word 0xf9005fa0
 bl _p_8
-.word 0xf94027b1
+.word 0xf9402fb1
 .word 0xf9424a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405ba0
-.word 0xaa0003f5
-.loc 3 28 0
-.word 0xf94027b1
+.word 0xf9405fa0
+.word 0xaa0003f6
+.loc 3 33 0
+.word 0xf9402fb1
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Native_iOS_got@PAGE+0
+add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
+ldr x1, [x16, #336]
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0xaa1603e2
+.word 0xf9400303
+.word 0xf940dc70
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf9005ba0
+.word 0xf9402fb1
+.word 0xf942a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba0
+.word 0x53001c00
+.word 0xaa0003f5
+.loc 3 37 0
+.word 0xf9402fb1
+.word 0xf942be31
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xaa1503e0
-.word 0xf90057a0
+.word 0xd2800000
+.word 0x6b0002bf
+.word 0x9a9f17e0
+.word 0x53001c00
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x340002a0
+.loc 3 38 0
+.word 0xf9402fb1
+.word 0xf942ee31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 40 0
+.word 0xf9402fb1
+.word 0xf942fe31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Native_iOS_got@PAGE+0
+add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
+ldr x0, [x16, #344]
+bl _p_9
+.word 0xf9402fb1
+.word 0xf9431e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 42 0
+.word 0xf9402fb1
+.word 0xf9432e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 46 0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9434e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Native_iOS_got@PAGE+0
+add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
+ldr x0, [x16, #352]
+bl _p_4
+.word 0xf90063a0
+bl _p_10
+.word 0xf9402fb1
+.word 0xf9437631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0xaa0003f4
+.loc 3 49 0
+.word 0xf9402fb1
+.word 0xf9438e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf9005fa0
 .word 0xd280001e
 .word 0x9e6703c0
 .word 0xd280001e
@@ -786,97 +871,98 @@ bl _p_8
 .word 0xd280001e
 .word 0xf2a8711e
 .word 0x9e6703c3
-.word 0x910203a0
+.word 0x910243a0
 .word 0xd2800000
-.word 0xf90043a0
-.word 0xf90047a0
 .word 0xf9004ba0
 .word 0xf9004fa0
-.word 0x910203a0
-bl _p_9
-.word 0x910203a0
-.word 0x910183a0
-.word 0xf94043a0
-.word 0xf90033a0
-.word 0xf94047a0
-.word 0xf90037a0
+.word 0xf90053a0
+.word 0xf90057a0
+.word 0x910243a0
+bl _p_11
+.word 0x910243a0
+.word 0x9101c3a0
 .word 0xf9404ba0
 .word 0xf9003ba0
 .word 0xf9404fa0
 .word 0xf9003fa0
-.word 0xf94027b1
-.word 0xf942ee31
+.word 0xf94053a0
+.word 0xf90043a0
+.word 0xf94057a0
+.word 0xf90047a0
+.word 0xf9402fb1
+.word 0xf9441a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94057a1
+.word 0xf9405fa1
 .word 0xaa0103e0
-.word 0x910183a2
-.word 0xfd4033a0
-.word 0xfd4037a1
-.word 0xfd403ba2
-.word 0xfd403fa3
+.word 0x9101c3a2
+.word 0xfd403ba0
+.word 0xfd403fa1
+.word 0xfd4043a2
+.word 0xfd4047a3
 .word 0xf9400021
 .word 0xf940d030
 .word 0xd63f0200
-.word 0xf94027b1
-.word 0xf9432631
+.word 0xf9402fb1
+.word 0xf9445231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 29 0
-.word 0xf94027b1
-.word 0xf9433631
+.loc 3 50 0
+.word 0xf9402fb1
+.word 0xf9446231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1503e2
+.word 0xaa1403e2
 .word 0xd28007e0
 .word 0xaa0203e0
 .word 0xd28007e1
 .word 0xf9400042
 .word 0xf940d450
 .word 0xd63f0200
-.word 0xf94027b1
-.word 0xf9436231
+.word 0xf9402fb1
+.word 0xf9448e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 30 0
-.word 0xf94027b1
-.word 0xf9437231
+.loc 3 51 0
+.word 0xf9402fb1
+.word 0xf9449e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0xf9400321
+.word 0xf94027a1
+.word 0xaa0103e0
+.word 0xf9400021
 .word 0xf940d030
 .word 0xd63f0200
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf9439a31
+.word 0xf9005ba0
+.word 0xf9402fb1
+.word 0xf944c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94053a2
-.word 0xaa1503e1
+.word 0xf9405ba2
+.word 0xaa1403e1
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940d850
 .word 0xd63f0200
-.word 0xf94027b1
-.word 0xf943c231
+.word 0xf9402fb1
+.word 0xf944ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 32 0
-.word 0xf94027b1
-.word 0xf943d231
+.loc 3 53 0
+.word 0xf9402fb1
+.word 0xf944fe31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
-.word 0xf943e231
+.word 0xf9402fb1
+.word 0xf9450e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94157b4
-.word 0xa9425fb6
-.word 0xa94367b8
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xf94023b9
 .word 0x910003bf
-.word 0xa8cc7bfd
+.word 0xa8cd7bfd
 .word 0xd65f03c0
 
 Lme_b:
@@ -884,14 +970,14 @@ Lme_b:
 	.align 4
 	.no_dead_strip Native_iOS_ViewController_ViewDidLoad
 Native_iOS_ViewController_ViewDidLoad:
-.loc 3 35 0 prologue_end
+.loc 3 56 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #360]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -907,18 +993,18 @@ ldr x16, [x16, #344]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 36 0
+.loc 3 57 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_10
+bl _p_12
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 38 0
+.loc 3 59 0
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -936,14 +1022,14 @@ Lme_c:
 	.align 4
 	.no_dead_strip Native_iOS_ViewController_DidReceiveMemoryWarning
 Native_iOS_ViewController_DidReceiveMemoryWarning:
-.loc 3 41 0 prologue_end
+.loc 3 62 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #368]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -959,18 +1045,18 @@ ldr x16, [x16, #352]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 42 0
+.loc 3 63 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_11
+bl _p_13
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 44 0
+.loc 3 65 0
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -996,7 +1082,7 @@ Native_iOS_ViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1069,8 +1155,8 @@ unbox_trampoline_addresses:
 unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0
-	.byte 68,14,80,157,10,158,9,68,13,29,68,154,8,29,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,148,22,149
-	.byte 21,68,150,20,151,19,68,152,18,153,17
+	.byte 68,14,80,157,10,158,9,68,13,29,68,154,8,32,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148
+	.byte 23,68,149,22,150,21,68,151,20,152,19,68,153,18
 
 .text
 	.align 4
@@ -1081,93 +1167,109 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #392]
 br x16
-.word 371
+.word 380
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_2:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #400]
 br x16
-.word 376
+.word 385
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_3:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #408]
 br x16
-.word 381
+.word 390
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_4:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #416]
 br x16
-.word 386
+.word 395
 	.no_dead_strip plt_BaiduMapSDK_Base_iOS_BMKMapManager__ctor
 plt_BaiduMapSDK_Base_iOS_BMKMapManager__ctor:
 _p_5:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #408]
-br x16
-.word 418
-	.no_dead_strip plt_BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor
-plt_BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor:
-_p_6:
-adrp x16, mono_aot_Native_iOS_got@PAGE+0
-add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
-ldr x16, [x16, #416]
-br x16
-.word 423
-	.no_dead_strip plt_System_Console_WriteLine_string
-plt_System_Console_WriteLine_string:
-_p_7:
-adrp x16, mono_aot_Native_iOS_got@PAGE+0
-add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 428
-	.no_dead_strip plt_BaiduMapSDK_Map_iOS_BMKMapView__ctor
-plt_BaiduMapSDK_Map_iOS_BMKMapView__ctor:
-_p_8:
+.word 427
+	.no_dead_strip plt_BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE
+plt_BaiduMapSDK_Base_iOS_BMKMapManager_SetCoordinateTypeUsedInBaiduMapSDK_BaiduMapSDK_Base_iOS_BMK_COORD_TYPE:
+_p_6:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 433
-	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
-plt_CoreGraphics_CGRect__ctor_single_single_single_single:
-_p_9:
+.word 432
+	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_string
+plt_System_Diagnostics_Debug_WriteLine_string:
+_p_7:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 438
-	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
-plt_UIKit_UIViewController_ViewDidLoad:
-_p_10:
+.word 437
+	.no_dead_strip plt_BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor
+plt_BaiduMapSDK_Base_iOS_BMKGeneralDelegate__ctor:
+_p_8:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 443
-	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
-plt_UIKit_UIViewController_DidReceiveMemoryWarning:
-_p_11:
+.word 442
+	.no_dead_strip plt_System_Console_WriteLine_string
+plt_System_Console_WriteLine_string:
+_p_9:
 adrp x16, mono_aot_Native_iOS_got@PAGE+0
 add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 448
+.word 447
+	.no_dead_strip plt_BaiduMapSDK_Map_iOS_BMKMapView__ctor
+plt_BaiduMapSDK_Map_iOS_BMKMapView__ctor:
+_p_10:
+adrp x16, mono_aot_Native_iOS_got@PAGE+0
+add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 452
+	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
+plt_CoreGraphics_CGRect__ctor_single_single_single_single:
+_p_11:
+adrp x16, mono_aot_Native_iOS_got@PAGE+0
+add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 457
+	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
+plt_UIKit_UIViewController_ViewDidLoad:
+_p_12:
+adrp x16, mono_aot_Native_iOS_got@PAGE+0
+add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 462
+	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
+plt_UIKit_UIViewController_DidReceiveMemoryWarning:
+_p_13:
+adrp x16, mono_aot_Native_iOS_got@PAGE+0
+add x16, x16, mono_aot_Native_iOS_got@PAGEOFF
+ldr x16, [x16, #488]
+br x16
+.word 467
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Native_iOS_got, 464
+.lcomm mono_aot_Native_iOS_got, 496
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -1190,7 +1292,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "D529698A-5867-4189-905A-E7659332145A"
+	.asciz "79477310-0B04-48B6-A147-40BB09FCABCD"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -1269,13 +1371,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 46,464,12,16,70,391195135,0,1920
-	.long 128,8,8,8,0,25,2768,840
+	.long 48,496,14,16,70,391195135,0,2064
+	.long 128,8,8,8,0,25,3000,928
 	.long 416,200,0,336,384,256,0,192
-	.long 48,832,0,0,0,0,0,0
+	.long 48,920,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 61,126,12,179,93,52,52,221,2,199,82,34,199,144,163,1
+	.byte 44,232,242,186,128,241,53,227,182,94,47,127,6,3,3,210
 	.globl _mono_aot_module_Native_iOS_info
 	.align 3
 _mono_aot_module_Native_iOS_info:
@@ -2164,7 +2266,7 @@ LDIFF_SYM121=LTDIE_17 - Ldebug_info_start
 	.asciz "Native.iOS.ViewController:.ctor"
 	.asciz "Native_iOS_ViewController__ctor_intptr"
 
-	.byte 3,10
+	.byte 3,11
 	.quad Native_iOS_ViewController__ctor_intptr
 	.quad Lme_b
 
@@ -2173,52 +2275,62 @@ LDIFF_SYM121=LTDIE_17 - Ldebug_info_start
 
 LDIFF_SYM122=LTDIE_13_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM122
-	.byte 1,105,3
+	.byte 3,141,200,0,3
 	.asciz "handle"
 
 LDIFF_SYM123=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM123
-	.byte 3,141,192,0,11
+	.byte 3,141,208,0,11
 	.asciz "_mapmanager"
 
 LDIFF_SYM124=LTDIE_15_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM124
 	.byte 1,104,11
-	.asciz "bMKGeneralDelegate"
+	.asciz "test"
 
-LDIFF_SYM125=LTDIE_16_REFERENCE - Ldebug_info_start
+LDIFF_SYM125=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM125
 	.byte 1,103,11
-	.asciz "ret"
+	.asciz "bMKGeneralDelegate"
 
-LDIFF_SYM126=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM126=LTDIE_16_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM126
 	.byte 1,102,11
-	.asciz "mapview"
+	.asciz "ret"
 
-LDIFF_SYM127=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM127=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM127
 	.byte 1,101,11
-	.asciz "V_4"
+	.asciz "mapview"
 
-LDIFF_SYM128=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM128=LTDIE_17_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM128
-	.byte 1,100,0
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM129=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM129
+	.byte 1,99,11
+	.asciz "V_6"
+
+LDIFF_SYM130=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM130
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM129=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM129
+LDIFF_SYM131=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM131
 Lfde11_start:
 
 	.long 0
 	.align 3
 	.quad Native_iOS_ViewController__ctor_intptr
 
-LDIFF_SYM130=Lme_b - Native_iOS_ViewController__ctor_intptr
-	.long LDIFF_SYM130
+LDIFF_SYM132=Lme_b - Native_iOS_ViewController__ctor_intptr
+	.long LDIFF_SYM132
 	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,148,22,149,21,68,150,20,151,19,68,152,18,153,17
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,153,18
 	.align 3
 Lfde11_end:
 
@@ -2228,29 +2340,29 @@ Lfde11_end:
 	.asciz "Native.iOS.ViewController:ViewDidLoad"
 	.asciz "Native_iOS_ViewController_ViewDidLoad"
 
-	.byte 3,35
+	.byte 3,56
 	.quad Native_iOS_ViewController_ViewDidLoad
 	.quad Lme_c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM131=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM131
+LDIFF_SYM133=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM133
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM132=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM132
+LDIFF_SYM134=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM134
 Lfde12_start:
 
 	.long 0
 	.align 3
 	.quad Native_iOS_ViewController_ViewDidLoad
 
-LDIFF_SYM133=Lme_c - Native_iOS_ViewController_ViewDidLoad
-	.long LDIFF_SYM133
+LDIFF_SYM135=Lme_c - Native_iOS_ViewController_ViewDidLoad
+	.long LDIFF_SYM135
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -2262,29 +2374,29 @@ Lfde12_end:
 	.asciz "Native.iOS.ViewController:DidReceiveMemoryWarning"
 	.asciz "Native_iOS_ViewController_DidReceiveMemoryWarning"
 
-	.byte 3,41
+	.byte 3,62
 	.quad Native_iOS_ViewController_DidReceiveMemoryWarning
 	.quad Lme_d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM134=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM134
+LDIFF_SYM136=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM136
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM135=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM135
+LDIFF_SYM137=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM137
 Lfde13_start:
 
 	.long 0
 	.align 3
 	.quad Native_iOS_ViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM136=Lme_d - Native_iOS_ViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM136
+LDIFF_SYM138=Lme_d - Native_iOS_ViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM138
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -2303,22 +2415,22 @@ Lfde13_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM137=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM137
+LDIFF_SYM139=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM139
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM138=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM138
+LDIFF_SYM140=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM140
 Lfde14_start:
 
 	.long 0
 	.align 3
 	.quad Native_iOS_ViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM139=Lme_e - Native_iOS_ViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM139
+LDIFF_SYM141=Lme_e - Native_iOS_ViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM141
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3

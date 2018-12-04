@@ -1,6 +1,5 @@
 ﻿using System;
 
-using System;
 using System.Runtime.InteropServices;
 
 using CoreLocation;
@@ -10,22 +9,20 @@ using ObjCRuntime;
 
 namespace BaiduMapSDK.Base.iOS
 {
-
-
     public enum BMKMapModule : uint
     {
         BMKMapModuleTile = 0
     }
 
-    [Native]
-    public enum BmkCoordType : ulong
+    //[Native]
+    public enum BMK_COORD_TYPE : ulong
     {
         Gps = 0,
         Common,
         Bd09ll
     }
 
-    [Native]
+    //[Native]
     public enum BMKMapType : ulong
     {
         None = 0,

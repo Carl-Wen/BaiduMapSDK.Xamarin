@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77618764-4b29-4d97-a7b9-7e7437513f91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BaiduMapSDK.Xamarin/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BaiduMapSDK.Xamarin/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BaiduMapSDK.Xamarin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BaiduMapSDK.Xamarin/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CLLocationCoordinate2DEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CircleImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CoordinateEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/FormsBaiduMaps.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/LocationServiceImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapManagerImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/PinImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/PolygonImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/PolylineImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/ProjectionImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/XImageImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/BaiduMapSDK.Xamarin/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/BaiduMapSDK.Xamarin/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/BaiduMapSDK.Xamarin/xs/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/BaiduMapSDK.Xamarin/xs/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/BaiduMapSDK.Xamarin/xs/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/BaiduMapSDK.Xamarin/xs/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/BaiduMapSDK.Xamarin/xs/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/BaiduMapSDK.Xamarin/xs/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/bin/Debug/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/bin/Debug/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/bin/Debug/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/bin/Debug/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/__AndroidNativeLibraries__.zip" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/__AndroidNativeLibraries__.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/api.xml.fixed" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/api.xml.fixed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/generated/src/Com.Baidu.Mapapi.Map.WearMapView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/generated/src/Com.Baidu.Mapapi.Map.WearMapView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/lp/map.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BMapBinding.Droid/obj/Debug/lp/map.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/ApiDefinition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/ApiDefinition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/Structs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/Structs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/bin/Debug/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/bin/Debug/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/bin/Debug/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/bin/Debug/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/BaiduMapSDK.Base.iOS.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/BaiduMapSDK.Base.iOS.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/BaiduMapSDK.Base.iOS.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/BaiduMapSDK.Base.iOS.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/ios/BaiduMapSDKBaseiOS/BMKMapManager.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/ios/BaiduMapSDKBaseiOS/BMKMapManager.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/ios/ObjCRuntime/Messaging.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/ios/ObjCRuntime/Messaging.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/ios/temp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/ios/temp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/ios/temp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Base.iOS/obj/Debug/ios/temp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/BaiduMapSDK.Droid.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/BaiduMapSDK.Droid.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/Transforms/EnumFields.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/Transforms/EnumFields.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/bin/Debug/BaiduMapSDK.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/bin/Debug/BaiduMapSDK.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/bin/Debug/BaiduMapSDK.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/bin/Debug/BaiduMapSDK.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/BaiduMapSDK.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/__AndroidNativeLibraries__.zip" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/__AndroidNativeLibraries__.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/api.xml.class-parse" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/api.xml.fixed" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/api.xml.fixed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/generated/src/Com.Baidu.Mapapi.Map.WearMapView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/generated/src/Com.Baidu.Mapapi.Map.WearMapView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/lp/map.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Droid/obj/Debug/lp/map.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/bin/Debug/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/BaiduMapSDK.Map.iOS.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/BaiduMapSDK.Map.iOS.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/ios/BaiduMapSDKMapiOS/BMKMapView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/ios/BaiduMapSDKMapiOS/BMKMapView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/ios/ObjCRuntime/Messaging.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/ios/ObjCRuntime/Messaging.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/ios/temp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Map.iOS/obj/Debug/ios/temp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiduMapSDK.Xamarin.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduMapSDK.Xamarin.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/MainActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/MainActivity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/Native.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/Native.Android.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/bin/Debug/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/bin/Debug/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/bin/Debug/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/bin/Debug/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/bin/Debug/Native.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/bin/Debug/Native.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/bin/Debug/Native.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/bin/Debug/Native.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/bin/Debug/co.beflex.bruce.Native_Android-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/bin/Debug/co.beflex.bruce.Native_Android-Signed.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/bin/Debug/co.beflex.bruce.Native_Android.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/bin/Debug/co.beflex.bruce.Native_Android.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/Native.Android.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/Native.Android.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/Native.Android.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/Native.Android.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/Native.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/Native.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/Native.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/Native.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/android/assets/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/android/assets/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/android/assets/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/android/assets/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/android/assets/Native.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/android/assets/Native.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/android/assets/Native.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/android/assets/Native.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/android/bin/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/android/bin/classes.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/android/bin/co.beflex.bruce.Native_Android.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/android/bin/co.beflex.bruce.Native_Android.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/libraryimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/libraryimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/libraryprojectimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/linkdst/Native.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/linkdst/Native.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/linkdst/Native.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/linkdst/Native.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/linksrc/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/linksrc/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/linksrc/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/linksrc/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/linksrc/Native.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/linksrc/Native.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/linksrc/Native.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/linksrc/Native.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.Android/obj/Debug/lp/map.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Native.Android/obj/Debug/lp/map.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/ViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/ViewController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app.dSYM/Contents/Resources/DWARF/Native.iOS" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app.dSYM/Contents/Resources/DWARF/Native.iOS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Base.iOS.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Base.iOS.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Map.iOS.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Map.iOS.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Native.iOS" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Native.iOS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Native.iOS.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Native.iOS.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Xamarin.iOS.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Xamarin.iOS.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Xamarin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Xamarin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Xamarin.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/Xamarin.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/mscorlib.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/mscorlib.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/mscorlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhone/Debug/device-builds/iphone11.2-12.1/Native.iOS.app/mscorlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Mono.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Mono.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Mono.Security.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Mono.Security.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Native.iOS" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Native.iOS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.Xml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.Xml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.Xml.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.Xml.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/System.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Xamarin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Xamarin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Xamarin.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/Xamarin.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/mscorlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.app/mscorlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/bin/iPhoneSimulator/Debug/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/Native.iOS.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/Native.iOS.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Mono.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Mono.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Mono.Security.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Mono.Security.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.Xml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.Xml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.Xml.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.Xml.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/System.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/Xamarin.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/mscorlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/1-Link/mscorlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/Xamarin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/Xamarin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/Xamarin.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/Xamarin.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/mscorlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/2-PreBuild/mscorlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/Xamarin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/Xamarin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/Xamarin.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/Xamarin.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/mscorlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/3-Build/mscorlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arguments" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arguments" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Base.iOS.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Base.iOS.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Base.iOS.dll.o" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Base.iOS.dll.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Base.iOS.dll.s" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Base.iOS.dll.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Map.iOS.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Map.iOS.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Map.iOS.dll.o" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Map.iOS.dll.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Map.iOS.dll.s" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/BaiduMapSDK.Map.iOS.dll.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Native.iOS.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Native.iOS.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Native.iOS.exe.o" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Native.iOS.exe.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Native.iOS.exe.s" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Native.iOS.exe.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Xamarin.iOS.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Xamarin.iOS.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Xamarin.iOS.dll.o" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Xamarin.iOS.dll.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Xamarin.iOS.dll.s" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/Xamarin.iOS.dll.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/mscorlib.aotdata.arm64" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/mscorlib.aotdata.arm64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/mscorlib.dll.o" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/mscorlib.dll.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/mscorlib.dll.s" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/mscorlib.dll.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/registrar.o" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/arm64/registrar.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/assembly-references.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/assembly-references.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/linked-assemblies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/linked-assemblies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/registrar.h" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/registrar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/registrar.m" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhone/Debug/device-builds/iphone11.2-12.1/mtouch-cache/registrar.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/Native.iOS.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/Native.iOS.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/Native.iOS.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/Native.iOS.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool-link/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool-link/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool-link/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool-link/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool-link/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool-link/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Mono.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Mono.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Mono.Security.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Mono.Security.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Xml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Xml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Xml.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.Xml.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/System.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/Xamarin.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/1-Link/mscorlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Mono.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Mono.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Mono.Security.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Mono.Security.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.Xml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.Xml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.Xml.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.Xml.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/System.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Xamarin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Xamarin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Xamarin.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/Xamarin.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/mscorlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/2-PreBuild/mscorlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/BaiduMapSDK.Base.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/BaiduMapSDK.Base.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/BaiduMapSDK.Base.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/BaiduMapSDK.Base.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/BaiduMapSDK.Map.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/BaiduMapSDK.Map.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/BaiduMapSDK.Map.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/BaiduMapSDK.Map.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Mono.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Mono.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Mono.Security.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Mono.Security.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Native.iOS.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Native.iOS.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Native.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Native.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.Xml.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.Xml.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.Xml.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.Xml.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/System.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Xamarin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Xamarin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Xamarin.iOS.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/Xamarin.iOS.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/mscorlib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/mscorlib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/mscorlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/3-Build/mscorlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/BaiduMapAPI_Base.framework.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/BaiduMapAPI_Base.framework/BaiduMapAPI_Base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/BaiduMapAPI_Base.framework/Headers/BMKTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/BaiduMapAPI_Base.framework/Headers/BMKVersion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/arguments" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/arguments" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/assembly-references.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/assembly-references.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/x86_64/main.m.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/x86_64/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/Native.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/x86_64/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/Sample.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/Sample.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/Sample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/Sample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/Sample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/Sample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/Xamarin.Forms.BaiduMaps.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/Xamarin.Forms.BaiduMaps.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/Xamarin.Forms.BaiduMaps.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/Xamarin.Forms.BaiduMaps.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/Xamarin.Forms.BaiduMaps.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/Xamarin.Forms.BaiduMaps.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/Xamarin.Forms.BaiduMaps.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/Xamarin.Forms.BaiduMaps.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/co.beflex.bruce.Sample-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/bin/Debug/co.beflex.bruce.Sample-Signed.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/bin/Debug/co.beflex.bruce.Sample.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/Sample.Android.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/Sample.Android.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/Sample.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/Sample.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Sample.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Sample.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Sample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Sample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Sample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Sample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Xamarin.Forms.BaiduMaps.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Xamarin.Forms.BaiduMaps.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Xamarin.Forms.BaiduMaps.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Xamarin.Forms.BaiduMaps.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Xamarin.Forms.BaiduMaps.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Xamarin.Forms.BaiduMaps.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Xamarin.Forms.BaiduMaps.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/assets/Xamarin.Forms.BaiduMaps.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/bin/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/bin/classes.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/bin/co.beflex.bruce.Sample.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/android/bin/co.beflex.bruce.Sample.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/designtime/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/designtime/build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linkdst/Sample.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linkdst/Sample.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Sample.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Sample.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Sample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Sample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Sample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Sample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Xamarin.Forms.BaiduMaps.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Xamarin.Forms.BaiduMaps.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Xamarin.Forms.BaiduMaps.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Xamarin.Forms.BaiduMaps.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Xamarin.Forms.BaiduMaps.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Xamarin.Forms.BaiduMaps.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Xamarin.Forms.BaiduMaps.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.Android/obj/Debug/linksrc/Xamarin.Forms.BaiduMaps.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_5-0-uqesrkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_5-0-uqesrkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_6-0-a45avkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_6-0-a45avkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_7-0-6x9gvkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_7-0-6x9gvkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_8-0-87hhvkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_8-0-87hhvkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_9-0-uq3kvkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_9-0-uq3kvkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_a-0-kx6kvkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_a-0-kx6kvkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_b-0-cskovkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_b-0-cskovkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_c-0-4ta0wkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_c-0-4ta0wkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_d-0-ced4wkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_d-0-ced4wkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_e-0-myrfwkrty5-12_934731b4be91dd0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.Android/obj/Debug/resourcecache/designer-resources/P_e-0-myrfwkrty5-12_9d840cc18eb041c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iOS/AppDelegate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iOS/AppDelegate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iOS/Sample.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iOS/Sample.iOS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iOS/obj/Sample.iOS.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iOS/obj/Sample.iOS.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iOS/obj/Sample.iOS.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iOS/obj/Sample.iOS.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iOS/obj/Sample.iOS.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iOS/obj/Sample.iOS.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iOS/obj/iPhoneSimulator/Debug/Sample.iOS.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iOS/obj/iPhoneSimulator/Debug/Sample.iOS.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.iOS/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.iOS/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Map.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Map.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/SamplePage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/SamplePage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/bin/Debug/netstandard2.0/Sample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/bin/Debug/netstandard2.0/Sample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/bin/Debug/netstandard2.0/Sample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/bin/Debug/netstandard2.0/Sample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/obj/Debug/netstandard2.0/Sample.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/obj/Debug/netstandard2.0/Sample.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/obj/Debug/netstandard2.0/Sample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/obj/Debug/netstandard2.0/Sample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/obj/Debug/netstandard2.0/Sample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/obj/Debug/netstandard2.0/Sample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/MapRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/MapRenderer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/BMapBinding.Droid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/BMapBinding.Droid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/BMapBinding.Droid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/BMapBinding.Droid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/Xamarin.Forms.BaiduMaps.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/Xamarin.Forms.BaiduMaps.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/Xamarin.Forms.BaiduMaps.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/Xamarin.Forms.BaiduMaps.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/Xamarin.Forms.BaiduMaps.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/Xamarin.Forms.BaiduMaps.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/Xamarin.Forms.BaiduMaps.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/bin/Debug/Xamarin.Forms.BaiduMaps.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/obj/Debug/Xamarin.Forms.BaiduMaps.Android.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/obj/Debug/Xamarin.Forms.BaiduMaps.Android.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/obj/Debug/Xamarin.Forms.BaiduMaps.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/obj/Debug/Xamarin.Forms.BaiduMaps.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/obj/Debug/Xamarin.Forms.BaiduMaps.Android.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.Android/obj/Debug/Xamarin.Forms.BaiduMaps.Android.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/Xamarin.Forms.BaiduMaps.iOS.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/obj/Debug/Xamarin.Forms.BaiduMaps.iOS.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/bin/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/obj/Debug/netstandard2.0/Xamarin.Forms.BaiduMaps.pdb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-6645412">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="config" value="4" />
+          <entry key="cs" value="29" />
+          <entry key="csproj" value="17" />
+          <entry key="plist" value="4" />
+          <entry key="sln" value="2" />
+          <entry key="storyboard" value="1" />
+          <entry key="xaml" value="4" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="29" />
+          <entry key="Config" value="4" />
+          <entry key="Csproj" value="17" />
+          <entry key="Property list" value="4" />
+          <entry key="Solution File" value="2" />
+          <entry key="Storyboard" value="1" />
+          <entry key="XAML" value="4" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="config" value="5" />
+          <entry key="cs" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="41" />
+          <entry key="Config" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BaiduMapSDK.Xamarin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/packages.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CircleImpl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1543900412883" expanded="true" signature="6:267" ph="..." />
+                <marker date="1543900412883" expanded="true" signature="306:3300" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="384:3298" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="533:804" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="867:936" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="999:1085" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="1157:1404" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="1275:1349" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="1485:1554" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="1652:3292" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="1799:1838" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="1912:2007" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="2087:2190" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="2262:2346" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="2417:2648" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="2542:2610" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="2719:2964" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="2844:2926" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="3039:3282" ph="{...}" />
+                <marker date="1543900412883" expanded="true" signature="3164:3244" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CLLocationCoordinate2DEx.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1498471858000" expanded="true" signature="58:286" ph="{...}" />
+                <marker date="1498471858000" expanded="true" signature="111:284" ph="{...}" />
+                <marker date="1498471858000" expanded="true" signature="192:278" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CoordinateEx.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1498471858000" expanded="true" signature="58:289" ph="{...}" />
+                <marker date="1498471858000" expanded="true" signature="99:287" ph="{...}" />
+                <marker date="1498471858000" expanded="true" signature="183:281" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/LocationServiceImpl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1543907493179" expanded="false" signature="6:86" ph="..." />
+                <marker date="1543907493179" expanded="true" signature="127:2255" ph="{...}" />
+                <marker date="1543907493179" expanded="true" signature="134:2253" ph="/* internal class LocationServiceImpl : BMKLocationServiceDelegate, ILocationService ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
+              <folding>
+                <marker date="1543900419615" expanded="false" signature="6:123" ph="..." />
+                <marker date="1543900419615" expanded="true" signature="162:7672" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="233:7670" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="298:7664" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="405:465" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="576:1721" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="662:1591" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="779:1573" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="1134:1264" ph="/* 开启后动态设置Image会导致pin图片拉伸 ... */" />
+                <marker date="1543900419615" expanded="true" signature="1403:1503" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="1820:3445" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="1897:2282" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="2006:2264" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="2349:2799" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="2456:2781" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="2865:3321" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="2974:3303" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="3552:3644" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="3732:3968" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="3781:3907" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="4074:4180" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="4283:4376" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="4477:4568" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="4670:4857" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="4961:5104" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="4992:5090" ph="/* Pin annotation = Map.Pins.Find(view.Annotation); ... */" />
+                <marker date="1543900419615" expanded="true" signature="5322:6405" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="5353:5555" ph="/* Debug.WriteLine(oldState + &quot; =&gt; &quot; + newState); ... */" />
+                <marker date="1543900419615" expanded="true" signature="5694:5813" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="5925:6118" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="6228:6391" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="6476:6789" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="6863:7654" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="7156:7300" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="7414:7542" ph="{...}" />
+                <marker date="1543900419615" expanded="true" signature="7573:7640" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Coordinate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1543466833120" expanded="true" signature="48:1578" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="79:1576" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="228:380" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="423:498" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="564:621" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="720:1038" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="805:850" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="1081:1299" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="1114:1289" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="1374:1434" ph="{...}" />
+                <marker date="1543466833120" expanded="true" signature="1509:1570" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Map.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <marker date="1543906891258" expanded="false" signature="6:85" ph="..." />
+                <marker date="1543906891258" expanded="true" signature="120:7776" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="146:208" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="242:310" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="339:7774" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="363:545" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="875:1003" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="1383:1547" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="1887:2030" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="2349:2491" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="2841:2992" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="3304:3443" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="3766:3911" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="4235:4380" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="4718:4856" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="5179:5323" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="5658:5808" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="6674:6769" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="6886:6977" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="7110:7207" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="7334:7427" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="7516:7587" ph="{...}" />
+                <marker date="1543906891258" expanded="true" signature="7690:7768" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Native.iOS/Main.storyboard">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/PolygonImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapManagerImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/Map.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/SamplePage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CircleImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CoordinateEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/SamplePage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/MainPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/Map.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CLLocationCoordinate2DEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Native.iOS/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/LocationServiceImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/ProjectionImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Native.iOS/ViewController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Native.iOS/AppDelegate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample.iOS/AppDelegate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Native.Android/MainActivity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Native.Android/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Coordinate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/PinImpl.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BaiduMapSDK.Droid/Transforms/EnumFields.xml" />
+        <option value="$PROJECT_DIR$/Native.Android/Native.Android.csproj" />
+        <option value="$PROJECT_DIR$/Native.Android/MainActivity.cs" />
+        <option value="$PROJECT_DIR$/Sample/App.xaml.cs" />
+        <option value="$PROJECT_DIR$/Sample/Map.xaml.cs" />
+        <option value="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/packages.config" />
+        <option value="$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Map.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1680" />
+    <option name="y" value="-127" />
+    <option name="width" value="1680" />
+    <option name="height" value="922" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollToSource SolutionExplorer="true" />
+      <autoscrollFromSource SolutionExplorer="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FormsLibrary" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FormsLibrary" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Xamarin.Forms.BaiduMaps" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FormsLibrary" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Xamarin.Forms.BaiduMaps.iOS" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Native" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Native" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Native.Android" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Native" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Native.iOS" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Xamarin.Forms.BaiduMaps/1.0.0" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Map.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SamplePage.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample.Android" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BaiduMapSDK.Xamarin" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Sample.iOS" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Xamarin.iOS.SampleiOS">
+    <configuration name="Native\Native.Android" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Native.Android/bin/Debug/Native.Android.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Native.Android/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Native.Android/Native.Android.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="XamarinAndroid" />
+      <option name="PROJECT_TFM" value="MonoAndroid,Version=v9.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Native.Android/Native.Android.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="ConnectedDevice" />
+      <option name="DEFAULT_EMULATOR_TO_RUN" value="samsung-sm_g900k-e4404d20" />
+      <option name="DEFAULT_DEVICE_TO_RUN" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NativeBuild" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Native.Android/Native.Android.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="ConnectedDevice" />
+      <option name="DEFAULT_EMULATOR_TO_RUN" value="samsung-sm_g900k-e4404d20" />
+      <option name="DEFAULT_DEVICE_TO_RUN" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleBuild" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Sample.Android/Sample.Android.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="ConnectedDevice" />
+      <option name="DEFAULT_EMULATOR_TO_RUN" value="samsung-sm_g900k-e4404d20" />
+      <option name="DEFAULT_DEVICE_TO_RUN" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NativeiOS" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Native.iOS/Native.iOS.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="Bruce Oh’s iPhone" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="ConnectedDevice" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SampleiOS" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Sample.iOS/Sample.iOS.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="Bruce Oh’s iPhone" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="ConnectedDevice" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Native.iOS/Native.iOS.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Native\Native.Android" />
+      <item itemvalue="Xamarin.Android.NativeBuild" />
+      <item itemvalue="Xamarin.Android.SampleBuild" />
+      <item itemvalue="Xamarin.Android.Android Default" />
+      <item itemvalue="Xamarin.iOS.iOS Default" />
+      <item itemvalue="Xamarin.iOS.NativeiOS" />
+      <item itemvalue="Xamarin.iOS.SampleiOS" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77618764-4b29-4d97-a7b9-7e7437513f91" name="Default Changelist" comment="" />
+      <created>1543918371614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543918371614</updated>
+      <workItem from="1543918388559" duration="5861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5861000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1679" y="-127" width="1080" height="1897" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" weight="0.32947975" />
+      <window_info id="Structure" order="1" sideWeight="0.5008264" side_tool="true" weight="0.32658958" />
+      <window_info active="true" content_ui="combo" x="1345" y="45" width="334" height="900" id="Project" order="2" sideWeight="0.49917355" type="WINDOWED" visible="true" weight="0.32658958" />
+      <window_info anchor="bottom" id="NuGet" weight="0.32963988" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" weight="0.32963988" />
+      <window_info anchor="bottom" id="Terminal" weight="0.112465374" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32963988" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963988" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BaiduMapSDK.Droid/BaiduMapSDK.Droid.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaiduMapSDK.Droid/Transforms/EnumFields.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/ProjectionImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <marker date="1543900419618" expanded="false" signature="6:48" ph="..." />
+            <marker date="1543900419618" expanded="true" signature="87:723" ph="{...}" />
+            <marker date="1543900419618" expanded="true" signature="135:721" ph="{...}" />
+            <marker date="1543900419618" expanded="true" signature="238:292" ph="{...}" />
+            <marker date="1543900419618" expanded="true" signature="337:502" ph="{...}" />
+            <marker date="1543900419618" expanded="true" signature="551:715" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaiduMapSDK.Droid/Transforms/Metadata.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample.iOS/Entitlements.plist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample.iOS/AppDelegate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543904303311" expanded="false" signature="6:113" ph="..." />
+            <marker date="1543904303311" expanded="true" signature="135:1179" ph="{...}" />
+            <marker date="1543904303311" expanded="true" signature="142:367" ph="/* The UIApplicationDelegate for the application. This class is responsible for launching the ... */" />
+            <marker date="1543904303311" expanded="true" signature="496:1177" ph="{...}" />
+            <marker date="1543904303311" expanded="true" signature="511:848" ph="/* This method is invoked when the application has loaded and is ready to run. In this ... */" />
+            <marker date="1543904303311" expanded="true" signature="936:1171" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/Map.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543811968020" expanded="true" signature="39:341" ph="&lt;&lt;StackLayout&#10;        &#10;                            x:Name=&quot;MapStackLayout&quot;&#10;                            HorizontalOptions=&quot;FillAndExpand&quot; /&gt;.../&gt;" />
+            <marker date="1543811968020" expanded="true" signature="188:326" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543559650082" expanded="true" signature="39:246" ph="&lt;&lt;Application.Resources&gt;&#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1543559650082" expanded="true" signature="179:231" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543559650094" expanded="true" signature="39:419" ph="&lt;&lt;StackLayout&gt;&#10;        &lt;!-- Place new controls here --&gt;&#10;        &lt;Label Text=&quot;Welcome to Xamarin.Forms!&quot; HorizontalOptions=&quot;Center&quot; VerticalOptions=&quot;CenterAndExpand&quot; /&gt;&#10;    &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1543559650094" expanded="true" signature="219:404" ph="&lt;&lt;Label Text=&quot;Welcome to Xamarin.Forms!&quot; HorizontalOptions=&quot;Center&quot; VerticalOptions=&quot;CenterAndExpand&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaiduMapSDK.Xamarin.sln">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/Sample.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample.iOS/Sample.iOS.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.Android/Native.Android.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/SamplePage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543819234186" expanded="true" signature="39:440" ph="&lt;&lt;StackLayout&gt;&#10;        &lt;maps:Map x:Name=&quot;map&quot;/&gt;&#10;        &lt;Button x:Name=&quot;btnTrack&quot; Text=&quot;Switch&quot;/&gt;&#10;    &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1543819234186" expanded="true" signature="310:425" ph="&lt;&lt;maps:Map x:Name=&quot;map&quot;/&gt; &lt;Button x:Name=&quot;btnTrack&quot; Text=&quot;Switch&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.iOS/Native.iOS.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.iOS/AppDelegate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543379420147" expanded="false" signature="6:30" ph="..." />
+            <marker date="1543379420147" expanded="true" signature="52:2425" ph="{...}" />
+            <marker date="1543379420147" expanded="true" signature="59:275" ph="/* The UIApplicationDelegate for the application. This class is responsible for launching the ... */" />
+            <marker date="1543379420147" expanded="true" signature="358:2423" ph="{...}" />
+            <marker date="1543379420147" expanded="true" signature="441:495" ph="{...}" />
+            <marker date="1543379420147" expanded="true" signature="598:804" ph="{...}" />
+            <marker date="1543379420147" expanded="true" signature="621:768" ph="/* Override point for customization after application launch. ... */" />
+            <marker date="1543379420147" expanded="true" signature="880:1287" ph="{...}" />
+            <marker date="1543379420147" expanded="true" signature="903:1277" ph="/* Invoked when the application is about to move from active to inactive state. ... */" />
+            <marker date="1543379420147" expanded="true" signature="1363:1642" ph="{...}" />
+            <marker date="1543379420147" expanded="true" signature="1386:1632" ph="/* Use this method to release shared resources, save user data, invalidate timers and store the application state ... */" />
+            <marker date="1543379420147" expanded="true" signature="1719:1905" ph="{...}" />
+            <marker date="1543379420147" expanded="true" signature="1742:1895" ph="/* Called as part of the transiton from background to active state. ... */" />
+            <marker date="1543379420147" expanded="true" signature="1974:2209" ph="{...}" />
+            <marker date="1543379420147" expanded="true" signature="1997:2199" ph="/* Restart any tasks that were paused (or not yet started) while the application was inactive. ... */" />
+            <marker date="1543379420147" expanded="true" signature="2280:2417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/SamplePage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+          <folding>
+            <marker date="1543924949249" expanded="true" signature="6:218" ph="..." />
+            <marker date="1543924949249" expanded="true" signature="236:5540" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="288:5538" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="322:382" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="721:773" ph="/* InitLocationService(); ... */" />
+            <marker date="1543924949249" expanded="true" signature="809:970" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="1026:1232" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="1287:1497" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="1528:1882" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="1556:1868" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="1957:2063" ph="/* var coord = proj.ToCoordinate(new Point(100, 100)); ... */" />
+            <marker date="1543924949249" expanded="true" signature="2079:3003" ph="/* IOfflineMap offlineMap = DependencyService.Get&lt;IOfflineMap&gt;(); ... */" />
+            <marker date="1543924949249" expanded="true" signature="3072:4556" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="3132:3226" ph="/* map.Center = e.Coordinate; ... */" />
+            <marker date="1543924949249" expanded="true" signature="3288:3449" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="3505:3711" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="3766:3976" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="4007:4361" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="4035:4347" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="4643:5282" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="4666:5272" ph="/* map.LocationService.LocationUpdated += (_, e) =&gt; { ... */" />
+            <marker date="1543924949249" expanded="true" signature="5316:5991" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="5369:5752" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="5412:5564" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="5585:5738" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="5796:5849" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="5895:5980" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="3812:5532" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="3872:4235" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="4317:4628" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="4512:4614" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="4675:4920" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="4986:5380" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="5066:5319" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="5134:5228" ph="{...}" />
+            <marker date="1543924949249" expanded="true" signature="5426:5522" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample.Android/Sample.Android.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1543924002675" expanded="false" signature="6:60" ph="..." />
+            <marker date="1543924002675" expanded="true" signature="138:635" ph="{...}" />
+            <marker date="1543924002675" expanded="true" signature="183:633" ph="{...}" />
+            <marker date="1543924002675" expanded="true" signature="210:307" ph="{...}" />
+            <marker date="1543924002675" expanded="true" signature="350:413" ph="{...}" />
+            <marker date="1543924002675" expanded="true" signature="456:519" ph="{...}" />
+            <marker date="1543924002675" expanded="true" signature="563:627" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/Map.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <marker date="1543923314684" expanded="false" signature="6:212" ph="..." />
+            <marker date="1543923314684" expanded="true" signature="230:5199" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="315:5197" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="399:1875" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="538:680" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="751:1168" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="1223:1290" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="1420:1499" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="1513:1731" ph="/* Device.BeginInvokeOnMainThread(() =&gt; ... */" />
+            <marker date="1543923314684" expanded="true" signature="1745:1865" ph="/* map.Loaded += (sender2, args2) =&gt; ... */" />
+            <marker date="1543923314684" expanded="true" signature="1975:4286" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="2159:2254" ph="/* points.Add(new Point(36.391, 127.380)); ... */" />
+            <marker date="1543923314684" expanded="true" signature="2297:2757" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="2347:2419" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="2455:2527" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="2563:2635" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="2671:2743" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="2906:3106" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="3192:3253" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="3292:3352" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="3390:3450" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="3488:3548" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="3585:3645" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="3682:3742" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="3778:3838" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="3855:3915" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="4163:4232" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="4373:5189" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="4418:4483" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="4522:4587" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="4625:4690" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="4728:4793" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="4830:4895" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="4932:4997" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="5033:5098" ph="{...}" />
+            <marker date="1543923314684" expanded="true" signature="5115:5179" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/PolygonImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543900419617" expanded="false" signature="6:242" ph="..." />
+            <marker date="1543900419617" expanded="true" signature="281:3824" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="362:3822" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="515:1196" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="671:741" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="1028:1156" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="1260:1329" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="1393:1517" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="1590:1883" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="1708:1828" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="1964:2033" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="2131:3816" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="2282:2321" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="2396:2478" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="2552:2904" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="2707:2785" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="2977:3195" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="3088:3156" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="3268:3500" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="3379:3461" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="3576:3806" ph="{...}" />
+            <marker date="1543900419617" expanded="true" signature="3687:3767" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapRenderer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543907984911" expanded="false" signature="6:179" ph="..." />
+            <marker date="1543907984911" expanded="true" signature="218:8138" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="289:8136" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="588:1190" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="625:1142" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="676:758" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="1291:1543" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="1337:1532" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="1374:1518" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="1625:2849" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="1712:1740" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="1779:2839" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="1831:2055" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="2950:5990" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="3004:3115" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="3159:3268" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="3337:3483" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="3561:3734" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="3812:3985" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="4058:4216" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="4293:4463" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="4534:4686" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="4760:4921" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="4995:5156" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="5224:5367" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="5441:5602" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="5679:5849" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="6020:6466" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="6064:6456" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="6505:7059" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="6558:7049" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="7098:7184" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="7218:7239" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="7277:7426" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="7458:7527" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="7562:7637" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="7672:7747" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="7776:7869" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="7904:7982" ph="{...}" />
+            <marker date="1543907984911" expanded="true" signature="8020:8040" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapManagerImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543910607677" expanded="false" signature="6:41" ph="..." />
+            <marker date="1543910607677" expanded="true" signature="80:771" ph="{...}" />
+            <marker date="1543910607677" expanded="true" signature="128:769" ph="{...}" />
+            <marker date="1543910607677" expanded="true" signature="174:763" ph="{...}" />
+            <marker date="1543910607677" expanded="true" signature="200:427" ph="{...}" />
+            <marker date="1543910607677" expanded="true" signature="307:371" ph="{...}" />
+            <marker date="1543910607677" expanded="true" signature="445:753" ph="{...}" />
+            <marker date="1543910607677" expanded="true" signature="493:605" ph="{...}" />
+            <marker date="1543910607677" expanded="true" signature="605:739" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/PinImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543900419616" expanded="true" signature="6:149" ph="..." />
+            <marker date="1543900419616" expanded="true" signature="188:3457" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="269:3455" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="418:826" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="496:687" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="886:1152" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="1009:1048" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="1212:1339" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="1408:1704" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="1526:1646" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="1785:1856" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="1954:3449" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="2113:2152" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="2232:2335" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="2410:2796" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="2661:2757" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="2864:3117" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="3003:3078" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="3189:3439" ph="{...}" />
+            <marker date="1543900419616" expanded="true" signature="3328:3400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/Xamarin.Forms.BaiduMaps.iOS.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.Android/MainActivity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <marker date="1543918984624" expanded="false" signature="6:140" ph="..." />
+            <marker date="1543918984624" expanded="true" signature="166:1062" ph="{...}" />
+            <marker date="1543918984624" expanded="true" signature="294:1060" ph="{...}" />
+            <marker date="1543918984624" expanded="true" signature="392:1054" ph="{...}" />
+            <marker date="1543918984624" expanded="true" signature="635:719" ph="/* Get our button from the layout resource, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.Android/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.iOS/ViewController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543911930302" expanded="true" signature="6:107" ph="..." />
+            <marker date="1543911930302" expanded="true" signature="129:1598" ph="{...}" />
+            <marker date="1543911930302" expanded="true" signature="190:1596" ph="{...}" />
+            <marker date="1543911930302" expanded="true" signature="259:1212" ph="{...}" />
+            <marker date="1543911930302" expanded="true" signature="453:555" ph="{...}" />
+            <marker date="1543911930302" expanded="true" signature="572:655" ph="{...}" />
+            <marker date="1543911930302" expanded="true" signature="873:969" ph="{...}" />
+            <marker date="1543911930302" expanded="true" signature="1256:1398" ph="{...}" />
+            <marker date="1543911930302" expanded="true" signature="1454:1590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.iOS/Info.plist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.iOS/Entitlements.plist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.iOS/Main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543379420001" expanded="true" signature="34:390" ph="{...}" />
+            <marker date="1543379420001" expanded="true" signature="65:388" ph="{...}" />
+            <marker date="1543379420001" expanded="true" signature="171:382" ph="{...}" />
+            <marker date="1543379420001" expanded="true" signature="194:313" ph="/* if you want to use a different Application Delegate class from &quot;AppDelegate&quot; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Native.iOS/Main.storyboard">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CircleImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543900412883" expanded="true" signature="6:267" ph="..." />
+            <marker date="1543900412883" expanded="true" signature="306:3300" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="384:3298" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="533:804" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="867:936" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="999:1085" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="1157:1404" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="1275:1349" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="1485:1554" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="1652:3292" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="1799:1838" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="1912:2007" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="2087:2190" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="2262:2346" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="2417:2648" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="2542:2610" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="2719:2964" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="2844:2926" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="3039:3282" ph="{...}" />
+            <marker date="1543900412883" expanded="true" signature="3164:3244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CLLocationCoordinate2DEx.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1498471858000" expanded="true" signature="58:286" ph="{...}" />
+            <marker date="1498471858000" expanded="true" signature="111:284" ph="{...}" />
+            <marker date="1498471858000" expanded="true" signature="192:278" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/CoordinateEx.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1498471858000" expanded="true" signature="58:289" ph="{...}" />
+            <marker date="1498471858000" expanded="true" signature="99:287" ph="{...}" />
+            <marker date="1498471858000" expanded="true" signature="183:281" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/LocationServiceImpl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543907493179" expanded="false" signature="6:86" ph="..." />
+            <marker date="1543907493179" expanded="true" signature="127:2255" ph="{...}" />
+            <marker date="1543907493179" expanded="true" signature="134:2253" ph="/* internal class LocationServiceImpl : BMKLocationServiceDelegate, ILocationService ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps.iOS/MapView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <marker date="1543900419615" expanded="false" signature="6:123" ph="..." />
+            <marker date="1543900419615" expanded="true" signature="162:7672" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="233:7670" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="298:7664" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="405:465" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="576:1721" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="662:1591" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="779:1573" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="1134:1264" ph="/* 开启后动态设置Image会导致pin图片拉伸 ... */" />
+            <marker date="1543900419615" expanded="true" signature="1403:1503" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="1820:3445" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="1897:2282" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="2006:2264" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="2349:2799" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="2456:2781" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="2865:3321" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="2974:3303" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="3552:3644" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="3732:3968" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="3781:3907" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="4074:4180" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="4283:4376" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="4477:4568" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="4670:4857" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="4961:5104" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="4992:5090" ph="/* Pin annotation = Map.Pins.Find(view.Annotation); ... */" />
+            <marker date="1543900419615" expanded="true" signature="5322:6405" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="5353:5555" ph="/* Debug.WriteLine(oldState + &quot; =&gt; &quot; + newState); ... */" />
+            <marker date="1543900419615" expanded="true" signature="5694:5813" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="5925:6118" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="6228:6391" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="6476:6789" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="6863:7654" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="7156:7300" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="7414:7542" ph="{...}" />
+            <marker date="1543900419615" expanded="true" signature="7573:7640" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Xamarin.Forms.BaiduMaps.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Coordinate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543466833120" expanded="true" signature="48:1578" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="79:1576" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="228:380" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="423:498" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="564:621" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="720:1038" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="805:850" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="1081:1299" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="1114:1289" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="1374:1434" ph="{...}" />
+            <marker date="1543466833120" expanded="true" signature="1509:1570" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xamarin.Forms.BaiduMaps/Map.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1543906891258" expanded="false" signature="6:85" ph="..." />
+            <marker date="1543906891258" expanded="true" signature="120:7776" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="146:208" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="242:310" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="339:7774" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="363:545" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="875:1003" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="1383:1547" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="1887:2030" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="2349:2491" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="2841:2992" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="3304:3443" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="3766:3911" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="4235:4380" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="4718:4856" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="5179:5323" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="5658:5808" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="6674:6769" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="6886:6977" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="7110:7207" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="7334:7427" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="7516:7587" ph="{...}" />
+            <marker date="1543906891258" expanded="true" signature="7690:7768" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

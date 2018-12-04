@@ -16,15 +16,22 @@ namespace Sample
 
             InitializeComponent();
 
-            IMapManager mapManager = DependencyService.Get<IMapManager>();
-            Debug.WriteLine(mapManager.CoordinateType);
-            mapManager.CoordinateType = CoordType.GCJ02;
-            Debug.WriteLine(mapManager.CoordinateType);
+            //IMapManager mapManager = DependencyService.Get<IMapManager>();
+
+
+            //Debug.WriteLine(mapManager.CoordinateType);
+
+            //mapManager.CoordinateType = CoordType.GCJ02;
+            //Debug.WriteLine(mapManager.CoordinateType);
 
             //map.Loaded += MapLoaded;
 
 
-            
+           
+           
+
+            /*
+
             map.ShowScaleBar = true;
             //InitLocationService();
             //InitEvents();
@@ -43,6 +50,7 @@ namespace Sample
                 Width = 2
             });
 
+            /*
             map.Circles.Add(new Circle
             {
                 Coordinate = map.Center,
@@ -52,6 +60,7 @@ namespace Sample
                 Width = 2
             });
 
+            /*
             Task.Run(() => {
                 for (; ; )
                 {
@@ -63,9 +72,9 @@ namespace Sample
 
                     map.Circles[0].Radius += 100;
                 }
-            });
+            });*/
             
-            IProjection proj = map.Projection;
+            //IProjection proj = map.Projection;
             //var coord = proj.ToCoordinate(new Point(100, 100));
             //Debug.WriteLine(proj.ToScreen(coord));
 
@@ -96,61 +105,10 @@ namespace Sample
             ));//139599.429229778 in iOS, 139689.085961837 in Android*/
         }
 
-        public void MapLoaded(object sender, EventArgs x)
-        {
-            map.ShowScaleBar = true;
-            //map.Center = e.Coordinate;
-            //moved = true;
 
-            //InitLocationService();
-            InitEvents();
-
-            Coordinate[] coords = {
-                new Coordinate(40.044, 116.391),
-                new Coordinate(39.861, 116.284),
-                new Coordinate(39.861, 116.468)
-            };
-
-            map.Polygons.Add(new Polygon
-            {
-                Points = new ObservableCollection<Coordinate>(coords),
-                Color = Color.Blue,
-                FillColor = Color.Red.MultiplyAlpha(0.7),
-                Width = 2
-            });
-
-            map.Circles.Add(new Circle
-            {
-                Coordinate = map.Center,
-                Color = Color.Green,
-                FillColor = Color.Yellow.MultiplyAlpha(0.2),
-                Radius = 200,
-                Width = 2
-            });
-
-            Task.Run(() => {
-                for (; ; )
-                {
-                    Task.Delay(1000).Wait();
-
-                    var p = map.Polygons[0].Points[0];
-                    p = new Coordinate(p.Latitude + 0.002, p.Longitude);
-                    map.Polygons[0].Points[0] = p;
-
-                    map.Circles[0].Radius += 100;
-                }
-            });
-
-            // 坐标转换
-            IProjection proj = map.Projection;
-            var coord = proj.ToCoordinate(new Point(100, 100));
-            Debug.WriteLine(proj.ToScreen(coord));
-        }
-
-        private static bool moved = false;
         public void InitLocationService()
         {
-
+            /*
 
 
             map.LocationService.LocationUpdated += (_, e) => {
@@ -172,33 +130,10 @@ namespace Sample
                 Debug.WriteLine("Location failed: " + e.Message);
             };
 
-            map.LocationService.Start();
+            map.LocationService.Start();*/
         }
 
-        public void InitEvents()
-        {
-            btnTrack.Clicked += (_, e) => {
-                if (map.ShowUserLocation)
-                {
-                    map.UserTrackingMode = UserTrackingMode.None;
-                    map.ShowUserLocation = false;
-                }
-                else
-                {
-                    map.UserTrackingMode = UserTrackingMode.Follow;
-                    map.ShowUserLocation = true;
-                }
-            };
-
-            map.LongClicked += (_, e) => {
-                AddPin(e.Coordinate);
-            };
-
-            map.StatusChanged += (_, e) => {
-                //Debug.WriteLine(map.Center + " @" + map.ZoomLevel);
-            };
-        }
-
+      
         void AddPin(Coordinate coord)
         {
             Pin annotation = new Pin

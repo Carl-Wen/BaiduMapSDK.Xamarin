@@ -745,8 +745,8 @@ struct trampoline_struct_dd {
 	-(void) setMapScaleBarPosition:(CGPoint)p0;
 	-(CGSize) mapScaleBarSize;
 	-(id) getMapStatus;
-	-(NSUInteger) mapType;
-	-(void) setMapType:(NSUInteger)p0;
+	-(unsigned long long) mapType;
+	-(void) setMapType:(unsigned long long)p0;
 	-(float) maxZoomLevel;
 	-(void) setMaxZoomLevel:(float)p0;
 	-(float) minZoomLevel;
